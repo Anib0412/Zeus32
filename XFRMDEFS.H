@@ -1,0 +1,4 @@
+#define SMARTFITTRANSFORM     0
+#define SMARTCROPTRANSFORM    1
+#define NOTRANSFORM           2
+#define CUSTOMTRANSFORM       3

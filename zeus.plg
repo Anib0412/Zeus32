@@ -1,0 +1,878 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zeus32 - Win32 DebugRP30--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP285D.bat" with contents
+[
+@echo off
+".\makehelp.bat"
+]
+Creating command line "C:\Users\David\AppData\Local\Temp\RSP285D.bat"
+Creating command line "rc.exe /l 0x409 /fo".\DebugRP30/zeus.res" /d "_DEBUG" "C:\Source\Zeus32\zeus.rc"" 
+Making help file...
+Building Win32 Help files
+
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP2C56.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /I "..\source\gdiplus" /I "..\..\com\xml\xerces-c1_7_0-win32\include" /I "..\CmnLibs\Current LeadTools\include" /D "_DEBUG" /D "LOADDEVFROMRIP" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_SECNOMSG" /D "RP30" /D "_WIN32_DCOM" /Fr".\DebugRP30/" /Fo".\DebugRP30/" /Fd".\DebugRP30/" /FD /c 
+"C:\Source\ICC\ColorManage\AdjustDialog.cpp"
+"C:\Source\ICC\ColorManage\AdjustGraph.cpp"
+"C:\Source\Zeus32\ArchiveTree.cpp"
+"C:\Source\Zeus32\BHEADER.CPP"
+"C:\Com\PhotogizeLab\blowfish.cpp"
+"C:\Source\Zeus32\cabinstall.cpp"
+"C:\Source\Zeus32\CANVAS.CPP"
+"C:\Source\Zeus32\ClientSocket.cpp"
+"C:\Source\ICC\ColorManage\CMMDialog.cpp"
+"C:\Source\Zeus32\ColorTransform.cpp"
+"C:\Source\Zeus32\CQUEUE.CPP"
+"C:\Source\Font Manager\CResourceList.cpp"
+"C:\Source\Zeus32\CRIP.CPP"
+"C:\Source\Zeus32\CTM2RECT.CPP"
+"C:\Source\Zeus32\CustomFileDialog.cpp"
+"C:\Source\Zeus32\CustomPage.cpp"
+"C:\Source\Zeus32\devconnect.cpp"
+"C:\Source\Zeus32\device.cpp"
+"C:\Source\Zeus32\DeviceList.cpp"
+"C:\Source\Zeus32\DISP.CPP"
+"C:\Source\Zeus32\dlgwait.cpp"
+"C:\Source\dongle\DongleClass.cpp"
+"C:\Source\Zeus32\DownloadStatusDlg.cpp"
+"C:\Source\Icc\Monaco\fileio.cpp"
+"C:\Source\Zeus32\FontManagerPage.cpp"
+"C:\Source\Zeus32\Frect.cpp"
+"C:\Source\Zeus32\generalprefspage.cpp"
+"C:\Source\Zeus32\GISServer.cpp"
+"C:\Source\Zeus32\GlobalProperties.cpp"
+"C:\Source\Zeus32\HoldTree.cpp"
+"C:\Source\Zeus32\ImagePause.cpp"
+"C:\Source\Zeus32\JobProps.cpp"
+"C:\Source\Zeus32\JobPropsSheet.cpp"
+"C:\Source\Zeus32\LicenseManager.cpp"
+"C:\Source\ICC\ColorManage\LineGraph.cpp"
+"C:\Source\Zeus32\ListeningSocket.cpp"
+"C:\Source\Zeus32\loadtransform.cpp"
+"C:\Source\Zeus32\Log.cpp"
+"C:\Source\Zeus32\LogWnd.cpp"
+"C:\Source\Zeus32\mainfrm.cpp"
+"C:\Source\Zeus32\MyInternetSession.cpp"
+"C:\Source\Zeus32\NewPreview.cpp"
+"C:\Source\Zeus32\NewQueue.cpp"
+"C:\Source\Zeus32\nformat.cpp"
+"C:\Source\Zeus32\objects.cpp"
+"C:\Source\Zeus32\OurPropertySheet.cpp"
+"C:\Source\Zeus32\OurSplitter.cpp"
+"C:\Source\Zeus32\OurWorkspace.cpp"
+"C:\Source\Zeus32\PhotoPane.cpp"
+"C:\Source\Zeus32\pptooltip.cpp"
+"C:\Source\Zeus32\PrintIndexDlg.cpp"
+"C:\Source\Zeus32\PrintIndexPage.cpp"
+"C:\Source\Zeus32\PrintPaneState.cpp"
+"C:\Source\Zeus32\PrintTree.cpp"
+"C:\Source\Zeus32\ProcessManager.cpp"
+"C:\Source\Zeus32\profile.cpp"
+"C:\Source\Zeus32\PropertyFrame.cpp"
+"C:\Source\Zeus32\PropertyPane.cpp"
+"C:\Source\Zeus32\QueueChild.cpp"
+"C:\Source\Zeus32\QueueCount.cpp"
+"C:\Source\Zeus32\QueueMemory.cpp"
+"C:\Source\Zeus32\QueuePane.cpp"
+"C:\Source\Zeus32\RasterPlusView.cpp"
+"C:\Source\Zeus32\REXDIRDI.CPP"
+"C:\Source\Zeus32\ripitb.cpp"
+"C:\Source\Zeus32\ripitj.cpp"
+"C:\Source\Zeus32\rippane.cpp"
+"C:\Source\Zeus32\ripprocess.cpp"
+"C:\Source\Zeus32\ripthrd.cpp"
+"C:\Source\Zeus32\roundit.cpp"
+"C:\Source\Zeus32\RPNode.cpp"
+"C:\Source\Zeus32\RPResource.cpp"
+"C:\Source\Zeus32\RPTreeBase.cpp"
+"C:\Source\Zeus32\Ruler.cpp"
+"C:\Source\CmnSrc\scsi\Scsi.cpp"
+"C:\Source\Zeus32\SCSIExplorer.cpp"
+"C:\Source\Zeus32\SpecialTree.cpp"
+"C:\Source\Zeus32\SYSMEM.CPP"
+"C:\Source\Zeus32\TimeCheck.cpp"
+"C:\Source\Zeus32\TRANSDLG.CPP"
+"C:\Source\Icc\ColorManage\TransformColor.cpp"
+"C:\Source\ICC\ColorManage\TransformGraph.cpp"
+"C:\Source\Zeus32\transformlist.cpp"
+"C:\Source\Zeus32\TRANSFRM.CPP"
+"C:\Source\Zeus32\visualxf.cpp"
+"C:\Source\Zeus32\webbrowser.cpp"
+"C:\Source\ICC\Windows\WindowsCMM.cpp"
+"C:\Source\Zeus32\XformSave.cpp"
+"C:\Source\Zeus32\ZEUS.CPP"
+"C:\Source\Zeus32\zeusdoc.cpp"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP2C56.tmp" 
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP2C57.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /I "..\source\gdiplus" /I "..\..\com\xml\xerces-c1_7_0-win32\include" /I "..\CmnLibs\Current LeadTools\include" /I "C:\Program Files\Microsoft SDK\Include" /D "_DEBUG" /D "LOADDEVFROMRIP" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_SECNOMSG" /D "RP30" /D "_WIN32_DCOM" /Fr".\DebugRP30/" /Fo".\DebugRP30/" /Fd".\DebugRP30/" /FD /c 
+"C:\Source\Zeus32\InstallPrinter.cpp"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP2C57.tmp" 
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP2C58.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /I "..\source\gdiplus" /I "..\..\com\xml\xerces-c1_7_0-win32\include" /I "..\CmnLibs\Current LeadTools\include" /D "_DEBUG" /D "LOADDEVFROMRIP" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_SECNOMSG" /D "RP30" /D "_WIN32_DCOM" /Fr".\DebugRP30/" /Fp".\DebugRP30/zeus.pch" /Yc"stdafx.h" /Fo".\DebugRP30/" /Fd".\DebugRP30/" /FD /c 
+"C:\Source\Zeus32\STDAFX.CPP"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP2C58.tmp" 
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP2C59.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /I "..\source\gdiplus" /I "..\..\com\xml\xerces-c1_7_0-win32\include" /I "..\CmnLibs\Current LeadTools\include" /D "_DEBUG" /D "LOADDEVFROMRIP" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_SECNOMSG" /D "RP30" /D "_WIN32_DCOM" /D "XML_STATIC" /Fr".\DebugRP30/" /Fo".\DebugRP30/" /Fd".\DebugRP30/" /FD /c 
+"C:\Source\Zeus32\WebServicesASP.cpp"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP2C59.tmp" 
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP2C5A.tmp" with contents
+[
+ws2_32.lib lttwn_u.lib ltfil_u.lib ltdis_u.lib ltimgclr_u.lib ltimgcor_u.lib ltimgefx_u.lib ltkrn_u.lib psapi.lib tbarcode3.lib oldnames.lib spromeps.lib gdiplus.lib /nologo /subsystem:windows /incremental:yes /pdb:".\DebugRP30/rasterplus.pdb" /debug /machine:IX86 /force /out:".\DebugRP30\rasterplus.exe" /libpath:"..\CmnLibs\CURRENT LEADTOOLS\lib" /libpath:"..\Expat-1.95.8\StaticLibs" /libpath:"..\CmnLibs\Common Libs" 
+.\DebugRP30\AdjustDialog.obj
+.\DebugRP30\AdjustGraph.obj
+.\DebugRP30\ArchiveTree.obj
+.\DebugRP30\BHEADER.OBJ
+.\DebugRP30\blowfish.obj
+.\DebugRP30\cabinstall.obj
+.\DebugRP30\CANVAS.OBJ
+.\DebugRP30\ClientSocket.obj
+.\DebugRP30\CMMDialog.obj
+.\DebugRP30\ColorTransform.obj
+.\DebugRP30\CQUEUE.OBJ
+.\DebugRP30\CResourceList.obj
+.\DebugRP30\CRIP.OBJ
+.\DebugRP30\CTM2RECT.OBJ
+.\DebugRP30\CustomFileDialog.obj
+.\DebugRP30\CustomPage.obj
+.\DebugRP30\devconnect.obj
+.\DebugRP30\device.obj
+.\DebugRP30\DeviceList.obj
+.\DebugRP30\DISP.OBJ
+.\DebugRP30\dlgwait.obj
+.\DebugRP30\DongleClass.obj
+.\DebugRP30\DownloadStatusDlg.obj
+.\DebugRP30\fileio.obj
+.\DebugRP30\FontManagerPage.obj
+.\DebugRP30\Frect.obj
+.\DebugRP30\generalprefspage.obj
+.\DebugRP30\GISServer.obj
+.\DebugRP30\GlobalProperties.obj
+.\DebugRP30\HoldTree.obj
+.\DebugRP30\ImagePause.obj
+.\DebugRP30\InstallPrinter.obj
+.\DebugRP30\JobProps.obj
+.\DebugRP30\JobPropsSheet.obj
+.\DebugRP30\LicenseManager.obj
+.\DebugRP30\LineGraph.obj
+.\DebugRP30\ListeningSocket.obj
+.\DebugRP30\loadtransform.obj
+.\DebugRP30\Log.obj
+.\DebugRP30\LogWnd.obj
+.\DebugRP30\mainfrm.obj
+.\DebugRP30\MyInternetSession.obj
+.\DebugRP30\NewPreview.obj
+.\DebugRP30\NewQueue.obj
+.\DebugRP30\nformat.obj
+.\DebugRP30\objects.obj
+.\DebugRP30\OurPropertySheet.obj
+.\DebugRP30\OurSplitter.obj
+.\DebugRP30\OurWorkspace.obj
+.\DebugRP30\PhotoPane.obj
+.\DebugRP30\pptooltip.obj
+.\DebugRP30\PrintIndexDlg.obj
+.\DebugRP30\PrintIndexPage.obj
+.\DebugRP30\PrintPaneState.obj
+.\DebugRP30\PrintTree.obj
+.\DebugRP30\ProcessManager.obj
+.\DebugRP30\profile.obj
+.\DebugRP30\PropertyFrame.obj
+.\DebugRP30\PropertyPane.obj
+.\DebugRP30\QueueChild.obj
+.\DebugRP30\QueueCount.obj
+.\DebugRP30\QueueMemory.obj
+.\DebugRP30\QueuePane.obj
+.\DebugRP30\RasterPlusView.obj
+.\DebugRP30\REXDIRDI.OBJ
+.\DebugRP30\ripitb.obj
+.\DebugRP30\ripitj.obj
+.\DebugRP30\rippane.obj
+.\DebugRP30\ripprocess.obj
+.\DebugRP30\ripthrd.obj
+.\DebugRP30\roundit.obj
+.\DebugRP30\RPNode.obj
+.\DebugRP30\RPResource.obj
+.\DebugRP30\RPTreeBase.obj
+.\DebugRP30\Ruler.obj
+.\DebugRP30\Scsi.obj
+.\DebugRP30\SCSIExplorer.obj
+.\DebugRP30\SpecialTree.obj
+.\DebugRP30\STDAFX.OBJ
+.\DebugRP30\SYSMEM.OBJ
+.\DebugRP30\TimeCheck.obj
+.\DebugRP30\TRANSDLG.OBJ
+.\DebugRP30\TransformColor.obj
+.\DebugRP30\TransformGraph.obj
+.\DebugRP30\transformlist.obj
+.\DebugRP30\TRANSFRM.OBJ
+.\DebugRP30\visualxf.obj
+.\DebugRP30\webbrowser.obj
+.\DebugRP30\WebServicesASP.obj
+.\DebugRP30\WindowsCMM.obj
+.\DebugRP30\XformSave.obj
+.\DebugRP30\ZEUS.OBJ
+.\DebugRP30\zeusdoc.obj
+.\DebugRP30\zeus.res
+"..\..\com\xml\xerces-c1_7_0-win32\lib\xerces-c_1.lib"
+"..\..\com\xml\xerces-c1_7_0-win32\lib\xerces-c_1D.lib"
+"..\Expat-1.95.8\StaticLibs\libexpatMT.lib"
+..\PCGI_V5\PCGINT.lib
+]
+Creating command line "link.exe @C:\Users\David\AppData\Local\Temp\RSP2C5A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+STDAFX.CPP
+Pos is defined!
+Compiling...
+AdjustDialog.cpp
+AdjustGraph.cpp
+ArchiveTree.cpp
+BHEADER.CPP
+Pos is defined!
+blowfish.cpp
+Pos is defined!
+cabinstall.cpp
+Pos is defined!
+CANVAS.CPP
+Pos is defined!
+ClientSocket.cpp
+Pos is defined!
+CMMDialog.cpp
+Pos is defined!
+c:\source\icc\initstruct.h(12) : warning C4005: 'DEFAULT_GAMMA' : macro redefinition
+        c:\source\cmnlibs\current leadtools\include\ltimgclr.h(97) : see previous definition of 'DEFAULT_GAMMA'
+ColorTransform.cpp
+CQUEUE.CPP
+Pos is defined!
+CResourceList.cpp
+Pos is defined!
+CRIP.CPP
+CTM2RECT.CPP
+Pos is defined!
+CustomFileDialog.cpp
+Pos is defined!
+CustomPage.cpp
+Pos is defined!
+devconnect.cpp
+Pos is defined!
+device.cpp
+Pos is defined!
+DeviceList.cpp
+Pos is defined!
+DISP.CPP
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+dlgwait.cpp
+DongleClass.cpp
+Pos is defined!
+DownloadStatusDlg.cpp
+Pos is defined!
+fileio.cpp
+Pos is defined!
+FontManagerPage.cpp
+Pos is defined!
+Frect.cpp
+Pos is defined!
+generalprefspage.cpp
+GISServer.cpp
+Pos is defined!
+GlobalProperties.cpp
+Pos is defined!
+HoldTree.cpp
+Pos is defined!
+ImagePause.cpp
+Pos is defined!
+JobProps.cpp
+Pos is defined!
+JobPropsSheet.cpp
+Pos is defined!
+LicenseManager.cpp
+Pos is defined!
+LineGraph.cpp
+Pos is defined!
+ListeningSocket.cpp
+loadtransform.cpp
+Pos is defined!
+Log.cpp
+Pos is defined!
+LogWnd.cpp
+Pos is defined!
+mainfrm.cpp
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+MyInternetSession.cpp
+NewPreview.cpp
+Pos is defined!
+NewQueue.cpp
+Pos is defined!
+nformat.cpp
+Pos is defined!
+objects.cpp
+OurPropertySheet.cpp
+Pos is defined!
+OurSplitter.cpp
+Pos is defined!
+OurWorkspace.cpp
+Pos is defined!
+PhotoPane.cpp
+Pos is defined!
+pptooltip.cpp
+Pos is defined!
+PrintIndexDlg.cpp
+Pos is defined!
+PrintIndexPage.cpp
+Pos is defined!
+PrintPaneState.cpp
+Pos is defined!
+PrintTree.cpp
+Pos is defined!
+ProcessManager.cpp
+Pos is defined!
+profile.cpp
+PropertyFrame.cpp
+Pos is defined!
+PropertyPane.cpp
+Pos is defined!
+QueueChild.cpp
+Pos is defined!
+QueueCount.cpp
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+QueueMemory.cpp
+QueuePane.cpp
+Pos is defined!
+RasterPlusView.cpp
+Pos is defined!
+REXDIRDI.CPP
+Pos is defined!
+ripitb.cpp
+Pos is defined!
+ripitj.cpp
+Pos is defined!
+rippane.cpp
+Pos is defined!
+ripprocess.cpp
+Pos is defined!
+ripthrd.cpp
+roundit.cpp
+Pos is defined!
+RPNode.cpp
+Pos is defined!
+RPResource.cpp
+Pos is defined!
+RPTreeBase.cpp
+Pos is defined!
+Ruler.cpp
+Pos is defined!
+Scsi.cpp
+Pos is defined!
+SCSIExplorer.cpp
+SpecialTree.cpp
+Pos is defined!
+SYSMEM.CPP
+Pos is defined!
+TimeCheck.cpp
+TRANSDLG.CPP
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+TransformColor.cpp
+TransformGraph.cpp
+transformlist.cpp
+TRANSFRM.CPP
+Pos is defined!
+visualxf.cpp
+Pos is defined!
+webbrowser.cpp
+Pos is defined!
+WindowsCMM.cpp
+Pos is defined!
+c:\source\cmnlibs\current leadtools\include\ltimgclr.h(97) : warning C4005: 'DEFAULT_GAMMA' : macro redefinition
+        c:\source\icc\initstruct.h(12) : see previous definition of 'DEFAULT_GAMMA'
+XformSave.cpp
+ZEUS.CPP
+Pos is defined!
+zeusdoc.cpp
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+InstallPrinter.cpp
+Pos is defined!
+Compiling...
+WebServicesASP.cpp
+Pos is defined!
+Linking...
+LINK : warning LNK4075: ignoring /INCREMENTAL due to /FORCE specification
+nafxcwd.lib(sockcore.obj) : warning LNK4006: "public: static void __stdcall CAsyncSocket::DoCallBack(unsigned int,long)" (?DoCallBack@CAsyncSocket@@SGXIJ@Z) already defined in STDAFX.OBJ; second definition ignored
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+.\DebugRP30\rasterplus.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+
+
+
+<h3>Results</h3>
+rasterplus.exe - 0 error(s), 6 warning(s)
+<h3>
+--------------------Configuration: zeus32 - Win32 ReleaseRP30--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP95BE.bat" with contents
+[
+@echo off
+".\makehelp.bat"
+]
+Creating command line "C:\Users\David\AppData\Local\Temp\RSP95BE.bat"
+Creating command line "rc.exe /l 0x409 /fo"ReleaseRP30/zeus.res" /d "NDEBUG" "C:\Source\Zeus32\zeus.rc"" 
+Making help file...
+Building Win32 Help files
+
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP98EC.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /O2 /I "\source\gdiplus" /I "..\..\com\xml\xerces-c1_7_0-win32\include" /I "..\CmnLibs\Current LeadTools\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_SECNOMSG" /D "RP30" /D "_WIN32_DCOM" /Fo"ReleaseRP30/" /Fd"ReleaseRP30/" /FD /c 
+"C:\Source\ICC\ColorManage\AdjustDialog.cpp"
+"C:\Source\ICC\ColorManage\AdjustGraph.cpp"
+"C:\Source\Zeus32\ArchiveTree.cpp"
+"C:\Source\Zeus32\BHEADER.CPP"
+"C:\Com\PhotogizeLab\blowfish.cpp"
+"C:\Source\Zeus32\cabinstall.cpp"
+"C:\Source\Zeus32\CANVAS.CPP"
+"C:\Source\Zeus32\ClientSocket.cpp"
+"C:\Source\ICC\ColorManage\CMMDialog.cpp"
+"C:\Source\Zeus32\ColorTransform.cpp"
+"C:\Source\Zeus32\CQUEUE.CPP"
+"C:\Source\Font Manager\CResourceList.cpp"
+"C:\Source\Zeus32\CRIP.CPP"
+"C:\Source\Zeus32\CustomFileDialog.cpp"
+"C:\Source\Zeus32\CustomPage.cpp"
+"C:\Source\Zeus32\devconnect.cpp"
+"C:\Source\Zeus32\DeviceList.cpp"
+"C:\Source\Zeus32\DISP.CPP"
+"C:\Source\Zeus32\dlgwait.cpp"
+"C:\Source\dongle\DongleClass.cpp"
+"C:\Source\Zeus32\DownloadStatusDlg.cpp"
+"C:\Source\Icc\Monaco\fileio.cpp"
+"C:\Source\Zeus32\FontManagerPage.cpp"
+"C:\Source\Zeus32\Frect.cpp"
+"C:\Source\Zeus32\generalprefspage.cpp"
+"C:\Source\Zeus32\GISServer.cpp"
+"C:\Source\Zeus32\GlobalProperties.cpp"
+"C:\Source\Zeus32\HoldTree.cpp"
+"C:\Source\Zeus32\ImagePause.cpp"
+"C:\Source\Zeus32\JobProps.cpp"
+"C:\Source\Zeus32\JobPropsSheet.cpp"
+"C:\Source\Zeus32\LicenseManager.cpp"
+"C:\Source\ICC\ColorManage\LineGraph.cpp"
+"C:\Source\Zeus32\ListeningSocket.cpp"
+"C:\Source\Zeus32\loadtransform.cpp"
+"C:\Source\Zeus32\Log.cpp"
+"C:\Source\Zeus32\LogWnd.cpp"
+"C:\Source\Zeus32\mainfrm.cpp"
+"C:\Source\Zeus32\MyInternetSession.cpp"
+"C:\Source\Zeus32\NewPreview.cpp"
+"C:\Source\Zeus32\NewQueue.cpp"
+"C:\Source\Zeus32\nformat.cpp"
+"C:\Source\Zeus32\objects.cpp"
+"C:\Source\Zeus32\OurPropertySheet.cpp"
+"C:\Source\Zeus32\OurSplitter.cpp"
+"C:\Source\Zeus32\OurWorkspace.cpp"
+"C:\Source\Zeus32\PhotoPane.cpp"
+"C:\Source\Zeus32\pptooltip.cpp"
+"C:\Source\Zeus32\PrintIndexDlg.cpp"
+"C:\Source\Zeus32\PrintIndexPage.cpp"
+"C:\Source\Zeus32\PrintPaneState.cpp"
+"C:\Source\Zeus32\PrintTree.cpp"
+"C:\Source\Zeus32\ProcessManager.cpp"
+"C:\Source\Zeus32\profile.cpp"
+"C:\Source\Zeus32\PropertyFrame.cpp"
+"C:\Source\Zeus32\PropertyPane.cpp"
+"C:\Source\Zeus32\QueueChild.cpp"
+"C:\Source\Zeus32\QueueCount.cpp"
+"C:\Source\Zeus32\QueueMemory.cpp"
+"C:\Source\Zeus32\QueuePane.cpp"
+"C:\Source\Zeus32\RasterPlusView.cpp"
+"C:\Source\Zeus32\REXDIRDI.CPP"
+"C:\Source\Zeus32\ripitb.cpp"
+"C:\Source\Zeus32\ripitj.cpp"
+"C:\Source\Zeus32\rippane.cpp"
+"C:\Source\Zeus32\ripprocess.cpp"
+"C:\Source\Zeus32\ripthrd.cpp"
+"C:\Source\Zeus32\roundit.cpp"
+"C:\Source\Zeus32\RPNode.cpp"
+"C:\Source\Zeus32\RPResource.cpp"
+"C:\Source\Zeus32\RPTreeBase.cpp"
+"C:\Source\Zeus32\Ruler.cpp"
+"C:\Source\CmnSrc\scsi\Scsi.cpp"
+"C:\Source\Zeus32\SCSIExplorer.cpp"
+"C:\Source\Zeus32\SpecialTree.cpp"
+"C:\Source\Zeus32\STDAFX.CPP"
+"C:\Source\Zeus32\SYSMEM.CPP"
+"C:\Source\Zeus32\TimeCheck.cpp"
+"C:\Source\Zeus32\TRANSDLG.CPP"
+"C:\Source\Icc\ColorManage\TransformColor.cpp"
+"C:\Source\ICC\ColorManage\TransformGraph.cpp"
+"C:\Source\Zeus32\transformlist.cpp"
+"C:\Source\Zeus32\TRANSFRM.CPP"
+"C:\Source\Zeus32\visualxf.cpp"
+"C:\Source\Zeus32\webbrowser.cpp"
+"C:\Source\ICC\Windows\WindowsCMM.cpp"
+"C:\Source\Zeus32\XformSave.cpp"
+"C:\Source\Zeus32\ZEUS.CPP"
+"C:\Source\Zeus32\zeusdoc.cpp"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP98EC.tmp" 
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP98ED.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /Od /I "\source\gdiplus" /I "..\..\com\xml\xerces-c1_7_0-win32\include" /I "..\CmnLibs\Current LeadTools\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_SECNOMSG" /D "RP30" /D "_WIN32_DCOM" /Fo"ReleaseRP30/" /Fd"ReleaseRP30/" /FD /c 
+"C:\Source\Zeus32\CTM2RECT.CPP"
+"C:\Source\Zeus32\device.cpp"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP98ED.tmp" 
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP98EE.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /O2 /I "\source\gdiplus" /I "..\..\com\xml\xerces-c1_7_0-win32\include" /I "..\CmnLibs\Current LeadTools\include" /I "C:\Program Files\Microsoft SDK\Include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_SECNOMSG" /D "RP30" /D "_WIN32_DCOM" /Fo"ReleaseRP30/" /Fd"ReleaseRP30/" /FD /c 
+"C:\Source\Zeus32\InstallPrinter.cpp"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP98EE.tmp" 
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP98EF.tmp" with contents
+[
+/nologo /MT /W3 /GR /GX /O2 /I "\source\gdiplus" /I "..\..\com\xml\xerces-c1_7_0-win32\include" /I "..\CmnLibs\Current LeadTools\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_SECNOMSG" /D "RP30" /D "_WIN32_DCOM" /D "XML_STATIC" /Fo"ReleaseRP30/" /Fd"ReleaseRP30/" /FD /c 
+"C:\Source\Zeus32\WebServicesASP.cpp"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP98EF.tmp" 
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP98F0.tmp" with contents
+[
+ws2_32.lib lttwn_u.lib ltfil_u.lib ltdis_u.lib ltimgclr_u.lib ltimgcor_u.lib ltimgefx_u.lib ltkrn_u.lib psapi.lib tbarcode3.lib oldnames.lib spromeps.lib gdiplus.lib /nologo /subsystem:windows /incremental:no /pdb:"ReleaseRP30/rasterplus.pdb" /map:"ReleaseRP30/rasterplus.map" /machine:IX86 /force /out:".\ReleaseRP30\rasterplus.exe" /libpath:"..\CmnLibs\CURRENT LEADTOOLS\lib" /libpath:"..\Expat-1.95.8\StaticLibs" /libpath:"..\CmnLibs\Common Libs" 
+.\ReleaseRP30\AdjustDialog.obj
+.\ReleaseRP30\AdjustGraph.obj
+.\ReleaseRP30\ArchiveTree.obj
+.\ReleaseRP30\BHEADER.OBJ
+.\ReleaseRP30\blowfish.obj
+.\ReleaseRP30\cabinstall.obj
+.\ReleaseRP30\CANVAS.OBJ
+.\ReleaseRP30\ClientSocket.obj
+.\ReleaseRP30\CMMDialog.obj
+.\ReleaseRP30\ColorTransform.obj
+.\ReleaseRP30\CQUEUE.OBJ
+.\ReleaseRP30\CResourceList.obj
+.\ReleaseRP30\CRIP.OBJ
+.\ReleaseRP30\CTM2RECT.OBJ
+.\ReleaseRP30\CustomFileDialog.obj
+.\ReleaseRP30\CustomPage.obj
+.\ReleaseRP30\devconnect.obj
+.\ReleaseRP30\device.obj
+.\ReleaseRP30\DeviceList.obj
+.\ReleaseRP30\DISP.OBJ
+.\ReleaseRP30\dlgwait.obj
+.\ReleaseRP30\DongleClass.obj
+.\ReleaseRP30\DownloadStatusDlg.obj
+.\ReleaseRP30\fileio.obj
+.\ReleaseRP30\FontManagerPage.obj
+.\ReleaseRP30\Frect.obj
+.\ReleaseRP30\generalprefspage.obj
+.\ReleaseRP30\GISServer.obj
+.\ReleaseRP30\GlobalProperties.obj
+.\ReleaseRP30\HoldTree.obj
+.\ReleaseRP30\ImagePause.obj
+.\ReleaseRP30\InstallPrinter.obj
+.\ReleaseRP30\JobProps.obj
+.\ReleaseRP30\JobPropsSheet.obj
+.\ReleaseRP30\LicenseManager.obj
+.\ReleaseRP30\LineGraph.obj
+.\ReleaseRP30\ListeningSocket.obj
+.\ReleaseRP30\loadtransform.obj
+.\ReleaseRP30\Log.obj
+.\ReleaseRP30\LogWnd.obj
+.\ReleaseRP30\mainfrm.obj
+.\ReleaseRP30\MyInternetSession.obj
+.\ReleaseRP30\NewPreview.obj
+.\ReleaseRP30\NewQueue.obj
+.\ReleaseRP30\nformat.obj
+.\ReleaseRP30\objects.obj
+.\ReleaseRP30\OurPropertySheet.obj
+.\ReleaseRP30\OurSplitter.obj
+.\ReleaseRP30\OurWorkspace.obj
+.\ReleaseRP30\PhotoPane.obj
+.\ReleaseRP30\pptooltip.obj
+.\ReleaseRP30\PrintIndexDlg.obj
+.\ReleaseRP30\PrintIndexPage.obj
+.\ReleaseRP30\PrintPaneState.obj
+.\ReleaseRP30\PrintTree.obj
+.\ReleaseRP30\ProcessManager.obj
+.\ReleaseRP30\profile.obj
+.\ReleaseRP30\PropertyFrame.obj
+.\ReleaseRP30\PropertyPane.obj
+.\ReleaseRP30\QueueChild.obj
+.\ReleaseRP30\QueueCount.obj
+.\ReleaseRP30\QueueMemory.obj
+.\ReleaseRP30\QueuePane.obj
+.\ReleaseRP30\RasterPlusView.obj
+.\ReleaseRP30\REXDIRDI.OBJ
+.\ReleaseRP30\ripitb.obj
+.\ReleaseRP30\ripitj.obj
+.\ReleaseRP30\rippane.obj
+.\ReleaseRP30\ripprocess.obj
+.\ReleaseRP30\ripthrd.obj
+.\ReleaseRP30\roundit.obj
+.\ReleaseRP30\RPNode.obj
+.\ReleaseRP30\RPResource.obj
+.\ReleaseRP30\RPTreeBase.obj
+.\ReleaseRP30\Ruler.obj
+.\ReleaseRP30\Scsi.obj
+.\ReleaseRP30\SCSIExplorer.obj
+.\ReleaseRP30\SpecialTree.obj
+.\ReleaseRP30\STDAFX.OBJ
+.\ReleaseRP30\SYSMEM.OBJ
+.\ReleaseRP30\TimeCheck.obj
+.\ReleaseRP30\TRANSDLG.OBJ
+.\ReleaseRP30\TransformColor.obj
+.\ReleaseRP30\TransformGraph.obj
+.\ReleaseRP30\transformlist.obj
+.\ReleaseRP30\TRANSFRM.OBJ
+.\ReleaseRP30\visualxf.obj
+.\ReleaseRP30\webbrowser.obj
+.\ReleaseRP30\WebServicesASP.obj
+.\ReleaseRP30\WindowsCMM.obj
+.\ReleaseRP30\XformSave.obj
+.\ReleaseRP30\ZEUS.OBJ
+.\ReleaseRP30\zeusdoc.obj
+.\ReleaseRP30\zeus.res
+"..\..\com\xml\xerces-c1_7_0-win32\lib\xerces-c_1.lib"
+"..\..\com\xml\xerces-c1_7_0-win32\lib\xerces-c_1D.lib"
+"..\Expat-1.95.8\StaticLibs\libexpatMT.lib"
+..\PCGI_V5\PCGINT.lib
+]
+Creating command line "link.exe @C:\Users\David\AppData\Local\Temp\RSP98F0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+AdjustDialog.cpp
+AdjustGraph.cpp
+ArchiveTree.cpp
+BHEADER.CPP
+Pos is defined!
+blowfish.cpp
+Pos is defined!
+cabinstall.cpp
+Pos is defined!
+CANVAS.CPP
+Pos is defined!
+ClientSocket.cpp
+Pos is defined!
+CMMDialog.cpp
+Pos is defined!
+C:\Source\ICC\ColorManage\..\InitStruct.h(12) : warning C4005: 'DEFAULT_GAMMA' : macro redefinition
+        ..\CmnLibs\Current LeadTools\include\.\ClassLib\..\Ltimgclr.h(97) : see previous definition of 'DEFAULT_GAMMA'
+ColorTransform.cpp
+CQUEUE.CPP
+Pos is defined!
+CResourceList.cpp
+Pos is defined!
+CRIP.CPP
+CustomFileDialog.cpp
+Pos is defined!
+CustomPage.cpp
+Pos is defined!
+devconnect.cpp
+Pos is defined!
+DeviceList.cpp
+Pos is defined!
+DISP.CPP
+Pos is defined!
+dlgwait.cpp
+Pos is defined!
+DongleClass.cpp
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+DownloadStatusDlg.cpp
+fileio.cpp
+Pos is defined!
+FontManagerPage.cpp
+Pos is defined!
+Frect.cpp
+Pos is defined!
+generalprefspage.cpp
+GISServer.cpp
+Pos is defined!
+GlobalProperties.cpp
+Pos is defined!
+HoldTree.cpp
+Pos is defined!
+ImagePause.cpp
+Pos is defined!
+JobProps.cpp
+Pos is defined!
+JobPropsSheet.cpp
+Pos is defined!
+LicenseManager.cpp
+Pos is defined!
+LineGraph.cpp
+Pos is defined!
+ListeningSocket.cpp
+loadtransform.cpp
+Pos is defined!
+Log.cpp
+Pos is defined!
+LogWnd.cpp
+Pos is defined!
+mainfrm.cpp
+Pos is defined!
+MyInternetSession.cpp
+Pos is defined!
+NewPreview.cpp
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+NewQueue.cpp
+nformat.cpp
+Pos is defined!
+objects.cpp
+OurPropertySheet.cpp
+Pos is defined!
+OurSplitter.cpp
+Pos is defined!
+OurWorkspace.cpp
+Pos is defined!
+PhotoPane.cpp
+Pos is defined!
+pptooltip.cpp
+Pos is defined!
+PrintIndexDlg.cpp
+Pos is defined!
+PrintIndexPage.cpp
+Pos is defined!
+PrintPaneState.cpp
+Pos is defined!
+PrintTree.cpp
+Pos is defined!
+ProcessManager.cpp
+Pos is defined!
+profile.cpp
+PropertyFrame.cpp
+Pos is defined!
+PropertyPane.cpp
+Pos is defined!
+QueueChild.cpp
+Pos is defined!
+QueueCount.cpp
+Pos is defined!
+QueueMemory.cpp
+Pos is defined!
+QueuePane.cpp
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+RasterPlusView.cpp
+REXDIRDI.CPP
+Pos is defined!
+ripitb.cpp
+Pos is defined!
+ripitj.cpp
+Pos is defined!
+rippane.cpp
+Pos is defined!
+ripprocess.cpp
+Pos is defined!
+ripthrd.cpp
+roundit.cpp
+Pos is defined!
+RPNode.cpp
+Pos is defined!
+RPResource.cpp
+Pos is defined!
+RPTreeBase.cpp
+Pos is defined!
+Ruler.cpp
+Pos is defined!
+Scsi.cpp
+Pos is defined!
+SCSIExplorer.cpp
+SpecialTree.cpp
+Pos is defined!
+STDAFX.CPP
+Pos is defined!
+SYSMEM.CPP
+Pos is defined!
+TimeCheck.cpp
+TRANSDLG.CPP
+Pos is defined!
+TransformColor.cpp
+Pos is defined!
+Generating Code...
+Compiling...
+TransformGraph.cpp
+transformlist.cpp
+TRANSFRM.CPP
+Pos is defined!
+visualxf.cpp
+Pos is defined!
+webbrowser.cpp
+Pos is defined!
+WindowsCMM.cpp
+Pos is defined!
+..\CmnLibs\Current LeadTools\include\ltimgclr.h(97) : warning C4005: 'DEFAULT_GAMMA' : macro redefinition
+        C:\Source\ICC\Windows\..\..\ripproc\..\zeus32\..\icc\initstruct.h(12) : see previous definition of 'DEFAULT_GAMMA'
+XformSave.cpp
+ZEUS.CPP
+Pos is defined!
+zeusdoc.cpp
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+CTM2RECT.CPP
+device.cpp
+Pos is defined!
+Generating Code...
+Pos is defined!
+Compiling...
+InstallPrinter.cpp
+Pos is defined!
+Compiling...
+WebServicesASP.cpp
+Pos is defined!
+Linking...
+nafxcw.lib(sockcore.obj) : warning LNK4006: "public: static void __stdcall CAsyncSocket::DoCallBack(unsigned int,long)" (?DoCallBack@CAsyncSocket@@SGXIJ@Z) already defined in STDAFX.OBJ; second definition ignored
+.\ReleaseRP30\rasterplus.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+
+
+
+<h3>Results</h3>
+rasterplus.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

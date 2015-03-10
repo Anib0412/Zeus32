@@ -1,0 +1,440 @@
+////////////////////////////////////////////////////////////////////////////
+// GISRPCInterface.Idl
+//                                                                        
+// Photogize RPC Interface for RasterPlus
+// Copyright (C) 2005 Graphx, Inc.
+//
+// Created: April 6, 2005 by dje
+//
+// Mods:
+//
+
+typedef unsigned int	UINT;
+typedef int				BOOL;
+typedef unsigned char	BYTE;
+typedef unsigned short	WORD;
+typedef unsigned long	DWORD;
+
+typedef struct _GISRPC_RECT
+{
+	int left;
+	int top;
+	int right;
+	int bottom;
+} GISRPC_RECT;
+
+#define _MAX_PATH		255
+#define UNUSED_LEN		100
+
+#define GISRPC_MAXSTRLEN			256
+#define GISRPC_CURRENT_VERSION	 402103 
+#define GISRPC_MAXDEVITEMNUM		 99
+#define GISPRC_MAXPHOTODATA		  32000
+
+// iStyle defines
+#define GISRPC_CANVAS_NOSTYLE	0x0		// no particular style
+#define GISRPC_CANVAS_BORDERED	0x01	// canvas has a border
+#define GISRPC_CANVAS_BORDERLESS	0x02	// canvas is borderless
+#define GISRPC_CANVAS_ISAPACKAGE	0x04	// canvas is a package (can be or'd)
+
+// what to print on the back (can be or'd)
+#define GISRPC_PRINT_ONBACK_NOTHING	0x00
+#define GISRPC_PRINT_ONBACK_FILENAME	0x01
+#define GISRPC_PRINT_ONBACK_DATE		0x02
+#define GISRPC_PRINT_ONBACK_TEXT		0x04
+
+#define GISRPC_MAXFILTERS	5
+
+#define GISRPC_NUM_ADDRESS_LINES		6
+#define GISRPC_NUM_ORDERINFO_LINES	20
+
+// job separator styles
+#define GISRPC_JOBSEPARATOR_STYLE_0	0	// the original (looks best on 4x6)
+#define GISRPC_JOBSEPARATOR_STYLE_1	1	// the dale labs design (looks best on 5x7)
+
+#define GISRPC_NUM_FONTSIZES	3
+
+// pane location defs
+#define GISRPC_PHOTO_LOCATION_HOLD		0   
+#define GISRPC_PHOTO_LOCATION_PRINT		1
+#define GISRPC_PHOTO_LOCATION_ARCHIVE	2
+
+
+[
+	uuid(91705248-c79c-4b6d-b198-a7f5e1f83b47),
+	version(1.0),
+	pointer_default(unique)							// Pointer default
+]
+interface GISRPCInterface
+{
+	typedef [context_handle] void* PCONTEXT_DOC_HANDLE;
+	typedef [context_handle] void* PCONTEXT_JOB_HANDLE;
+	typedef [context_handle] void* PCONTEXT_QUEUE_HANDLE;
+	typedef [context_handle] void* PCONTEXT_PHOTO_HANDLE;
+
+	// device type
+	typedef enum tagGISRPC_DEVTYPE
+	{
+		GISRPC_devtype_photoprinter = 0,	// photoprinter (e.g.: Fuji PG4000)
+		GISRPC_devtype_inkjet,			// ink jet (e.g.: Epson 9000)
+		GISRPC_devtype_dyesub,			// dye sublimation (e.g.: Sony UDP-70A)
+		GISRPC_devtype_filmrecorder,		// color film recorder (e.g.: Polaroid P7000)
+		GISRPC_devtype_unknown			// unknown
+	} GISRPC_DEVTYPE;		 
+
+	typedef enum tagGISRPC_IMAGEFILTERTYPE
+	{
+		GISRPC_imagefilter_none=0,		// no filter
+		GISRPC_imagefilter_sharpen,		// image sharpening	(iVar==-1000 to +1000 - see LeadTools doco)   
+		GISRPC_imagefilter_contrast,		// change contrast (iVar==-1000 to +1000 - see LeadTools doco)   
+		GISRPC_imagefilter_intensity,	// change intensity (iVar==-1000 to +1000 - see LeadTools doco)   
+		GISRPC_imagefilter_saturation,	// change saturation (iVar==-1000 to +1000 - see LeadTools doco)   
+		GISRPC_imagefilter_gamma			// change gamma (iVar==0 to 5000 - see LeadTools doco)   
+	} GISRPC_IMAGEFILTERTYPE;
+
+	// how to size the photo into the canvas
+	typedef enum tagGISRPC_SIZING
+	{
+		GISRPC_fit = 0,		// best fit the photo on the canvas, leaving borders if necessary
+		GISRPC_crop,		// crop the photo on the canvas, cutting information off if necessary   
+		GISRPC_montage_fit,	// fit the photo on the custom frame
+		GISRPC_montage_crop	// crop the photo on the custom frame
+	} GISRPC_SIZING;
+
+	// the types of files we can put/get
+	typedef enum tagGISRPC_SENDFILETYPE
+	{
+		GISRPC_filetype_leftindex_logo,
+		GISRPC_filetype_rightindex_logo,
+		GISRPC_filetype_other,
+	} GISRPC_SENDFILETYPE;
+
+	// bar code types
+	typedef enum tagGISRPC_BARCODETYPE
+	{
+		GISRPC_eBC_None,			// No valid barcode type					 
+		GISRPC_eBC_Code11,		// Code 11									 
+		GISRPC_eBC_2OF5,			// Code 2 of 5 (standard)					 
+		GISRPC_eBC_2OF5IL,		// Interleaved 2 of 5 (standard)			 
+		GISRPC_eBC_2OF5IATA,		// Code 2 of 5 IATA							 
+		GISRPC_eBC_2OF5M,		// Code 2 of 5 Matrix					     
+		GISRPC_eBC_2OF5DL,		// Code 2 of 5 Data Logic					 
+		GISRPC_eBC_2OF5IND,		// Code 2 of 5 Industrial					 
+		GISRPC_eBC_3OF9,			// Code 3 of 9 (Code 39)					 
+		GISRPC_eBC_3OF9A,		// Code 3 of 9 (Code 39) Ascii 				 
+		GISRPC_eBC_EAN8,			// EAN8										 
+		GISRPC_eBC_EAN8P2,		// EAN8	 - 2 digits add on					 
+		GISRPC_eBC_EAN8P5,		// EAN8	 - 5 digits add on					 
+		GISRPC_eBC_EAN13,		// EAN13									 
+		GISRPC_eBC_EAN13P2,		// EAN13 - 2 digits add on					 
+		GISRPC_eBC_EAN13P5,		// EAN13 - 5 digits add on					 
+		GISRPC_eBC_EAN128,		// EAN128									 
+		GISRPC_eBC_UPC12,		// UPC 12 Digits							 
+		GISRPC_eBC_CodaBar2,		// CodaBar (2 width)						 
+		GISRPC_eBC_CodaBar18,	// unsupported CodaBar (18 widths)			 
+		GISRPC_eBC_Code128,		// Code128									 
+		GISRPC_eBC_DPLeit,		// Deutsche Post Leitcode					 
+		GISRPC_eBC_DPIdent,		// Deutsche Post Identcode					 
+		GISRPC_eBC_Code16K,		// unsupported								 
+		GISRPC_eBC_49,			// unsupported								 
+		GISRPC_eBC_9OF3,			// Code 93									 
+		GISRPC_eBC_UPC25,		// identical to eBC_UPCA					 
+		GISRPC_eBC_UPCD1,		// unsupported								 
+		GISRPC_eBC_UPCD2,		// unsupported								 
+		GISRPC_eBC_UPCD3,		// unsupported								 
+		GISRPC_eBC_UPCD4,		// unsupported								 
+		GISRPC_eBC_UPCD5,		// unsupported								 
+		GISRPC_eBC_UPCSCC,		// unsupported								 
+		GISRPC_eBC_UCC128,		// same as EAN128							 
+		GISRPC_eBC_UPCA,			// UPC A									 
+		GISRPC_eBC_UPCAP2,		// UPC A - 2 digit add on					 
+		GISRPC_eBC_UPCAP5,		// UPC A - 5 digit add on					 
+		GISRPC_eBC_UPCE,			// UPC E 									 
+		GISRPC_eBC_UPCEP2,		// UPC E - 2 digit add on					 
+		GISRPC_eBC_UPCEP5,		// UPC E - 5 digit add on					 
+		GISRPC_eBC_PostNet5,		// PostNet ZIP (5 digits)					 
+		GISRPC_eBC_PostNet6,		// PostNet ZIP (5 digits + check digit)		 
+		GISRPC_eBC_PostNet8,		// PostNet ZIP (8 digits)					 
+		GISRPC_eBC_PostNet10,	// PostNet ZIP+4 (5 digits + 4 digits + CD)  
+		GISRPC_eBC_PostNet11,	// PostNet DPBC  (5 d. + 4 d. + 2 d.)		 
+		GISRPC_eBC_PostNet12,	// PostNet DPBC  (5 d. + 4 d. + 2 d. + CD)   
+		GISRPC_eBC_Plessey,		// Plessey Code								 
+		GISRPC_eBC_MSI,			// MSI Code									 
+		GISRPC_eBC_POSTCODE,		// unsupported								 
+		GISRPC_eBC_FIM,			// unsupported								 
+		GISRPC_eBC_LOGMARS,		// LOGMARS									 
+		GISRPC_eBC_DUN,			// unsupported								 
+		GISRPC_eBC_PHILIPS,		// unsupported								 
+		GISRPC_eBC_DOTCODEA,		// unsupported								 
+		GISRPC_eBC_GP,			// unsupported								 
+		GISRPC_eBC_PDF417,		// PDF417   								 
+		GISRPC_eBC_PDF417Trunc,	// PDF417 Truncated							 
+		GISRPC_eBC_MAXICODE,		// unsupported								 
+		GISRPC_eBC_QRCode,		// unsupported								 
+		GISRPC_eBC_Code128A,		// Code128 Subset A							 
+		GISRPC_eBC_Code128B,		// Code128 Subset B							 
+		GISRPC_eBC_Code128C,		// Code128 Subset C							 
+		GISRPC_eBC_9OF3A,		// Code 93	Ascii/unsupported				 
+	} GISRPC_BARCODETYPE;
+
+	// job status
+	typedef enum tagGISRPC_JOBSTATUS
+	{   
+		GISRPC_jobstatus_ok,			// processing is proceding without error
+		GISRPC_jobstatus_error,		// some errors in print job - check server
+		GISRPC_jobstatus_undefined	// an undefined error has occurred
+	} GISRPC_JOBSTATUS;
+
+	// photo status
+	typedef enum tagGISRPC_PHOTOSTATUS
+	{   
+		GISRPC_photo_idle,			// waiting to print, or in hold queue
+		GISRPC_photo_printing,		// currently printing
+		GISRPC_photo_printed_ok,		// printed ok
+		GISRPC_photo_error_printing,	// error printing
+		GISRPC_photo_notfound		// can't find this photo!
+	} GISRPC_PHOTOSTATUS;								 
+
+	// print quality  
+	typedef enum tagGISRPC_QUALITY
+	{
+		GISRPC_quality_dont_care = 0,	// don't care about the quality
+		GISRPC_quality_low,				// low
+		GISRPC_quality_medium,			// medium
+		GISRPC_quality_high				// highest available on the device
+	} GISRPC_QUALITY;		 
+
+	// priority of job  
+	typedef enum tagGISRPC_PRIORITY
+	{
+		GISRPC_priority_none_specified = 0,	// no specific priority specified
+		GISRPC_priority_low,					// low priority
+		GISRPC_priority_medium,				// medium
+		GISRPC_priority_high					// high 
+	} GISRPC_PRIORITY;		 
+
+	typedef struct tagGISRPC_DEVSTRING
+	{
+		char	lpsGisRpcString[GISRPC_MAXSTRLEN];
+	} GISRPC_DEVSTRING, *PGISRPC_DEVSTRING;
+
+	typedef struct tagGISRPC_DEVINFO
+	{
+		int*			hDevice;							// Handle to device document
+		char			lpsLongDevName[GISRPC_MAXSTRLEN];	// the full device name
+		char			lpsShortDevName[GISRPC_MAXSTRLEN];	// the device nickname
+		char			lpsSvrLocation[GISRPC_MAXSTRLEN];	// the location of the server
+		char			lpsDevLocation[GISRPC_MAXSTRLEN];	// the location of the device
+		BOOL			bIsAvailable;						// is it currently available?
+		int				iNumBackPrintLines;					// the number of available backprint lines
+		BOOL			bCanDoCustomCanvas;					// can we create a custom canvas?
+		int				iNumCanvases;						// total number of canvases supported
+		int				iCurrentCanvas;						// currently loaded canvas   
+		GISRPC_DEVTYPE	iDevType;							// type of device
+		BOOL			bRollMedia;							// is this a roll media device?
+		int				iMaxWidthRollInches1000;			// width of roll in inches (inches x 1000)
+		int				iMaxLengthRollInches1000;			// length of roll in inches (inches x 1000)   
+		int				iPrintsPerHour;						// prints per hour that this device can do with selected canvas   
+		int				iNumConfigOptions;					// the number of configuration options
+	} GISRPC_DEVINFO, *PGISRPC_DEVINFO;
+
+	typedef struct tagGISRPC_CANVAS
+	{   
+		char	lpsCanvasName[GISRPC_MAXSTRLEN];	// name of the canvas   
+		char	lpsCanvasDesc[GISRPC_MAXSTRLEN];	// description of the canvas   
+		int		iWidthInches1000;				// width of the canvas in inches x 1000
+		int		iHeightInches1000;				// height of the canvas in inches x 1000
+		int		iStyle;							// extra info (borders, etc.,)
+	} GISRPC_CANVAS, *PGISRPC_CANVAS;
+
+	typedef struct tagGISRPC_IMAGEFILTER
+	{
+		int						iNumFiltersToUse;						// number of filters to use (1 to GISRPC_MAXFILTERS)
+		GISRPC_IMAGEFILTERTYPE	pgprcImageFilterType[GISRPC_MAXFILTERS];	// type of filter to apply
+		int						iVar[GISRPC_MAXFILTERS];					// variable associated with the filter
+	} GISRPC_IMAGEFILTER, *PGISRPC_IMAGEFILTER;
+
+	// how to print each photo
+	typedef struct tagGISRPC_PHOTOSPECS
+	{   										  
+		unsigned int		hPhoto;								// the handle to the photo (gets filled in by the server)
+		char				lpszDiskFile[GISRPC_MAXSTRLEN];		// disk file spec of the photo      
+		char				lpszOutFile[GISRPC_MAXSTRLEN];		// Output file Name     
+		GISRPC_IMAGEFILTER	pgprcImageFilter;					// filter(s) to use   
+		int					iCopies;							// copies to print
+		int					iUndefined;							// undefined
+		char				lpszProductName[GISRPC_MAXSTRLEN];	// name of product
+		BOOL				bApplyFilter;						// apply a filter
+		BOOL				bDeleteWhenDone;					// delete file when finished with job
+		GISRPC_SIZING		pgprcSizing;						// sizing to use   
+		int					iCanvasToUse;						// index of the canvas to use (ignored if doing a montage)
+		int					iMontageWidthInches1000;			// target width of the photo (inches x 1000) in a montage
+		int					iMontageHeightInches1000;			// target height of the photo (inches x 1000) in a montage
+		int					iMontagePhotoSpacingXInches1000;	// the inter photo spacing of the custom frame 
+																// in the x direction in a montage
+		int					iMontagePhotoSpacingYInches1000;	// the inter photo spacing of the custom frame
+																// in the y direction in a montage   
+		BOOL				bSendActualData;					// if true, send file data, not just file spec
+		int					iPhotoSize;							// size of photo; used only if bSendActualData is set
+		BYTE				PhotoData[GISPRC_MAXPHOTODATA];		// File Data for reconstructing the file
+		int					iPhotoBytesCopied;					// Number of Bytes NOT yet sent to Server
+	} GISRPC_PHOTOSPECS, *PGISRPC_PHOTOSPECS;
+
+	typedef struct tagGISRPC_PHOTOSPECS2
+	{   										  
+		GISRPC_PHOTOSPECS	BasePhotoSpecs;
+		char				cBackPrint1[GISRPC_MAXSTRLEN]; 
+		char				cBackPrint2[GISRPC_MAXSTRLEN]; 
+		char				cBackPrint3[GISRPC_MAXSTRLEN]; 
+		char				Undefined[GISRPC_MAXSTRLEN]; 
+		char				Undefined2[GISRPC_MAXSTRLEN]; 
+		char				Undefined3[GISRPC_MAXSTRLEN]; 
+		char				Undefined4[GISRPC_MAXSTRLEN]; 
+		int					Undefined5;
+		int					Undefined6;
+		int					Undefined7;
+		int					Undefined8;
+	} GISRPC_PHOTOSPECS2, *PGISRPC_PHOTOSPECS2;
+
+	// our internal photo structure
+	typedef struct tagGISRPC_OURPHOTOSPECS
+	{
+		GISRPC_PHOTOSPECS2	PhotoSpecs;
+		char				lpszTempDiskFile[GISRPC_MAXSTRLEN]; 
+		BOOL				bUseTempFile;                
+		int					iPage;                        
+		PCONTEXT_QUEUE_HANDLE	hCqueueFile;			     
+		int					iJobID;						 
+		int					iPhotoCount;					 
+		BOOL				bPutInThumbnails;            
+		int					FileType;					 
+		int					iXoffInches1000;		         
+		int					iYoffInches1000;		         
+		int					bIsSeparator;				 
+		BOOL				bMontageThis;
+		BOOL				bMontageDone;
+		BOOL				bAddedToQueue;
+		int					iReportedCopyCount;
+	} GISRPC_OURPGPRCPHOTOSPECS, *PGISRPC_OURPGPRCPHOTOSPECS;
+
+	typedef struct tagGISRPC_SENDFILEINFO
+	{   							
+		GISRPC_SENDFILETYPE	pgprcFileType;
+		char				lpszLocalFileName[GISRPC_MAXSTRLEN];	// qualified filename
+		char				lpszFileName[GISRPC_MAXSTRLEN];			// filename
+		int					iFileSize;
+		char				ExtraData[GISRPC_MAXSTRLEN]; 
+		int					iExtraInfo;
+		int					iUndefined1;
+		int					iUndefined2;
+		int					iUndefined3;
+		int					iUndefined4;
+	} GISRPC_SENDFILEINFO, *PGISRPC_SENDFILEINFO;
+
+	// job separator page
+	typedef struct tagGISRPC_JOBSEPARATOR
+	{   
+		int					iStyle;														// the jobseparator style
+		unsigned int		hPhoto;														// the handle to the separator (gets filled in by the server)
+		BOOL				bDoThumbnails;												// print thumbnails of the photos?
+		BOOL				bDoBarCode;													// print a barcode?
+		GISRPC_BARCODETYPE	pgprcBarCodeType;											// type of barcode
+		BOOL				bTextUnderBarCode;											// print text under barcode?
+		BOOL				bDoLeftLogo;												// print left logo?      
+		BOOL				bDoRightLogo;												// print right logo?      
+		char				lpszStoreID[GISRPC_MAXSTRLEN];								// store ID
+		char				lpszAddress[GISRPC_NUM_ADDRESS_LINES][GISRPC_MAXSTRLEN];		// address of order
+		char				lpszOrderInfo[GISRPC_NUM_ORDERINFO_LINES][GISRPC_MAXSTRLEN];	// other info
+		char				lpszShipMethod[GISRPC_MAXSTRLEN];							// shipping method string
+		char				lpszLeftLogoFile[GISRPC_MAXSTRLEN];							// file spec of left logo file
+		char				lpszRightLogoFile[GISRPC_MAXSTRLEN];							// file spec of right logo file
+		char				TimeStamp[GISRPC_MAXSTRLEN];									// string to use for time (if NULL, current time is used)
+		int					iFontSize[GISRPC_NUM_FONTSIZES];								// font sizes to use, if 0, the defaults of 20, 18, 14 are used
+		GISRPC_SIZING		pgprcSizing;												// sizing to use
+		int					iCanvasToUse;												// index of the canvas to use (ignored if doing a montage)
+		int					iMontageWidthInches1000;									// target width of the photo (inches x 1000) in a montage
+		int					iMontageHeightInches1000;									// target height of the photo (inches x 1000) in a montage
+		int					iMontagePhotoSpacingXInches1000;							// the inter photo spacing of the custom frame 
+																						// in the x direction in a montage
+		int					iMontagePhotoSpacingYInches1000;							// the inter photo spacing of the custom frame
+																						// in the y direction in a montage
+		int					iContactImage_Width;
+		int					iContactImage_Height;
+		int					iContactImage_SpacingX;
+		int					iContactImage_SpacingY;
+		int					iContactImage_NumAccross;
+		int					iContactImage_NumDown_Page_1;
+		int					iContactImage_NumDown_Page_N;
+		int					iSeparatorBBox_Width;
+		int					iSeparatorBBox_Height;
+		float				fSeparatorBBox_Width;
+		float				fSeparatorBBox_Height;
+	} GISRPC_JOBSEPARATOR, *PGISRPC_JOBSEPARATOR;
+
+	// job print status information
+	typedef struct tagGISRPC_JOBSTATUSSTRUCT
+	{
+		int iTotalPhotos;					// number of photos in job
+		int iTotalPages;					// number of pages in job
+		int iHoldCount;						// number of pages in hold pane
+		int iPrintCount;					// number of pages in print pane
+		int iArchiveCountGood;				// number of pages in archive pane (done ok)
+		int iArchiveCountBad;				// number of pages in archive pane (in error)
+		char FirstError[GISRPC_MAXSTRLEN];	// the first error encountered if one exists
+		GISRPC_JOBSTATUS pgprcJobStatus;		// current status
+	} GISRPC_JOBSTATUSSTRUCT, *PGISRPC_JOBSTATUSSTRUCT;
+
+	// photo status struct
+	typedef struct tagGISRPC_PHOTOSTATUSSTRUCT
+	{
+		unsigned int		hJob;						// the handle to the job which MUST be passed by the client
+		unsigned int		hPhoto;						// the handle to the photo which MUST be passed by the client
+		int					iPaneLocation;				// where is the photo  
+		GISRPC_PHOTOSTATUS	pgprcJobStatus;				// current status
+		char				StatusStr[GISRPC_MAXSTRLEN];	// the status string
+	} GISRPC_PHOTOSTATUSSTRUCT, *PGISRPC_PHOTOSTATUSSTRUCT;
+
+	typedef struct tagGISRPC_PRINTSPECS
+	{   
+		//int				iMontagePhotoSpacingXInches1000;	// the inter photo spacing of the custom frame 
+																// in the x direction in a montage
+		//int				iMontagePhotoSpacingYInches1000;	// the inter photo spacing of the custom frame
+																// in the y direction in a montage   
+		GISRPC_QUALITY	pgprcQuality;					// quality of the print
+		BOOL			bPrintToHold;					// put in hold queue
+		GISRPC_PRIORITY	pgprcPriority;					// priority of this print job
+		BOOL			bPromptBeforePrint;				// should we ask for operator intervention before printing?   
+		int				isecStartDelay;					// delay the start of printing this many seconds         
+		BOOL			bPrintJobSeparatorOnly;			// TRUE == only print the job separator
+		char			Owner[GISRPC_MAXSTRLEN];			// name of person or machine that owns the job
+		int				OrderID;						// optional OrderID
+		char			OrderIDString[GISRPC_MAXSTRLEN];	//character based OrderID to be printed on Invoice PageSep
+	} GISRPC_PRINTSPECS, *PGISRPC_PRINTSPECS;
+
+	long GISRPCGetServerVersion([out] int* iVersion);
+  
+	long GISRPCGetNumDevices([out] int* iNumDevices);
+
+	long GISRPCGetDevInfo([in] int* iIdx, [out] GISRPC_DEVINFO* pDevInfo, [out] PCONTEXT_DOC_HANDLE* phDevice);
+
+	long GISRPCGetCanvasInfo([in] PCONTEXT_DOC_HANDLE phDevice, [in] int* iIdx, [out] GISRPC_CANVAS* GISCanvas );
+
+	long GISRPCSetBackPrintLine([in] PCONTEXT_DOC_HANDLE phDevice, [in] int* iLine );
+
+	long GISRPCGetDevOptionName([in] PCONTEXT_DOC_HANDLE phDevice, [in] int* iOption, [out] GISRPC_DEVSTRING* pOptionName);
+	long GISRPCGetDevOptionSettingName([in] PCONTEXT_DOC_HANDLE phDevice, [in] int* iOption, [in] int* iSetting, [out] GISRPC_DEVSTRING* pOptionName);
+
+	long GISRPCGetDevOption([in] PCONTEXT_DOC_HANDLE phDevice, [in] int* iOption, [out] int* iSetting);
+	long GISRPCSetDevOption([in] PCONTEXT_DOC_HANDLE phDevice, [in] int* iOption, [in] int* iSetting);
+
+	long GISRPCOpenJob([in] PCONTEXT_DOC_HANDLE phDevice, [in, string] char* jobName, [out] PCONTEXT_JOB_HANDLE* phJob);
+	long GISRPCCloseJob([in] PCONTEXT_JOB_HANDLE hJob);
+	long GISRPCPrintJob([in] PCONTEXT_JOB_HANDLE hJob, [in] GISRPC_PRINTSPECS* pPrintSpecs);
+
+	long GISRPCAddJobSeparator([in] PCONTEXT_JOB_HANDLE hJob, [in] GISRPC_JOBSEPARATOR* pJobSepinfo );
+
+	long GISRPCPutFile([in] PCONTEXT_JOB_HANDLE hJob, [in] GISRPC_SENDFILEINFO* pSendFileInfo);
+
+	long GISRPCAddPhoto([in] PCONTEXT_JOB_HANDLE hJob, [in] GISRPC_PHOTOSPECS* pPhotoSpecs, [out] GISRPC_DEVSTRING* pOutFileName);
+	long GISRPCAddPhoto2([in] PCONTEXT_JOB_HANDLE hJob, [in] GISRPC_PHOTOSPECS2* pPhotoSpecs);
+}

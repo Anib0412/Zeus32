@@ -1,0 +1,28 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+COMPRESS=12 Hall Zeck
+LCID=0x409 0x6 0x0 ; English (United States)
+REPORT=Yes
+FTS=3
+CONTENTS=RP95_STARTED_WHATIS
+COPYRIGHT=Copyright © 2001 Graphx, Inc.
+DEFFONT=Arial,8,0
+HLP=.\rasterplus.hlp
+
+[FILES]
+rp.rtf
+
+[ALIAS]
+HIDR_ZEUSTYPE=RP95_STARTED_WHATIS
+
+[MAP]
+#include ..\control.hm
+#include rasterplus.hm
+
+[WINDOWS]
+standard="",(653,102,360,600),21252,(r14876671),(r12632256),f3
+main="",(18,10,600,435),27904,(r14876671),(r12632256),f6
+
+[CONFIG]
+BrowseButtons()

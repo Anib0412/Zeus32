@@ -1,0 +1,486 @@
+ChangeLog.txt
+RasterPlus
+April 22, 2012
+
+Version 6.00.17
+Some Backup files fail to delete - Fixed
+
+Version 6.00.16
+Noritsu - Some QSS Interface orders fail to transmit - Fixed
+
+Version 6.00.15
+New Hot Folder feature. Select Print Queue based on imageg compared to media selected
+Fuji MS01 Updated
+
+Version 6.00.14
+Creating a printer failed in some versions of Windows due to processing an incorrect system value - Fixed
+
+Noritsu
+	CT folder interfaces serached for a QSS connection - Fixed
+	Changed Custom Page dialog to only display interface appropriate Page Size Definitions
+	Space in Page name causes order to fail - Fixed
+
+Version 6.00.13
+Printer INF file for Windows7 x64 not correctly copied during install - Fixed
+
+Version 6.00.12
+In some cases non-RasterPlus printers were not correctly identified - Fixed
+
+Version 6.00.11
+Updated Remote Diagonostic to access GoToAssist.
+
+Version 6.00.10
+Noritsu
+    - Noritsu QSS NetOrder Versions greater than 3.0 failed - Fixed
+
+Version 6.0.9
+RasterPlus
+    - In some case File Printing selected the incorrect media - Fixed
+    - In some case Bitmap Sampling using Bilinear or Bicubic would fail - Fixed
+Frontier
+    - Interfaces that support backprint lines only receiving 1 backprint line from Photogize Lab - Fixed
+    - Added Batch Prints by Media Size to ADPC Interface
+
+Version 6.0.8
+RasterPlus
+	- Add Jobs Folder not sticking when multiple filese selected - Fixed
+Fuji Frontier
+	- In some instances Order files sent to the incorrect location - Fixed
+Noritsu
+	- In some instances Duplex printing incorrectly set for non-duplex media - Fixed
+
+Version 6.0.6
+RasterPlus
+	- Package Printing incorrect - Fixed
+Noritsu
+	- For Net Order Verion #1 only able to print a single copy at a time - Fixed
+
+Version 6.0.0
+RasterPlus
+    - Added Support for Windows Vista
+    - Added online Activation
+	- Improved Online Update process
+	- Images printed from Lab cause some device settings to incorrectly reset - Fixed
+
+Packaging
+	- Fotoba cutlines not displaying correctly in some cases - Fixed
+	- Number of copies for Package Pages incorrect in some cases - Fixed
+
+Noritsu
+	- Blank Channel name caused RasterPlus to fail - Fixed
+	- Added Overspill Default Override capability in page size definition
+
+December 28, 2006
+
+Version 5.3.4
+Noritsu
+	- Some packages incorrectly printed with a white border - Fixed
+	- Added Interface selection for file printing
+
+Version 5.3.3
+Bitmap File
+	- Registry entries were not properly created - Fixed
+
+Noritsu
+	- Added addtional CT Folder support to allow Automatic print processing
+	- Added channel file access to QSS channel data file to process more than 99 channels
+
+Version 5.3.2
+Noritsu
+	- In some circumstances printing package sets caused RasterPlus to crash  - Fixed
+	- In some circumstances EXIF files not processed properly for direct file copying  - Fixed
+
+Version 5.3.1
+New Device
+	Support Added for Digital Portal Devices - DKS900, DKS1510, DKS1530, DKS1550
+
+Package Printing
+	Some system configurations incorrectly displayed the PackagePlus license manager for every package - Fixed
+
+Multiple Devices
+	- Backprinting Using a two character year display incorrectly displayed four digits - Fixed
+
+Agfa Minilabs
+    - Order Creation failed if an envelop number was greater than 18 characters - Fixed
+
+Fuji NC1000
+    - NC1000 SCSI Adapter ID not sticking in Advanced Device - Fixed
+    - NC1000 Erroneous dialog boxes displayed - Fixed
+
+Noritsu
+    - CT Folder backprinting did not allow the use of the Noritsu DPOF string - Fixed
+    - In some circumstances the CT Folder processing errorneously indicate a successful job completion  - Fixed
+
+Gretag/Sienna FotoPrnt Devices
+	- Minimum paper length incorrectly applied to FotoPrint devices - Fixed
+
+
+Version 5.3.0
+RasterPlus
+Index Print - Selecting filenames did not use all available media space - Fixed
+
+Version 5.2.15
+RasterPlus
+    - Memory leak causing RasterPlus to crash in some minilabs - Fixed
+
+Konica Minilabs
+	- Error in MRK file, Missing Quotes on Backprint - Fixed
+
+Version 5.2.14
+Agfa Minilabs
+	- In some cases a control file is not deleted prohibiting transmission to the AGFA Minilab - fixed
+Konica Minilabs
+	- Added Order Number to MRK file in USR_NAM field
+
+Noritus Minilabs
+	- Packages not correctly selecting media in some cases for QSS32XX and QSS33XX devices - Fixed
+
+Version 5.2.13
+Agfa Minilabs
+	- Added EnvelopeNumber as part of b00 file to support order number display on MSC
+	- Change custom page to NOT display border option for MSC device this option is not recognized by MSC
+	- Order creation fails when OrderId exceeds 32 characters - fixed
+
+Noritus Minilabs
+	- Incorrect Error Message display when printing  - Fixed
+
+Version 5.2.12
+Noritus Minilabs
+	- File printing fails - Fixed
+
+Version 5.2.11
+Remote Diagnostiocs
+	- Updated Web link to new address
+
+Fuji Minilabs
+	- Frontier Product not properly updated in custom page - Fixed
+
+Kodak DLS
+	- Added second backprint line for applicable devices
+	- DLSClientEnable missing a system dll on some PCs - Fixed
+
+Noritus Minilabs
+	- Print at Native Resolution not working for CT Folder Option - Fixed
+
+
+Version 5.2.10
+Index Prints
+	- Index Print Inconsistent between Landscape and Portrait - Fixed
+
+Noritus Minilabs
+	- Add DPOF/CT Folder Interface
+
+Version 5.2.9
+
+Package Printer
+    - Invalid License Manager error prevent packages from printing - Fixed
+
+Polaroid
+	- Intermittent failures on PRO 7000 device - Fixed
+
+
+Version 5.2.8
+
+RasterPlus
+    - Extra long file names cause RasterPlus to crash - Fixed
+
+Agfa Minilabs
+	- Add 'ReproMode' option Used to switch off all image scaling, correction and
+      enhancement on the printer.
+	- Remove dWorkflow check box from Advanced Device. This is obsolete since the latest 
+	  Agfa interface only supports the dWorkflow Server interface.
+	- Orientation not being set correctly - Fixed
+
+Kodak DLS
+	- Noritsu 3011 missing 320 resolution - Fixed
+    - Add support for the Noritsu 3200 Series
+
+Konica Minilabs
+	- Add support for Konica R2 series minilabs
+
+Noritsu Minilabs
+    - Sending files to the dDP Series from another Noritsu device
+      failed with 'Image format not supported' - Fixed
+    - RasterPlus crashing on write file errors - Fixed
+	- An invalid overspill value was set for the MP-1600 device - Fixed
+	- Add the ability to turnoff QSS Color Management System
+
+Version 5.2.7
+
+RasterPlus
+	- Some EXIF files not properly clearly memory - Fixed
+
+Agfa Minilabs
+	- dWorkflow generated an error indicating an order number was incorrect - Fixed
+	- Added support for dLab1
+
+Fuji Minilabs
+	- Added an option to allow the user to control the release of the order to the Frontier for printing
+	- Changed to use the Photogize order number when printing from Photogize Lab
+
+Noritsu Minilabs
+	- Added support for Noritsu QSS-33xx devices
+
+Version 5.2.6
+
+RasterPlus
+	- Some EXIF files not properly rotating - Fixed
+	- Some PDF files not printing properly - Fixed
+	- Add Help Desk capability
+
+Fuji Minilabs
+	- Using PicPro container files not being located in some versions - Fixed
+
+Mitsubishi
+	- Added support for Mitsubishi 9000 and 9500 printer
+
+Noritsu
+    - Some package sets with different page orientations were not printing correctly - Fixed
+	- Changed product name from Noritsu dDP-411 to Noritsu dDP Series to allow support for additional dDP printers
+
+Preview
+    - Some package sets with different page orientations were not previewing correctly - Fixed
+
+Version 5.2.5
+
+Agfa Film Recorder
+	- Pacing values were ignored - Fixed
+
+Agfa Minilabs
+	- Order Number no longer being displayed in dLab Client - Fixed
+
+Kodak DLS
+	- Add a Product Name to Custom Page to allow DLS to recognize the Product
+	- Divide order into separate DLS entries based on surface type
+
+Konica Minilabs
+	- Incorrect error message displayed when writing Order File - Fixed
+
+Noritsu Minilabs
+	- Enable support for printing Bitmaps at Native Resolution 
+	- Allow Printing bitmaps at Native Resolution for dDP-411 ( BMP Files Only)
+
+Version 5.2.4
+
+RasterPlus
+	- Index Print to landscape orientation incorrect - Fixed
+	- Index Print changing media size default queue property - Fixed
+
+All Devices supporting Packages
+	- Overlays rotated incorrectly - Fixed
+
+Agfa Minilabs
+	- Resolution values in PPD files incorrect - Fixed
+	- Border on prints has a blue tint, added border option in Custom Page - Fixed
+
+Fuji Minilabs
+	- Additional error checking for order files
+	- Incorrect value for backprint lines to Photogize for PicPro - Fixed
+
+Fuji Printers
+	- Pictrography 2000 Advanced Device Properties not sticking - Fixed
+	- Pictrography 3000 Advanced Device Properties not sticking - Fixed
+	- NC1000 Advanced Device defaults not resetting - Fixed
+	- NC600 Advanced Device Gamma property not sticking - Fixed
+
+Gretag Mileca & Netprinter
+	- Custom Page sizes not calculated correctly when changing unit types - Fixed
+	- Incorrect orientation of package pages within a package set - Fixed
+
+Kodak DLS
+	- RasterPlus crashes if FullBleed is not selected - Fixed
+
+Konica Minilabs
+	- Additional error checking for order files
+
+Noritsu Minilabs
+	- Mismatched devices prevented creation of PPD files - Fixed
+	- Add support for QSS-32 Series of devices
+	- Use Resolution defined on the QSS for Each Paper Size
+    - Get Supported Files types from the QSS
+
+Photogize Print Server
+	- Custom sizes larger than the actual media size did not print - Fixed
+
+Preview
+	- Overlays rotated incorrectly in preview of packages - Fixed
+
+Version 5.2.3
+
+RasterPlus
+	- PPD files not being deleted from System and 95 Crossplatform folders - Fixed
+	- RasterPlus hanging when processing multiple queues simultaneously - Fixed
+
+AGfa Minilabs
+	- Allow a Default surface - Does not affect product code
+
+Fuji Minilabs
+	- PICPro interface modified
+
+Kodak DLS
+	- Custom pages retrieving incorrect image size - Fixed
+
+Konica Minilabs
+	- R1 QDPRINT folder structure changed
+
+Noritsu Minilabs
+	- Allow Packages to print in landscape orientation
+
+Version 5.2.2
+
+RasterPlus
+	- Added support for Windows 2003 Server
+	- Added support for RLE Targa files
+	- Added Hot Folder option to set delay from 0 to 10 seconds
+	- Change the Archive default processing to Keep Maximum of 100 Job Entries
+	- Fix Memory leak when using ICC Profiles
+
+Agfa Minilabs
+	- Packages not selecting proper Media if Media Name contains a space - Fixed
+
+Fuji Printpix
+	- Could not access NC600D Properties when file printing - Fixed
+
+Kodak DLS
+	- Add Surface as a page definition option ( DLS 3.0 )
+
+Konica Minilabs
+	- Unable to create Custom Pages as landscape - Fixed
+	- Konica page size orientation incorrect - Fixed
+
+Index Printing
+	- A single picture indexed to some media sizes caused a crash - Fixed
+
+Noritsu QSS Devices
+	- Increase throughput by allowing the QSS to scale the image
+
+
+Version 5.2.1
+
+Multiple Devices
+	- Some media properties passed from Photogize not processing properly - Fixed
+
+Version 5.2.0
+
+RasterPlus
+	- Could not turn-off hotfolder once it was enabled - Fixed
+	- Change HotFolder process to delay 5 seconds after initial startup when checking for files
+	- Index Pictures not aligning properly when Orientation is Portrait - Fixed
+	- Package overlays with a portrait orientation not working correctly - Fixed
+	- Devices without a default Printer Profile would not use the specified profile - Fixed
+	- Processes color profiles using Windows ICM
+	- Packaging not processing PS Files and File Prints properly - Fixed
+	- Removed ENCAD devices
+	- Removed EPSON devices
+
+Version 5.1.6
+
+RasterPlus
+	 - Added this files to display changes
+	 - Some TIF, JPG files caused a crash when outputting to Film Recorders - Fixed
+	 - Packaging not properly processing sizing selection - Fixed
+
+Specific Devices
+
+Fuji Frontier
+	-  Media Prompt incorrectly displayed when unchecked - Fixed
+
+
+
+Version 5.1.5
+
+RasterPlus
+	 - Add support for latest LeadTools v13
+
+Specific Devices
+
+Generic Minilab
+	 - Printed Packages were not placed in correct Folder - Fixed
+
+Version 5.1.0 - 5.1.4 Summary
+
+RasterPlus
+	 - Moved the limitation on maximum memory to individual drivers
+	 - Added support for Photogize Backprinting
+	 - RasterPlus crashed when printing a Package Set containing a Package Page name containing a comma - Fixed
+	 - Add support for Inset Frames
+	 - BlackisBlack color adjustment making output image ALL black - Fixed
+	 - Orientation problem with some PDF file uninitialized field - Fixed
+	 - Number of copies set incorrectly for file printing - Fixed
+	 - Add support for Index Printing to Hold Queue, Copies, and MediaSize
+	 - The temp file created when creating a new queue not deleted - Fixed
+	 - Invalid extension for WindowsXP PPD file - Fixed
+	 - Inconsistent sticky Queue Properties - Fixed
+	 - Cancelling between Queue and Job Properties created incorrect Queue Properties - Fixed
+	 - Add Remote Diagnostic capability
+	 - IndexPrint layout incorrect with Fit all images on a page selected - Fixed
+	 - Add additional fields, whitespace, copies, pane selection
+	 - Using send all files as a single order did not properly free memory - Fixed
+
+Specific Devices
+
+Agfa Minilabs
+	 - Add support for d-bridge interface
+	 - Add surface to Custom Page definition
+	 - Add additional surface types
+	 - Generated custom name definition in valid - Fixed
+	 - Surface not 'sticking' in Advance Device dialog - Fixed
+ 
+Kodak DLS
+	 - Change Printing Prompt to only display Numver of copies when copies > 1
+	 - Preview incorrectly displayed some packages - Fixed
+ 
+Gretag Minilabs 
+	 - Add Backprinting fields
+	 - Add UNC Path expansion for selected directories
+	 - Shared Local Folders are now permitted as Image/Response file locations
+ 	 - Add linefeed to backprint line
+ 
+Fuji Printers
+	 - Add Button to Force Get for Loaded Papers
+	 - Ony two paper sizes retrieved for Pictro400 - Fixed
+	 - Pictrography 3500 failed with an Undefined RIP Error when Graybalance value is invalid - Fixed
+	 - Add Support for Printpix NC1000
+	 - Add Support for Printpix NC600
+	 - Improve printing speed 
+	 - Added About box for PrintPix machines
+	 - Fix Dimension display values for packages
+	 - Add support for Pictrography 4500
+ 
+Kodak ML-500
+	 - Add support for Selecting fields for Annotation 
+	 - Copies > 1 not printing additional copies - Fixed
+ 
+MGI Driver
+	 - Printing on a PC with a Single Processor slow - Fixed
+ 
+Fuji Frontier
+	 - Image Output Type not staying on change not sticking - Fixed
+	 - Quality box available for TIFF files - Fixed
+	 - Incorrect Paper Names genrated on intial LoadPapers - Fixed
+	 - Image files created in the wrong Folder - Fixed
+	 - Add support for International C4/C5 Frontier Interface
+	 - Add support for PIC Pro Interface
+	 - Add support for surface
+	 - Add a Dialog prompt when media changes.
+ 
+Konica Minilabs
+	 - Incorrect Paper Names genrated on intial LoadPapers - Fixed
+	 - File creation problem when printing images as single order - Fixed
+	 - Image Output Type not staying on change not sticking - Fixed
+ 
+Noritsu
+	 - No Output type displayed if No connection to QSS - Fixed
+	 - Transmit Not returning non RPCException error correctly - Fixed
+	 - Local MAC Address not properly initialized - Fixed
+ 	 - Added a 250dpi resolution to increase the NetOrder throughput
+	 - Change Net Order enable Message box to display at regular intervals
+	 - Change Net Order enable Message to cause a flashing icon on QSS Console indicating Net Order attempting transmission
+	 - File print not finding Packages - Fixed
+	 - Added check to determine which Image Formats are supported by the QSS
+	 - Default to passed name if Network key is not available
+	 - Add suppoet for Noritsu dDP-411 as a valid device
+
+Preview 
+	 - Crash previewing package sets - Fixed
+ 

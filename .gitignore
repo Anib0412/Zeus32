@@ -41,3 +41,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# ===============================
+# Ignore These Folders
+# ===============================
+WinRel
+Debug98
+DebugRP30
+ReleaseRP30

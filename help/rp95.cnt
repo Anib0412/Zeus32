@@ -1,0 +1,73 @@
+:Base rp95.hlp>second
+:Title RasterPlus95
+1 Getting Started
+2 What is RasterPlus95?=RP95_STARTED_WHATIS
+2 Who Can Use RasterPlus95?=RP95_STARTED_WHONEEDS
+2 What do I need to run RasterPlus95?=RP95_STARTED_REQUIREMENTS
+2 The Power of PostScript=RP95_STARTED_POWERPSCRIPT
+1 Quick Start
+2 Printing the sample files=RP95_QUICKSTART_SAMPLES
+2 Printing from Microsoft PowerPoint=RP95_QUICKSTART_FILEPRINT
+1 Printing from your application
+2 Before you proceed...=RP95_PRINTING_APP_ADDDEVICE
+2 Printing to the device=RP95_PRINTING_APP_FILEPRINT
+2 Previewing before printing=RP95_PRINTING_APP_PRINTPREVIEW
+2 Printing from a network node=RP95_NETWORK_PRINTING
+1 Printing directly from RasterPlus95 to your printer
+2 Working with Queues
+3 What is a Queue?=RP95_QUEUE_WHATIS
+3 Selecting Files in the Queue=RP95_QUEUE_SELECTING_FILES
+3 Adding, deleting, moving, and copying files in Queues=RP95_QUEUE_ADDDEL_FILES
+3 Setting Queue Properties=RP95_QUEUE_QUEUE_PROPS
+3 Setting Individual File Properties=RP95_QUEUE_FILE_PROPS
+3 Previewing Files in a Queue=RP95_QUEUE_PREVIEW
+3 Highlight Queue=RP95_QUEUE_HIGHLIGHT
+3 Supported File Formats=RP95_FFORMATS
+2 Device Properties
+3 Standard Properties=RP95_QUEUE_DEVICE_BASIC_PROPS
+3 Optional Properties=RP95_QUEUE_DEVICE_OPTIONS
+3 Advanced Properties=RP95_QUEUE_DEVICE_ADVANCED
+2 Transform Properties
+3 What is a Transform?=RP95_QUEUE_XFORM_WHATIS
+3 Custom Transforms=RP95_QUEUE_XFORM_CUSTOM
+3 Pre-built Transforms=RP95_QUEUE_XFORM_DEFAULT
+2 Server Properties
+3 What is a Server?=RP95_QUEUE_SERVER_WHATIS
+3 Setting Server Properties=RP95_QUEUE_SERVER_PROPERTIES
+1 Printing Feedback/Results
+2 Queue Status Icons=RP95_FEEDBACK_STATUSICONS
+2 Print/Preview Results in File Properties=RP95_FEEDBACK_FILEPROPS
+2 The Image Report=RP95_FEEDBACK_REPORT
+2 The PostScript Output Window=RP95_FEEDBACK_PSOUT
+1 Troubleshooting
+1 Getting Help
+2 RasterPlus95 on-line help=RP95_HELP_ONLINE
+2 Technical Support=RP95_POLA_HELP@dpal.hlp>third
+2 Troubleshooting=RP95_TROUBLE>main
+1 Device Notes
+2 Agfa/MGI Color Film Recorders=RP95_DEVICES_AGFA@mgimtx.hlp>third
+2 Polaroid Digital Palette=RP95_DEVICES_DPAL@dpal.hlp>third
+2 Sienna FotoPrint=RP95_DEVICES_SIENNA@fotoprnt.hlp>third
+2 Mirus Filmprinter=RP95_DEVICES_MIRUS@mirus.hlp>third
+2 Kodak dye-sub printers=RP95_DEVICES_KODAK@kodak.hlp>third
+2 Fuji Pictrography=RP95_DEVICES_FUJI@fuji.hlp>third
+2 Encad Novajet=RP95_DEVICES_NOVAJET@novajet.hlp>third
+2 Montage FR2=RP95_DEVICES_MONTAGE@montage.hlp>third
+2 Polaroid PLD8800=RP95_DEVICES_PLD8800@sony.hlp>third
+2 Sony UP-D8800=RP95_DEVICES_UPD8800@sony.hlp>third
+2 Kodak 8650=RP95_DEVICES_KDK8000@kdk8000.hlp>third
+2 Samurai=RP95_DEVICES_SAMURAI@samurai.hlp>third
+2 Lasergraphics=RP95_DEVICES_LASERGRAPHICS@lsrgrfx.hlp>third
+2 Sony YP-D9000=RP95_DEVICES_SONY9000@sony9000.hlp>third
+1 Removing RasterPlus95 from your System
+2 Uninstalling RasterPlus95=RP95_UNINSTALL
+1 Menu Reference
+2 File=RP95_MENU_FILE>main
+2 Edit=RP95_MENU_EDIT>main
+2 Process=RP95_MENU_PROCESS>main
+2 View=RP95_MENU_VIEW>main
+2 Tools=RP95_MENU_TOOLS>main
+2 Window=RP95_MENU_WINDOW>main
+2 Help=RP95_MENU_HELP>main
+1 The RasterPlus95 toolbar
+2 About the toolbar=RP95_TOOLBAR>main

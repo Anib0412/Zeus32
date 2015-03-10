@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[zeus.dsp]
+SCC_Aux_Path = "\\192.168.100.136\C$\Vss"
+SCC_Project_Name = "$/Source/Zeus32", XXAAAAAA
+
+[zeus.mak]
+SCC_Aux_Path = "\\192.168.100.136\C$\Vss"
+SCC_Project_Name = "$/Source/Zeus32", XXAAAAAA
+
+[zeus.mdp]
+SCC_Aux_Path = "\\192.168.100.136\C$\Vss"
+SCC_Project_Name = "$/Source/Zeus32", XXAAAAAA

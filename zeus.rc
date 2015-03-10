@@ -1,0 +1,2814 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "secres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""secres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.rc""  \t// Standard components\r\n"
+    "#include ""afxprint.rc""\t// printing/print preview resources\r\n"
+    "#include ""secres.rc""\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_EDIT_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "J",            ID_PREFERENCES_LOCAL,   VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_OUR_FILE_PRINT,      VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_PREFERENCES_QUEUE,   VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_DELETE,         VIRTKEY, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP_INDEX,          VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_ADDFILES,       VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_LBUTTON,     ID_EDIT_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_PHZMAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_EDIT_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "J",            ID_PREFERENCES_LOCAL,   VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_OUR_FILE_PRINT,      VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_PREFERENCES_QUEUE,   VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_DELETE,         VIRTKEY, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP_INDEX,          VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_ADDFILES,       VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_LBUTTON,     ID_EDIT_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "RES\\ICO00009.ICO"
+IDI_ICON_PREVIEW        ICON    DISCARDABLE     "RES\\ICON_PRE.ICO"
+IDI_LANDSCAPE           ICON    DISCARDABLE     "RES\\LANDSCAP.ICO"
+IDI_PORTRAIT            ICON    DISCARDABLE     "RES\\PORTRAIT.ICO"
+IDR_ZEUSTYPE            ICON    DISCARDABLE     "RES\\IDR_ZEUS.ICO"
+IDI_CABICON             ICON    DISCARDABLE     "RES\\ICO00001.ICO"
+IDI_PSOUT               ICON    DISCARDABLE     "RES\\ICON6.ICO"
+IDI_STATUS_OK           ICON    DISCARDABLE     "RES\\ICO00002.ICO"
+IDI_STATUS_HOLD         ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_STATUS_WAIT1        ICON    DISCARDABLE     "RES\\ICO00004.ICO"
+IDI_STATUS_NOTOK        ICON    DISCARDABLE     "RES\\ICO00005.ICO"
+IDI_STATUS_PROPS_DEVICE ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_STATUS_PROPS_TRANSFORM ICON    DISCARDABLE     "res\\ico00007.ico"
+IDI_STATUS_PROPS_COLOR  ICON    DISCARDABLE     "res\\ico00008.ico"
+IDI_STATUS_OK_DELETED   ICON    DISCARDABLE     "RES\\STATUS_O.ICO"
+IDI_VISUALXFORM_ICON    ICON    DISCARDABLE     "res\\status_p.ico"
+IDI_OUR_HAND            ICON    DISCARDABLE     "res\\ico00010.ico"
+IDI_CROP                ICON    DISCARDABLE     "res\\ico00011.ico"
+IDI_PRINTTRAY           ICON    DISCARDABLE     "res\\ico00012.ico"
+IDI_PRINTTRAY1          ICON    DISCARDABLE     "res\\printtra.ico"
+IDI_PRINTTRAY2          ICON    DISCARDABLE     "res\\ico00013.ico"
+IDI_PRINTTRAY3          ICON    DISCARDABLE     "res\\ico00014.ico"
+IDI_PRINTTRAY4          ICON    DISCARDABLE     "res\\ico00015.ico"
+IDR_ZEUSPHZTYPE         ICON    DISCARDABLE     "res\\ico00016.ico"
+IDR_PHZMAINFRAME        ICON    DISCARDABLE     "res\\idr_main.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SPLASHWND_NEW       BITMAP  DISCARDABLE     "rpsp_new_2_24.bmp"
+IDB_SPLASHWND_256_NEW   BITMAP  DISCARDABLE     "rpsp_new_2_8.bmp"
+IDB_PREVCTRL_NEXT       BITMAP  DISCARDABLE     "res\\prevctrl.bmp"
+IDB_PREVCTRL_PREV       BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_PREVCTRL_BEGIN      BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_PREVCTRL_END        BITMAP  DISCARDABLE     "res\\bitmap5.bmp"
+IDB_COLDTOOLBAR         BITMAP  DISCARDABLE     "res\\coldtool.bmp"
+IDB_HOTTOOLBAR          BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_RPICON              BITMAP  DISCARDABLE     "rpicon.bmp"
+IDB_EDITPAGE            BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_SPLASHWND_NEW_FUJI  BITMAP  DISCARDABLE     "rpsp_new_2_24_fuji.bmp"
+IDB_SPLASHWND_256_NEW_FUJI BITMAP  DISCARDABLE     "rpsp_new_2_8_fuji.bmp"
+IDB_PREVCTRL_PRINT      BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_PREVCTRL_CLOSE      BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_PREVCTRL_ZOOMIN     BITMAP  DISCARDABLE     "res\\zoom_in.bmp"
+IDB_PREVCTRL_ZOOMOUT    BITMAP  DISCARDABLE     "res\\zoom_out.bmp"
+IDR_TOOLBAR_MAIN        BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_TOOLBAR_MAIN_SMALL  BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_TOOLBAR_PHZMAIN     BITMAP  DISCARDABLE     "res\\toolbarPHZ.bmp"
+IDR_TOOLBAR_PHZMAIN_SMALL BITMAP  MOVEABLE PURE   "res\\Toolbar1PHZ.bmp"
+IDB_HICOLOR_TOOLBAR     BITMAP  DISCARDABLE     "Res\\HiColorToolbar.bmp"
+IDB_HICOLOR_TOOLBAR_DISABLED BITMAP  DISCARDABLE     "Res\\HiColorToolbarDisabled.bmp"
+IDB_HICOLOR_TOOLBAR_HOT BITMAP  DISCARDABLE     "Res\\HiColorToolbarHot.bmp"
+IDB_SPLASHWND_VERSION6  BITMAP  DISCARDABLE     "rp6.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Printer"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW2
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options",                    ID_PREFERENCES_GLOBAL
+        MENUITEM SEPARATOR
+        MENUITEM "Check for &Updates",          ID_WEB_UPDATE
+        MENUITEM SEPARATOR
+        MENUITEM "&Explorer",                   ID_TOOLS_EXPLORER
+        MENUITEM SEPARATOR
+        MENUITEM "&SCSI Explorer",              ID_TOOLS_SCSI_EXPLORER
+        MENUITEM SEPARATOR
+        MENUITEM "License &Manager",            ID_TOOLS_LICENSE_MANAGER
+        MENUITEM SEPARATOR
+        MENUITEM "S&ave State",                 ID_TOOLS_SAVESTATE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&RasterPlus Reference\tF1",   ID_HELP_INDEX
+        MENUITEM SEPARATOR
+        MENUITEM "Online &HelpDesk",            ID_HELP_DESK
+        MENUITEM "&Remote Diagnostics...",      ID_HELP_REMOTE_DIAGNOSTIC
+        MENUITEM SEPARATOR
+        MENUITEM "&New in this version",        ID_HELP_NEWINTHISVERSION
+        MENUITEM SEPARATOR
+        MENUITEM "Photogize &Web Site",         ID_WEB
+        MENUITEM SEPARATOR
+        MENUITEM "&About RasterPlus...",        ID_APP_ABOUT
+    END
+END
+
+IDR_ZEUSTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Printer"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW2
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "Reinsta&ll Application Print Driver", 
+                                                ID_FILE_REINSTALLPRINTER
+        MENUITEM "Conf&igure Application Print Driver", 
+                                                ID_FILE_APPDRIVER_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "&Print All Jobs\tCtrl+P",     ID_OUR_FILE_PRINT
+        MENUITEM "Prin&t Selected Jobs",        ID_OUR_FILE_PRINT_SEL
+        MENUITEM SEPARATOR
+        MENUITEM "Print Index - All Jobs",      ID_OUR_FILE_PRINT_INDEX
+        MENUITEM "Print Index - Selected Jobs", ID_OUR_FILE_PRINT_SEL_INDEX
+        MENUITEM SEPARATOR
+        MENUITEM "Pre&view All Jobs",           ID_OUR_FILE_PRINT_PREVIEW
+        MENUITEM "Previe&w Selected Jobs",      ID_FILE_PRINT_PREVIEW_SEL
+        MENUITEM "Preview Selected Jobs - High Definition", 
+                                                ID_FILE_PRINT_PREVIEW_SEL_HD
+        MENUITEM SEPARATOR
+        MENUITEM "Cancel Printin&g",            ID_PROCESS_CANCELIMAGING
+        MENUITEM "Skip to Next &File",          ID_PROCESS_SKIPTONEXTFILE
+        MENUITEM "Pa&use Printing",             ID_PROCESS_PAUSEIMAGING
+        MENUITEM "&Resume Imaging",             ID_PROCESS_RESUMEIMAGING
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Add Jobs\tInsert",           ID_EDIT_ADDFILES
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "Cl&ear\tDelete",              ID_EDIT_DELETE
+        MENUITEM "Select A&ll\tCtrl+A",         ID_EDIT_SELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "C&opy Job Properties",        ID_EDIT_COPYATTS
+        MENUITEM "Paste &Job Properties",       ID_EDIT_PASTEATTS
+        MENUITEM SEPARATOR
+        MENUITEM "&Reset Status",               ID_EDIT_RESETSTATUS
+        MENUITEM "Reset Job Properties",        ID_EDIT_RESETPROPS
+        MENUITEM SEPARATOR
+        MENUITEM "Default &Queue Properties\tCtrl+Q", ID_PREFERENCES_QUEUE
+        MENUITEM "Job Propert&ies\tCtrl+J",     ID_PREFERENCES_LOCAL
+        MENUITEM SEPARATOR
+        MENUITEM "Insert &BatchHeader",         ID_EDIT_ADDBATCHHEADER
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "T&oolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "&Queue Status",               CG_ID_VIEW_QUEUESTATUS
+        MENUITEM "&Printing Status",            CG_ID_VIEW_PSOUT
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options",                    ID_PREFERENCES_GLOBAL
+        MENUITEM SEPARATOR
+        MENUITEM "Check for &Updates",          ID_WEB_UPDATE
+        MENUITEM SEPARATOR
+        MENUITEM "&Explorer",                   ID_TOOLS_EXPLORER
+        MENUITEM SEPARATOR
+        MENUITEM "&SCSI Explorer",              ID_TOOLS_SCSI_EXPLORER
+        MENUITEM SEPARATOR
+        MENUITEM "&View Log",                   ID_TOOLS_LOG
+        MENUITEM "Pr&int Log",                  ID_TOOLS_PRINTLOG
+        MENUITEM "Reset &Log",                  ID_TOOLS_RESETLOG
+        MENUITEM "&Archive Log",                ID_TOOLS_ARCHIVELOG
+        MENUITEM SEPARATOR
+        MENUITEM "License &Manager",            ID_TOOLS_LICENSE_MANAGER
+        MENUITEM SEPARATOR
+        MENUITEM "Save S&tate",                 ID_TOOLS_SAVESTATE
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "Close All &Previews",         ID_WINDOW_CLOSE_ALL_PREVIEW
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&RasterPlus Reference\tF1",   ID_HELP_INDEX
+        MENUITEM SEPARATOR
+        MENUITEM "Onine &HelpDesk",             ID_HELP_DESK
+        MENUITEM "&Remote Diagnostics...",      ID_HELP_REMOTE_DIAGNOSTIC
+        MENUITEM SEPARATOR
+        MENUITEM "&New in this version",        ID_HELP_NEWINTHISVERSION
+        MENUITEM SEPARATOR
+        MENUITEM "Photogize &Web Site",         ID_WEB
+        MENUITEM SEPARATOR
+        MENUITEM "&About RasterPlus...",        ID_APP_ABOUT
+    END
+END
+
+IDR_ZEUSPHZTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Printer"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW2
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "Reinsta&ll Application Print Driver", 
+                                                ID_FILE_REINSTALLPRINTER
+        MENUITEM "Conf&igure Application Print Driver", 
+                                                ID_FILE_APPDRIVER_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "&Print All Jobs\tCtrl+P",     ID_OUR_FILE_PRINT
+        MENUITEM "Prin&t Selected Jobs",        ID_OUR_FILE_PRINT_SEL
+        MENUITEM SEPARATOR
+        MENUITEM "Print Index - All Jobs",      ID_OUR_FILE_PRINT_INDEX
+        MENUITEM "Print Index - Selected Jobs", ID_OUR_FILE_PRINT_SEL_INDEX
+        MENUITEM SEPARATOR
+        MENUITEM "Pre&view All Jobs",           ID_OUR_FILE_PRINT_PREVIEW
+        MENUITEM "Previe&w Selected Jobs",      ID_FILE_PRINT_PREVIEW_SEL
+        MENUITEM "Preview Selected Jobs - High Definition", 
+                                                ID_FILE_PRINT_PREVIEW_SEL_HD
+        MENUITEM SEPARATOR
+        MENUITEM "Cancel Printin&g",            ID_PROCESS_CANCELIMAGING
+        MENUITEM "Skip to Next &File",          ID_PROCESS_SKIPTONEXTFILE
+        MENUITEM "Pa&use Printing",             ID_PROCESS_PAUSEIMAGING
+        MENUITEM "&Resume Imaging",             ID_PROCESS_RESUMEIMAGING
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Add Jobs\tInsert",           ID_EDIT_ADDFILES
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "Cl&ear\tDelete",              ID_EDIT_DELETE
+        MENUITEM "Select A&ll\tCtrl+A",         ID_EDIT_SELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "C&opy Job Properties",        ID_EDIT_COPYATTS
+        MENUITEM "Paste &Job Properties",       ID_EDIT_PASTEATTS
+        MENUITEM SEPARATOR
+        MENUITEM "&Reset Status",               ID_EDIT_RESETSTATUS
+        MENUITEM "Reset Job Properties",        ID_EDIT_RESETPROPS
+        MENUITEM SEPARATOR
+        MENUITEM "Default &Queue Properties\tCtrl+Q", ID_PREFERENCES_QUEUE
+        MENUITEM "Job Propert&ies\tCtrl+J",     ID_PREFERENCES_LOCAL
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "T&oolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "&Queue Status",               CG_ID_VIEW_QUEUESTATUS
+        MENUITEM "&Printing Status",            CG_ID_VIEW_PSOUT
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options",                    ID_PREFERENCES_GLOBAL
+        MENUITEM SEPARATOR
+        MENUITEM "Check for &Updates",          ID_WEB_UPDATE
+        MENUITEM SEPARATOR
+        MENUITEM "&Explorer",                   ID_TOOLS_EXPLORER
+        MENUITEM SEPARATOR
+        MENUITEM "&SCSI Explorer",              ID_TOOLS_SCSI_EXPLORER
+        MENUITEM SEPARATOR
+        MENUITEM "&View Log",                   ID_TOOLS_LOG
+        MENUITEM "Pr&int Log",                  ID_TOOLS_PRINTLOG
+        MENUITEM "Reset &Log",                  ID_TOOLS_RESETLOG
+        MENUITEM "&Archive Log",                ID_TOOLS_ARCHIVELOG
+        MENUITEM SEPARATOR
+        MENUITEM "License &Manager",            ID_TOOLS_LICENSE_MANAGER
+        MENUITEM SEPARATOR
+        MENUITEM "Save S&tate",                 ID_TOOLS_SAVESTATE
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "Close All &Previews",         ID_WINDOW_CLOSE_ALL_PREVIEW
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&RasterPlus Reference\tF1",   ID_HELP_INDEX
+        MENUITEM SEPARATOR
+        MENUITEM "Online &HelpDesk",            ID_HELP_DESK
+        MENUITEM "&Remote Diagnostics...",      ID_HELP_REMOTE_DIAGNOSTIC
+        MENUITEM SEPARATOR
+        MENUITEM "&New in this version",        ID_HELP_NEWINTHISVERSION
+        MENUITEM SEPARATOR
+        MENUITEM "Photogize &Web Site",         ID_WEB
+        MENUITEM SEPARATOR
+        MENUITEM "&About RasterPlus...",        ID_APP_ABOUT
+    END
+END
+
+IDR_PHZMAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Printer"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW2
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Options",                    ID_PREFERENCES_GLOBAL
+        MENUITEM SEPARATOR
+        MENUITEM "Check for &Updates",          ID_WEB_UPDATE
+        MENUITEM SEPARATOR
+        MENUITEM "&Explorer",                   ID_TOOLS_EXPLORER
+        MENUITEM SEPARATOR
+        MENUITEM "&SCSI Explorer",              ID_TOOLS_SCSI_EXPLORER
+        MENUITEM SEPARATOR
+        MENUITEM "License &Manager",            ID_TOOLS_LICENSE_MANAGER
+        MENUITEM SEPARATOR
+        MENUITEM "S&ave State",                 ID_TOOLS_SAVESTATE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&RasterPlus Reference\tF1",   ID_HELP_INDEX
+        MENUITEM SEPARATOR
+        MENUITEM "Online &HelpDesk",            ID_HELP_DESK
+        MENUITEM "&Remote Diagnostics...",      ID_HELP_REMOTE_DIAGNOSTIC
+        MENUITEM SEPARATOR
+        MENUITEM "&New in this version",        ID_HELP_NEWINTHISVERSION
+        MENUITEM SEPARATOR
+        MENUITEM "Photogize &Web Site",         ID_WEB
+        MENUITEM SEPARATOR
+        MENUITEM "&About RasterPlus...",        ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  34, 22, 237, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About RasterPlus"
+FONT 8, "Arial"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,10,20,20
+    LTEXT           "RasterPlus",IDC_PRODUCT_NAME,35,10,137,8
+    LTEXT           "Copyright © 1996-2015 Graphx, Inc.",IDC_STATIC,35,30,
+                    137,8
+    LTEXT           "Version",IDC_VERSION,35,20,137,8
+    LTEXT           "Installed Memory:",IDC_STATIC,35,141,90,9
+    LTEXT           "Free Virtual Memory:",IDC_STATIC,35,151,90,9
+    RTEXT           "0",IDC_INSTALLED_MEM,130,141,35,9
+    RTEXT           "0",IDC_FREE_VIRTUAL,130,151,35,9
+    LTEXT           "Kbytes",IDC_STATIC,171,151,35,9
+    LTEXT           "Kbytes",IDC_STATIC,171,141,35,9
+    LTEXT           "This copy of RasterPlus is licensed to:",IDC_STATIC,35,
+                    91,179,8
+    LTEXT           "Fred Flintstone",IDC_USERNAME,35,101,178,8
+    LTEXT           "Rubble Works Software",IDC_ORGANIZATION,35,111,178,8
+    PUSHBUTTON      "OK",IDOK,191,6,40,14
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | SS_SUNKEN,17,85,204,
+                    2
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | SS_SUNKEN,16,134,
+                    204,2
+    LTEXT           "Free Physical Memory:",IDC_STATIC,35,161,90,9
+    RTEXT           "0",IDC_FREE_PHYSICAL,130,161,35,9
+    LTEXT           "Kbytes",IDC_STATIC,171,161,35,9
+    LTEXT           "1234",IDC_SERIALNUMBER,91,122,126,8
+    LTEXT           "Serial Number:",IDC_STATIC,35,122,48,8
+    LTEXT           "Portions of this product were created using LEADTOOLS ©1991-2002, LEAD Technologies, Inc.  ALL RIGHTS RESERVED.",
+                    IDC_STATIC,36,46,183,25
+    LTEXT           "Host IP:",IDC_STATIC,35,171,90,9
+    LTEXT           "Unknown",IDC_IP,130,171,70,8
+END
+
+IDD_DIALOG_GPREFS DIALOG DISCARDABLE  0, 0, 289, 134
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "General"
+FONT 8, "Arial"
+BEGIN
+    GROUPBOX        "Preview",IDC_STATIC,2,0,283,62
+    LTEXT           "&Preview Size:",IDC_PREVIEWSIZE_PRMPT,6,11,46,8
+    COMBOBOX        IDC_PREVIEWSIZE,55,9,66,56,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "&Maximum Open Preview Windows:",IDC_MAXPREVIEW_PRMPT,
+                    129,10,115,10
+    EDITTEXT        IDC_MAXPREVIEW_EDIT,247,9,20,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_MAXPREVIEW_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,269,9,11,
+                    12
+    CONTROL         "Pa&use after each image is displayed",IDC_PAUSE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,25,132,10
+    CONTROL         "&Always open a new window",IDC_ALWAYSOPEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,157,25,111,10
+    CONTROL         "Au&tomatically make next preview pane active",
+                    IDC_AUTOADVANCE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    35,161,10
+    CONTROL         "Show &Rulers",IDC_SHOWRULERS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,46,58,10
+    LTEXT           "U&nits:",IDC_UNITS_PROMPT,91,47,19,8
+    COMBOBOX        IDC_UNITS,138,45,53,50,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Look and Feel",IDC_STATIC,2,62,283,26
+    CONTROL         "&Large Toolbar Buttons",IDC_LARGETOOLBAR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,73,96,10
+    GROUPBOX        "Photogize",IDC_PHZSERVER_GROUP,2,89,283,24
+    CONTROL         "&Enable PrintServer",IDC_ENABLEPRINTSERVER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,99,73,10
+END
+
+IDD_TRANSFORM DIALOG DISCARDABLE  0, 0, 258, 110
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Transform"
+FONT 8, "Arial"
+BEGIN
+    GROUPBOX        "Current &Transform",IDC_TRANSFORM_GRP,20,5,165,35
+    COMBOBOX        IDC_TRANSFORM,25,20,155,68,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Description",IDC_DESCRIPTION_GRP,20,44,165,57
+    EDITTEXT        IDC_DESCRIPTION,25,56,155,39,ES_MULTILINE | ES_READONLY
+    PUSHBUTTON      "OK",IDOUROK,211,6,40,14
+    PUSHBUTTON      "Cancel",IDOURCANCEL,211,23,40,14
+    PUSHBUTTON      "&Edit",IDC_EDIT,211,40,40,14
+    PUSHBUTTON      "&Close",IDC_CLOSE,211,6,40,14
+    PUSHBUTTON      "&Reset",IDC_RESET,211,23,40,14
+END
+
+IDD_DIALOG_NEWXFORM DIALOG DISCARDABLE  0, 0, 224, 83
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "New Transform"
+FONT 8, "Arial"
+BEGIN
+    GROUPBOX        "&New Transform Name",IDC_STATIC,4,4,165,35
+    EDITTEXT        IDC_NEWNAME,8,19,156,13,ES_AUTOHSCROLL
+    GROUPBOX        "&Based On",IDC_STATIC,4,44,165,35
+    COMBOBOX        IDC_BASEDON,8,59,156,30,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,182,6,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,182,23,36,14
+END
+
+IDD_DIALOG_BHEADER DIALOG DISCARDABLE  0, 0, 186, 134
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "BatchHeader"
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Show image &corners",IDC_IMAGECORNERS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,4,96,10
+    CONTROL         "Show &date",IDC_DATE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,16,48,10
+    CONTROL         "Show &time",IDC_TIME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,28,48,10
+    CONTROL         "Show &image count",IDC_SHOW_IMAGECOUNT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,40,80,10
+    LTEXT           "Image Co&unt:",IDC_IMAGECOUNT_TITLE,8,54,46,8
+    EDITTEXT        IDC_IMAGECOUNT_EDIT,57,52,30,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_SPIN_CONTROL,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,88,52,9,
+                    12
+    LTEXT           "&Background:",IDC_BACKGROUND_PRMPT,8,72,42,8
+    COMBOBOX        IDC_BACKGROUND,57,70,100,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "&Notes",IDC_NOTES_PROMPT,4,85,176,44
+    EDITTEXT        IDC_NOTES1,8,95,168,13
+    EDITTEXT        IDC_NOTES2,8,111,168,13
+    DEFPUSHBUTTON   "OK",IDOK,144,6,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,144,23,36,14
+END
+
+IDD_DIALOG_GPREFS_DEVLIST DIALOG DISCARDABLE  0, 0, 289, 134
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Print Driver Manager"
+FONT 8, "Arial"
+BEGIN
+    GROUPBOX        "&Print Drivers installed in Windows",IDC_STATIC,5,1,233,
+                    64
+    LISTBOX         IDC_DEVLIST_INSTALLED,10,10,224,51,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "&Available Print Drivers",IDC_STATIC,5,67,233,64
+    LISTBOX         IDC_DEVLIST_AVAILABLE,10,77,224,51,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "&Close",IDOUROK,245,5,40,14
+    PUSHBUTTON      "Insta&ll",IDC_INSTALL,245,22,40,14
+    PUSHBUTTON      "&Printers...",IDC_CONTROL_PANEL,245,39,40,14
+    PUSHBUTTON      "Pr&operties",IDC_PROPERTIES,245,56,40,14
+    PUSHBUTTON      "Co&nnect",IDC_CONNECT2,245,73,40,14
+    PUSHBUTTON      "Rena&me",IDC_RENAME,245,90,40,14
+    PUSHBUTTON      "&Remove",IDC_DELETE,245,22,40,14
+END
+
+IDD_CABINSTALL DIALOG DISCARDABLE  0, 0, 246, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Copying Files..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,190,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,190,23,50,14
+    PUSHBUTTON      "&Browse...",IDC_BROWSE,191,107,49,14
+    ICON            IDI_CABICON,IDC_STATIC,9,8,18,20
+    LTEXT           "",IDC_PROMPT1,41,11,129,19
+    LTEXT           "",IDC_PROMPT2,41,35,129,56
+    LTEXT           "&Copy files from:",IDC_STATIC,41,95,48,8
+    COMBOBOX        IDC_PATH,41,108,137,48,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_MODELESS_WAIT DIALOG DISCARDABLE  0, 0, 270, 22
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Please Wait...",IDC_PROMPT,5,7,262,8
+END
+
+IDD_LOADTRANSFORM DIALOG DISCARDABLE  0, 0, 241, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Load Transform"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_TLIST,5,6,170,83,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,185,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,23,50,14
+END
+
+IDD_DIALOG_GPREFS_TRANSFORM DIALOG DISCARDABLE  0, 0, 258, 110
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Transform Manager"
+FONT 8, "Arial"
+BEGIN
+    GROUPBOX        "&Installed Transforms",IDC_STATIC,15,6,186,97
+    LISTBOX         IDC_XFORMLIST,20,16,176,83,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Close",IDOUROK,211,6,40,14
+    PUSHBUTTON      "&Delete",IDC_DELETE,211,23,40,14
+END
+
+CG_IDD_PSOUT DIALOG DISCARDABLE  0, 0, 445, 36
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_PSOUT,0,0,445,36,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_IMAGE_PAUSE DIALOG DISCARDABLE  0, 0, 130, 45
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Process Paused!"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Stop Pausing",IDC_STOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,17,58,10
+    DEFPUSHBUTTON   "&Continue",IDOK,73,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,73,24,50,14
+END
+
+IDD_DEVCONNECT DIALOG DISCARDABLE  0, 0, 199, 106
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Printer Connection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,142,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,142,24,50,14
+    LISTBOX         IDC_CONNECTLIST,8,7,121,91,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SAVE_XFORM DIALOG DISCARDABLE  0, 0, 261, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Save Transform As"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Save As",IDC_STATIC,15,7,180,30
+    EDITTEXT        IDC_NEW_XFORM,20,17,171,14,ES_AUTOHSCROLL
+    GROUPBOX        "Current Transform List",IDC_STATIC,15,38,180,102
+    LISTBOX         IDC_XFORM_LIST,20,47,171,89,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,204,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,204,24,50,14
+END
+
+IDD_SCSI_EXPLORER DIALOG DISCARDABLE  0, 0, 184, 182
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SCSI Explorer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,34,161,50,14
+    PUSHBUTTON      "&Rescan",IDC_RESCAN,100,161,50,14
+    LISTBOX         IDC_SCSI_LIST,4,1,175,153,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PREV_CTRL DIALOG DISCARDABLE  0, 0, 292, 26
+STYLE WS_CHILD | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "|<-",IDC_BEGIN,"Button",BS_OWNERDRAW | WS_TABSTOP,1,1,
+                    17,14
+    CONTROL         "<-",IDC_PREV,"Button",BS_OWNERDRAW | WS_TABSTOP,20,1,17,
+                    14
+    CONTROL         "->",IDC_NEXT,"Button",BS_OWNERDRAW | WS_TABSTOP,39,1,17,
+                    14
+    CONTROL         "->|",IDC_END,"Button",BS_OWNERDRAW | WS_TABSTOP,58,1,17,
+                    14
+    CONTROL         "Print",IDC_PRINT,"Button",BS_OWNERDRAW | WS_TABSTOP,79,
+                    1,17,14
+    CONTROL         "Close",IDC_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,101,
+                    1,17,14
+    LTEXT           "1 of 1",IDC_COUNT,2,16,55,9
+    CONTROL         "ZoomIn",IDC_ZOOMIN,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    123,1,17,14
+    CONTROL         "ZoomOut",IDC_ZOOMOUT,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    145,1,17,14
+END
+
+IDD_JOBPROPERTIES DIALOG DISCARDABLE  0, 0, 207, 286
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "General"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Name:",IDC_FILENAME_PRMPT,33,2,22,9
+    EDITTEXT        IDC_FILENAME,58,1,145,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_WANTRETURN
+    RTEXT           "Size:",IDC_FILESIZE_PRMPT,33,16,22,9
+    LTEXT           "N/A",IDC_FILESIZE,58,15,84,11,SS_SUNKEN
+    RTEXT           "Date:",IDC_FILEDATE_PRMPT,33,30,22,9
+    LTEXT           "N/A",IDC_FILEDATE,58,29,45,11,SS_SUNKEN
+    RTEXT           "Time:",IDC_FILETIME_PRMPT,103,30,18,9
+    LTEXT           "N/A",IDC_FILETIME,124,28,45,11,SS_SUNKEN
+    RTEXT           "Description:",IDC_DESCRIPTION_PRMPT,13,44,38,9
+    EDITTEXT        IDC_DESCRIPTION,58,43,145,12,ES_AUTOHSCROLL
+    RTEXT           "File Type:",IDC_FILETYPE_PRMPT,13,57,38,9
+    LTEXT           "N/A",IDC_FILETYPE,58,57,82,11,SS_SUNKEN
+    RTEXT           "Pages:",IDC_PAGES_PRMPT,145,57,23,9
+    LTEXT           "1",IDC_PAGES2,175,57,25,11,SS_SUNKEN
+    RTEXT           "Bounding Box:",IDC_BOUNDINGBOX_PRMPT,0,72,51,9
+    CONTROL         "N/A",IDC_BOUNDINGBOX,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_SUNKEN | WS_GROUP,58,71,142,11
+    GROUPBOX        "Device",IDC_DEVICE_BOX,2,83,201,110
+    RTEXT           "&Connection:",IDC_CONNECTION_PRMPT,10,94,45,10,NOT 
+                    WS_GROUP
+    COMBOBOX        IDC_CONNECTION,59,92,137,57,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Media Si&ze:",IDC_MEDIA_SIZE_PRMPT,10,110,45,10,NOT 
+                    WS_GROUP
+    COMBOBOX        IDC_MEDIA_SIZE,59,108,124,154,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "...",IDC_EDIT_MEDIA,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    184,108,13,12
+    RTEXT           "Description:",IDC_PAGEDESC_PRMPT,10,124,45,10,NOT 
+                    WS_GROUP
+    LTEXT           "",IDC_PAGEDESC,60,124,136,18,SS_SUNKEN
+    RTEXT           "Dimensions:",IDC_PAGEDIMS_PRMPT,10,145,45,10,NOT 
+                    WS_GROUP
+    CONTROL         "",IDC_PAGEDIMS,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | 
+                    WS_GROUP,60,144,136,11
+    RTEXT           "&Orientation:",IDC_ORIENTATION_PRMPT,10,161,45,10,NOT 
+                    WS_GROUP
+    COMBOBOX        IDC_ORIENTATION,59,159,64,57,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "&Resolution:",IDC_RESOLUTION_PRMPT,10,177,45,10,NOT 
+                    WS_GROUP
+    COMBOBOX        IDC_RESOLUTION,59,175,64,57,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Copie&s:",IDC_COPIES_PRMPT,129,177,24,10
+    EDITTEXT        IDC_COPIES_EDIT,159,175,24,13,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_COPIES_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,183,175,
+                    9,13
+    CONTROL         "Print Range:",IDC_PRANGE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,199,55,10
+    EDITTEXT        IDC_PRANGE_EDIT,67,197,135,14,ES_AUTOHSCROLL
+    GROUPBOX        "Data Management",IDC_ADVANCED_DATA_MANAGE,2,211,201,74
+    CONTROL         "&Buffer To Disk",IDC_BUFFERTODISK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,221,63,11
+    CONTROL         "Print Bitmaps at Nati&ve Resolution",IDC_SCALE_BITMAP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,76,221,123,11
+    CONTROL         "Compress Data from PostScript &files",IDC_COMPRESS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,233,127,10
+    CONTROL         "Compress Data from Bitma&p files",IDC_COMPRESS_BITMAP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,244,117,10
+    CONTROL         "PostScript Anti-aliasing",IDC_AATYPE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,256,87,10
+    LTEXT           "Overs&ample:",IDC_AAOVERSAMPLE_PRMPT,107,257,40,9
+    COMBOBOX        IDC_AAOVERSAMPLE,151,255,29,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "B&itmap Sampling:",IDC_BITMAPSAMPLING_PRMPT,11,270,55,8
+    COMBOBOX        IDC_BITMAPSAMPLING,75,268,105,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+CG_IDD_RIPSTATUS DIALOGEX 0, 0, 463, 26
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_PRINT_STATUS_TEXT,3,2,165,10,0,WS_EX_STATICEDGE
+    CONTROL         "Progress1",IDC_PRINT_STATUS_PROGRESS,"msctls_progress32",
+                    PBS_SMOOTH,285,2,105,10,WS_EX_STATICEDGE
+    LTEXT           "",IDC_PREVIEW_STATUS_TEXT,3,15,165,10,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Progress1",IDC_PREVIEW_STATUS_PROGRESS,
+                    "msctls_progress32",PBS_SMOOTH,285,15,105,10,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_PRINT_STATUS_PROMPT,171,3,108,8
+    LTEXT           "",IDC_PREVIEW_STATUS_PROMPT,171,16,108,8
+    LTEXT           "",IDC_ELAPSED_TIME_HOLD,394,16,69,8
+    LTEXT           "",IDC_ELAPSED_TIME_PRINT,394,3,69,8
+END
+
+IDD_JOBDEVPROPERTIES DIALOG DISCARDABLE  0, 0, 204, 269
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Advanced Device"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_NEWQUEUE DIALOG DISCARDABLE  0, 0, 291, 169
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create a new Printer Queue"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Printer",IDC_STATIC,5,4,218,124
+    LISTBOX         IDC_DEVICE,11,14,208,111,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Name:",IDC_NAME_PRMPT,5,135,22,8
+    EDITTEXT        IDC_NAME,57,132,167,14,ES_AUTOHSCROLL
+    LTEXT           "&Connection:",IDC_CONNECTION_PRMPT,5,151,44,8
+    COMBOBOX        IDC_CONNECTION,57,149,167,69,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,234,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,234,24,50,14
+    PUSHBUTTON      "&Find Printer",IDC_FINDDEVICE,234,41,50,14
+    PUSHBUTTON      "&SCSI Explorer",IDC_SCSI_EXPLORER,234,58,50,14
+END
+
+IDD_JOBSIZEPROPERTIES DIALOG DISCARDABLE  0, 0, 204, 269
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Sizing"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Transfor&m",IDC_XFORM_BOX,1,3,199,29
+    COMBOBOX        IDC_TRANSFORM,7,13,183,68,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Coordinates",IDC_COORDS_PROMPT,3,36,84,125
+    RTEXT           "&Width:",IDC_WIDTH_PROMPT,13,49,22,8
+    EDITTEXT        IDC_WIDTH_EDIT,37,47,36,13,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_WIDTH_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,73,47,11,13
+    RTEXT           "&Height:",IDC_HEIGHT_PROMPT,11,65,24,8
+    EDITTEXT        IDC_HEIGHT_EDIT,37,63,36,13,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_HEIGHT_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,74,63,11,13
+    RTEXT           "&X Zoom:",IDC_XZOOM_PROMPT,5,81,30,9
+    EDITTEXT        IDC_XZOOM_EDIT,37,79,36,13,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_XZOOM_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,74,79,11,13
+    RTEXT           "&Y Zoom:",IDC_YZOOM_PROMPT,5,97,30,9
+    EDITTEXT        IDC_YZOOM_EDIT,37,95,36,13,ES_AUTOHSCROLL
+    CONTROL         "Generic2",IDC_YZOOM_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,74,95,11,13
+    RTEXT           "X &Offset:",IDC_XOFF_PROMPT,5,112,30,9
+    EDITTEXT        IDC_XOFF_EDIT,37,111,36,13,ES_AUTOHSCROLL
+    CONTROL         "Generic3",IDC_XOFF_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    74,111,11,13
+    RTEXT           "Y O&ffset:",IDC_YOFF_PROMPT,5,128,30,9
+    EDITTEXT        IDC_YOFF_EDIT,37,127,36,13,ES_AUTOHSCROLL
+    CONTROL         "Generic4",IDC_YOFF_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    74,127,11,13
+    RTEXT           "&Rotation:",IDC_ROTATION_PROMPT,5,147,29,9
+    COMBOBOX        IDC_ROTATION,37,144,48,50,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Starting &Transform",IDC_START_TYPE_PROMPT,89,36,114,31
+    COMBOBOX        IDC_START_TYPE,93,49,105,48,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Repa&int",ID_REPAINT,90,74,36,15
+    PUSHBUTTON      "R&eset",IDC_RESET,129,74,36,15
+    PUSHBUTTON      "&Delete",IDC_DELETE,168,74,36,15
+    PUSHBUTTON      "&Load",IDC_LOAD,90,91,36,15
+    PUSHBUTTON      "&Save As",IDC_SAVEAS,129,91,36,15
+    LTEXT           "Units:",IDC_UNITS_PROMPT,91,111,19,8
+    COMBOBOX        IDC_UNITS,138,109,53,50,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Preview Size:",IDC_PREVIEW_SIZE_PRMPT,91,128,44,8
+    COMBOBOX        IDC_PREVIEW_SIZE,138,126,53,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "S&nap to Margins",IDC_SNAP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,91,140,64,12
+    CONTROL         "Retain &Aspect",IDC_RETAIN_ASPECT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,91,151,66,12
+    LTEXT           "Target file:",IDC_TARGETFILE_PROMPT,4,166,38,9
+    LTEXT           "N/A",IDC_TARGETFILE,56,164,142,11,SS_SUNKEN
+    LTEXT           "Target Device:",IDC_TARGETDEVICE_PROMPT,4,178,48,9
+    LTEXT           "N/A",IDC_TARGETDEVICE,56,177,142,11,SS_SUNKEN
+    LTEXT           "Idle",IDC_RIP_STATUS_PRMPT,4,190,193,9
+    CONTROL         "Progress1",IDC_RIP_STATUS_PROGRESS,"msctls_progress32",
+                    WS_BORDER,4,202,193,10
+    GROUPBOX        "Des&cription",IDC_STATIC,3,212,193,54
+    EDITTEXT        IDC_DESCRIPTION,7,222,184,40,ES_MULTILINE
+    PUSHBUTTON      "Sto&p",IDC_STOP,90,74,36,15
+END
+
+IDD_FONT_MANAGER_PAGE DIALOG DISCARDABLE  0, 0, 289, 134
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "PostScript Font Manager"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Available Fonts",IDC_AVAIL_BOX,0,0,136,133
+    LISTBOX         IDC_INSTALLED_FONTS,5,10,123,101,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Remove",IDC_REMOVE_FONT,5,115,123,14
+    GROUPBOX        "Add New Font",IDC_NEW_BOX,140,0,149,133
+    LTEXT           "Source:",IDC_BROWSE_PRMPT,147,10,26,8
+    EDITTEXT        IDC_FONTDIR,147,20,123,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,274,20,11,12
+    LISTBOX         IDC_NEW_FONTS,147,40,123,71,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "&Add",ID_ADD_FONT,147,115,123,14
+END
+
+IDD_CLR_ADJUST_DIALOG DIALOG DISCARDABLE  0, 0, 204, 282
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Color Adjustments"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "White is White",IDC_WHITE_IS_WHITE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,141,27,58,10
+    CONTROL         "Black is Black",IDC_BLACK_IS_BLACK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,141,43,58,10
+    CONTROL         "Lock Adjustments",IDC_LOCK_ADJUSTMENTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,123,65,8
+    COMBOBOX        IDC_ADJUST_COLOR_LIST,94,121,45,68,CBS_DROPDOWN | 
+                    CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Slider1",IDC_RED_CYAN,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,31,154,106,12
+    EDITTEXT        IDC_CYAN_EDIT,178,154,21,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_GREEN_MAGENTA,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,31,174,106,12
+    EDITTEXT        IDC_MAGENTA_EDIT,178,174,21,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_BLUE_YELLOW,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,31,194,106,12
+    EDITTEXT        IDC_YELLOW_EDIT,178,194,21,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_BRIGHTNESS,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,45,214,123,12
+    EDITTEXT        IDC_BRIGHTNESS_EDIT,178,214,21,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_CONTRAST,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,45,234,123,12
+    EDITTEXT        IDC_CONTRAST_EDIT,178,234,21,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Defaults",IDC_ADJ_DEFAULTS,77,261,50,14
+    EDITTEXT        IDC_INPUTVALUE_EDIT,172,82,21,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_OUTPUTVALUE_EDIT,172,98,21,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Brightness",IDC_BRIGHTNESS_LABEL,5,216,33,8
+    LTEXT           "Contrast",IDC_CONTRAST_LABEL,5,236,26,8
+    CONTROL         "",IDC_ADJUST_FRAME,"Static",SS_BLACKFRAME,5,27,133,91
+    LTEXT           "Red",IDC_RED_CYAN_LABEL,5,156,14,8
+    LTEXT           "Green",IDC_GREEN_MAGENTA_LABEL,5,176,20,8
+    LTEXT           "Blue",IDC_BLUE_YELLOW_LABEL,5,196,15,8
+    LTEXT           "Input:",IDC_INPUTVALUE_LABEL,141,84,17,8
+    LTEXT           "Output:",IDC_OUTPUTVALUE_LABEL,141,100,24,8
+    LTEXT           "Color",IDC_COLOR_SELECT_LABEL,76,123,17,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "Cyan",IDC_RED_CYAN_LABEL2,144,156,17,8
+    LTEXT           "Magenta",IDC_GREEN_MAGENTA_LABEL2,144,176,29,8
+    LTEXT           "Yellow",IDC_BLUE_YELLOW_LABEL2,144,196,21,8
+END
+
+IDD_CMM_OLD_DIALOG DIALOG DISCARDABLE  0, 0, 204, 282
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Color Transforms"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Correction Type:",IDC_COLOR_TRANS_TYPE_PRMPT,7,18,53,8
+    COMBOBOX        IDC_COLOR_TRANS_TYPE,86,16,95,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "RGB Input:",IDC_RGB_LABEL,7,39,36,8
+    COMBOBOX        IDC_RGB_PROFILE,56,37,125,91,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_RGB,183,37,11,12
+    LTEXT           "CMYK Input:",IDC_CMYK_LABEL,7,56,41,8
+    COMBOBOX        IDC_CMYK_PROFILE,56,54,125,86,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_CMYK,183,54,11,12
+    LTEXT           "Printer:",IDC_PRINTER_LABEL,7,73,41,8
+    COMBOBOX        IDC_PRINTER_PROFILE,56,71,125,85,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_PRINTER,183,71,11,12
+    CONTROL         "Preview:",IDC_PREVIEW_CMM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,88,43,10
+    COMBOBOX        IDC_MONITOR_PROFILE,56,87,125,82,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_MONITOR,183,87,11,12
+    CONTROL         "Prepress:",IDC_PREPRESS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,103,44,10
+    COMBOBOX        IDC_PRESS_PROFILE,56,103,125,86,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_PRESS,183,103,11,12
+    CONTROL         "",IDC_CURVE_FRAME,"Static",SS_BLACKFRAME,7,123,128,98
+    GROUPBOX        "Gamma",IDC_GAMMA_LABEL,139,119,59,63
+    LTEXT           "Cyan",IDC_RED_GAMMA_LABEL,142,131,17,8
+    EDITTEXT        IDC_RED_GAMMA,170,129,23,12,ES_AUTOHSCROLL
+    LTEXT           "Magenta",IDC_GREEN_GAMMA_LABEL,142,143,28,8
+    EDITTEXT        IDC_GREEN_GAMMA,170,141,23,12,ES_AUTOHSCROLL
+    LTEXT           "Yellow",IDC_BLUE_GAMMA_LABEL,142,155,21,8
+    EDITTEXT        IDC_BLUE_GAMMA,170,153,23,12,ES_AUTOHSCROLL
+    LTEXT           "Black",IDC_BLACK_GAMMA_LABEL,142,167,19,8,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_BLACK_GAMMA,170,165,23,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "Max Ink",IDC_MAX_INK_LABEL,139,192,26,8
+    EDITTEXT        IDC_MAX_INK,174,190,23,12,ES_AUTOHSCROLL
+    LTEXT           "Max Black",IDC_MAX_BLACK_LABEL,139,208,34,8
+    EDITTEXT        IDC_MAX_BLACK,174,206,23,12,ES_AUTOHSCROLL
+    CONTROL         "Lock Graph",IDC_LOCK_GRAPH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,226,53,10
+    LTEXT           "Color",IDC_COLOR_LABEL,67,227,17,8
+    COMBOBOX        IDC_COLOR_LIST,90,225,45,47,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "GCR/UCR",IDC_GCR_UCR_LABEL,7,244,33,8
+    CONTROL         "Slider1",IDC_GCR_UCR_SLIDER,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,45,
+                    242,123,12
+    EDITTEXT        IDC_GCR_UCR_EDIT,176,242,21,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Defaults",IDC_TRANSFORM_DEFAULTS,77,261,50,14
+END
+
+IDD_CUSTOM_FILE_DIALOG DIALOGEX 0, 0, 396, 162
+STYLE DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "This is where the standard controls will go!",1119,6,4,
+                    284,139,SS_SUNKEN | NOT WS_VISIBLE | WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "&Show Preview",IDC_SHOWPREVIEW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,291,98,93,10
+    PUSHBUTTON      "Add &Folder",IDC_ADDFOLDER,228,145,50,14
+    CONTROL         "Progress1",IDC_PREVIEW_PROGRESS,"msctls_progress32",
+                    PBS_SMOOTH,291,110,102,7
+    LTEXT           "",IDC_PREVIEW_PANE,292,4,100,89,SS_SUNKEN | NOT 
+                    WS_GROUP
+END
+
+IDD_QUEUEMEMORY DIALOG DISCARDABLE  0, 0, 204, 284
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Resources"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Scratch Folder",IDC_SCRATCH_EDIT_BOX,3,1,196,26
+    EDITTEXT        IDC_SCRATCH_EDIT,9,10,170,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SCRATCH_BROWSE,181,10,11,13
+    GROUPBOX        "Spool Folder",IDC_SPOOL_EDIT_BOX,3,27,196,26
+    EDITTEXT        IDC_SPOOL_EDIT,9,36,170,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SPOOL_BROWSE,181,36,11,13
+    GROUPBOX        "Memory",IDC_MEMORY_BOX,3,53,196,80
+    LTEXT           "Available Physical Memory:",IDC_AVAIL_PHYSICAL_PRMPT,10,
+                    67,88,9
+    RTEXT           "0",IDC_AVAIL_PHYSICAL,106,67,50,9
+    LTEXT           "Kbytes",IDC_STATIC,164,67,30,9
+    LTEXT           "Available Virtual Memory:",IDC_VIRTUALMEMORY_PRMPT,10,
+                    78,82,9
+    RTEXT           "0",IDC_VIRTUALMEMORY,106,78,50,9
+    LTEXT           "Kbytes",IDC_STATIC,164,78,30,9
+    LTEXT           "&Rip memory allocation:",IDC_MEM_ALLOC_PRMPT,10,94,76,9
+    COMBOBOX        IDC_MEM_ALLOC,93,93,92,64,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "&Memory used by Rip:",IDC_MEM_USED_PRMPT,10,112,74,9
+    EDITTEXT        IDC_MEM_USED_EDIT,93,110,56,13,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_MEM_USED_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,150,110,9,13
+    LTEXT           "Kbytes",IDC_STATIC,164,112,30,9
+    GROUPBOX        "Archive",IDC_ARCHIVE_BOX,4,133,196,61
+    LTEXT           "Job Entries:",IDC_LISTJOBS_PRMPT,9,145,38,8
+    COMBOBOX        IDC_LISTJOBS_COMBO,50,143,106,44,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LISTJOBS_EDIT,158,143,23,13,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_LISTJOBS_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,183,143,
+                    11,13
+    LTEXT           "Spool Files:",IDC_DISKFILES_PRMPT,9,160,37,8
+    COMBOBOX        IDC_DISKFILES_COMBO,50,158,106,44,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Hot Files:",IDC_HOTFOLDER_PRMPT,10,176,30,8
+    COMBOBOX        IDC_HOTFOLDER_COMBO,50,174,106,44,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Hot Folder",IDC_HOTFOLDER_BOX,3,194,196,83
+    CONTROL         "Enable",IDC_HOTFOLDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,203,43,10
+    EDITTEXT        IDC_HOTFOLDERDIR_EDIT,9,217,173,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_HOTFOLDERDIR_BROWSE,185,217,11,13
+    LTEXT           "Insert In:",IDC_HOTFOLDER_INPANE_PRMPT,11,234,28,8
+    COMBOBOX        IDC_HOTFOLDER_INPANE,42,232,91,44,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Reset Folder",IDC_RESET_HOT_FOLDER,146,232,50,14
+    CONTROL         "Image Only &New",IDC_IMAGEONLY_NEW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,56,203,69,11
+    LTEXT           "Delay",IDC_HOTFOLDER_DELAY_TEXT,141,204,19,8
+    EDITTEXT        IDC_HOTFOLDER_DELAY,163,202,23,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_HOTFOLDER_DELAY_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,186,202,
+                    11,13
+    CONTROL         "Select Media By File Size",IDC_HF_SELECTBYSIZE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,249,95,10
+    LTEXT           "DPI",IDC_HF_SELECTDPI_TEXT,7,265,16,8
+    EDITTEXT        IDC_HF_SELECTDPI,27,263,23,12,ES_AUTOHSCROLL
+    LTEXT           "Image Variance",IDC_HF_VARIANCE_TEXT,62,265,52,8
+    EDITTEXT        IDC_HF_VARIANCE,116,263,23,12,ES_AUTOHSCROLL
+    LTEXT           "Inches",IDC_HF_INCHES_TEXT,144,265,52,8
+END
+
+IDD_SCAN_DIALOG DIALOG DISCARDABLE  0, 0, 386, 254
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acquire Image Preview"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Print",ID_PRINT,168,21,50,14
+    PUSHBUTTON      "&ReScan",ID_RESCAN,168,61,50,14
+    DEFPUSHBUTTON   "&Hold",ID_HOLD,168,41,50,14
+    LTEXT           "Media &Size:",IDC_STATIC,7,236,38,8
+    COMBOBOX        IDC_OUTPUT_SIZE,48,234,135,65,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_CROPPED_IMAGE_PANE,7,21,156,201,SS_SUNKEN | NOT 
+                    WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,168,81,50,14
+    LTEXT           "",IDC_FULL_IMAGE_PANE,222,21,156,201,SS_SUNKEN | NOT 
+                    WS_GROUP
+    LTEXT           "Full Image:",IDC_STATIC,223,7,34,8
+    LTEXT           "Cropped Image:",IDC_STATIC,7,7,52,8
+    PUSHBUTTON      "&ReDisplay",ID_REDISPLAY_ONLY,168,101,50,14
+END
+
+IDD_CUSTOM_PAGE DIALOG DISCARDABLE  0, 0, 265, 58
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Custom Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Width:",IDC_WIDTH_PRMPT,5,8,22,8
+    EDITTEXT        IDC_WIDTH_EDIT,35,5,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_WIDTH_SPIN,"msctls_updown32",UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,75,5,11,14
+    LTEXT           "&Horizontal Offset:",IDC_XOFFSET_PRMPT,95,8,55,8
+    EDITTEXT        IDC_XOFFSET_EDIT,153,5,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_XOFFSET_SPIN,"msctls_updown32",UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,193,5,11,14
+    LTEXT           "&Height:",IDC_HEIGHT_PRMPT,5,25,24,8
+    EDITTEXT        IDC_HEIGHT_EDIT,35,22,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_HEIGHT_SPIN,"msctls_updown32",UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,75,22,11,14
+    LTEXT           "&Vertical Offset:",IDC_YOFFSET_PRMPT,95,25,47,8
+    EDITTEXT        IDC_YOFFSET_EDIT,153,22,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_YOFFSET_SPIN,"msctls_updown32",UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,193,22,11,14
+    LTEXT           "&Units:",IDC_UNITS_PRMPT,5,44,19,8
+    COMBOBOX        IDC_UNITS,35,41,54,58,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,211,5,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,211,22,50,14
+END
+
+IDD_CMM_DIALOG DIALOG DISCARDABLE  0, 0, 205, 282
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Color Transforms"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Correction Type:",IDC_COLOR_TRANS_TYPE_PRMPT,7,18,53,8
+    COMBOBOX        IDC_COLOR_TRANS_TYPE,86,16,95,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "RGB Input:",IDC_RGB_LABEL,7,50,36,8
+    COMBOBOX        IDC_RGB_PROFILE,56,48,125,91,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_RGB,183,48,11,12
+    LTEXT           "CMYK Input:",IDC_CMYK_LABEL,7,67,41,8
+    COMBOBOX        IDC_CMYK_PROFILE,56,65,125,86,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_CMYK,183,65,11,12
+    LTEXT           "Printer:",IDC_PRINTER_LABEL,7,84,41,8
+    COMBOBOX        IDC_PRINTER_PROFILE,56,82,125,85,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_PRINTER,183,82,11,12
+    CONTROL         "Preview:",IDC_PREVIEW_CMM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,99,43,10
+    COMBOBOX        IDC_MONITOR_PROFILE,56,98,125,82,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_MONITOR,183,98,11,12
+    CONTROL         "Prepress:",IDC_PREPRESS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,114,44,10
+    COMBOBOX        IDC_PRESS_PROFILE,56,114,125,86,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BROWSE_PRESS,183,114,11,12
+    GROUPBOX        "Rendering Intent",IDC_REND_INTENT_PRMPT,7,131,191,43
+    LTEXT           "Image",IDC_IMAGE_REND_INTENT_PRMPT,11,141,20,8
+    COMBOBOX        IDC_IMAGE_REND_INTENT,11,152,88,48,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Text/Graphics",IDC_TEXT_REND_INTENT_PRMPT,106,141,46,8
+    COMBOBOX        IDC_TEXT_REND_INTENT,106,152,88,48,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Defaults",IDC_TRANSFORM_DEFAULTS,77,261,50,14
+    LTEXT           "This Windows operating system does not support ICC Profile processing.",
+                    IDC_ICC_PROFILE_MESSAGE,7,189,191,28,WS_BORDER
+    CONTROL         "Use embedded profile in photo IF available",
+                    IDC_USE_EMBEDDED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    33,150,10
+END
+
+IDD_PRINT_INDEX DIALOG DISCARDABLE  0, 0, 231, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Print Index"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,174,24,50,14
+    LTEXT           "Creating index layout....",IDC_CREATE_INDEX_TEXT,7,40,
+                    74,8
+    CONTROL         "Progress1",IDC_PREVIEW_PROGRESS,"msctls_progress32",
+                    PBS_SMOOTH,43,68,121,11
+    LTEXT           "Processing file:",IDC_STATIC,7,54,48,8
+    LTEXT           "",IDC_INDEX_FILENAME,58,54,103,8
+    PUSHBUTTON      "OK",IDC_GO,174,7,50,14
+    LTEXT           "&Media Size:",IDC_STATIC,7,9,38,8
+    COMBOBOX        IDC_MEDIA_SIZE,45,7,124,54,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "C&opies:",IDC_COPIES,7,26,23,10
+    EDITTEXT        IDC_INDEX_COPIES,33,24,26,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_INDEX_COPIES_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,58,24,11,
+                    12
+    LTEXT           "Insert In:",IDC_STATIC,84,26,28,8
+    COMBOBOX        IDC_SELECT_PANE,113,24,56,56,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_GPREFS_PRINTINDEX_old DIALOG DISCARDABLE  0, 0, 289, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Print Index"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Images",IDC_STATIC,38,15,220,88
+    CONTROL         "Use Single &Page for all images",IDC_SINGLEPAGE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,44,25,111,10
+    CONTROL         "Limit &Images per page",IDC_IMAGECOUNT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,44,41,85,10
+    LTEXT           "&Maximum Image:",IDC_MAXIMAGES_PRMPT,57,55,54,10
+    EDITTEXT        IDC_MAXIMAGES_EDIT,113,54,30,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_MAXIMAGES_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,141,54,11,12
+    CONTROL         "Define Image &Size",IDC_IMAGESIZE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,165,25,73,10
+    LTEXT           "&Units:",IDC_IMAGESIZE_UNITS_TEXT,175,40,19,8
+    COMBOBOX        IDC_IMAGESIZE_UNITS,202,37,51,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Width:",IDC_IMAGESIZE_WIDTH,175,55,23,10
+    EDITTEXT        IDC_IMAGE_WIDTH_EDIT,202,53,40,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_IMAGE_WIDTH_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,241,53,11,
+                    12
+    LTEXT           "&Height:",IDC_IMAGESIZE_HEIGHT,175,70,23,10
+    EDITTEXT        IDC_IMAGE_HEIGHT_EDIT,202,68,40,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_IMAGE_HEIGHT_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,241,68,11,
+                    12
+    CONTROL         "&Crop",IDC_IMAGESIZE_CROP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,175,85,31,10
+    CONTROL         "&Fit",IDC_IMAGESIZE_FIT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,224,85,23,10
+    CONTROL         "&Display Image Name",IDC_DISPLAY_IMAGENAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,38,107,82,11
+END
+
+IDD_DIALOG_GPREFS_PRINTINDEX DIALOG DISCARDABLE  0, 0, 289, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Print Index"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Images:",IDC_STATIC,6,4,141,122
+    CONTROL         "Use Single &Page for all images",IDC_SINGLEPAGE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,9,14,111,10
+    CONTROL         "&Maximum Images per page:",IDC_IMAGECOUNT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,9,27,99,10
+    EDITTEXT        IDC_MAXIMAGES_EDIT,110,27,30,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_MAXIMAGES_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,132,27,11,12
+    CONTROL         "Define Image &Size:",IDC_IMAGESIZE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,9,42,75,10
+    LTEXT           "&Units:",IDC_IMAGESIZE_UNITS_TEXT,12,54,19,8
+    COMBOBOX        IDC_IMAGESIZE_UNITS,36,51,51,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Width:",IDC_IMAGESIZE_WIDTH,12,69,23,10
+    EDITTEXT        IDC_IMAGE_WIDTH_EDIT,36,67,33,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_IMAGE_WIDTH_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,63,67,11,
+                    12
+    LTEXT           "&Height:",IDC_IMAGESIZE_HEIGHT,76,69,23,10
+    EDITTEXT        IDC_IMAGE_HEIGHT_EDIT,104,67,33,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_IMAGE_HEIGHT_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,130,67,11,
+                    12
+    CONTROL         "Define White Space:",IDC_WHITE_SPACE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,86,82,10
+    LTEXT           "&Units:",IDC_WHITE_SPACE_UNITS_TEXT,9,98,19,8
+    COMBOBOX        IDC_WHITE_SPACE_UNITS,29,96,51,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Horizontal:",IDC_STATIC,9,113,34,8
+    EDITTEXT        IDC_HORIZONTAL_WHITE_EDIT,44,111,33,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_HORIZONTAL_WHITE_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,70,111,11,
+                    12
+    LTEXT           "Vertical:",IDC_STATIC,81,113,26,8
+    EDITTEXT        IDC_VERTICAL_WHITE_EDIT,108,111,32,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_VERTICAL_WHITE_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,111,
+                    11,12
+    GROUPBOX        "Output",IDC_STATIC,152,4,130,97
+    GROUPBOX        "Transform",IDC_STATIC,155,16,96,23
+    CONTROL         "Smart&Crop",IDC_IMAGESIZE_CROP,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,157,27,49,10
+    CONTROL         "Smart&Fit",IDC_IMAGESIZE_FIT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,209,27,41,10
+    LTEXT           "C&opies:",IDC_COPIES,155,48,23,10
+    EDITTEXT        IDC_INDEX_COPIES,181,47,26,12,ES_AUTOHSCROLL
+    CONTROL         "Generic1",IDC_INDEX_COPIES_SPIN,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,206,47,11,
+                    12
+    LTEXT           "Insert In:",IDC_STATIC,155,70,28,8
+    COMBOBOX        IDC_SELECT_PANE,184,67,56,56,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&Display Image Name",IDC_DISPLAY_IMAGENAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,86,82,11
+END
+
+IDD_PRINTDEV_FORM DIALOG DISCARDABLE  0, 0, 174, 307
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_LICENSEMANAGER DIALOG DISCARDABLE  0, 0, 311, 345
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "License Manager"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "App Status:",1614,22,10,38,8
+    EDITTEXT        1065,69,7,174,14,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "MID:",IDC_MID_PRMPT,46,179,16,8
+    EDITTEXT        IDC_MID,69,176,174,14,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Site Code:",IDC_SITECODE_PRMPT,28,196,34,8
+    EDITTEXT        IDC_SITECODE,69,193,174,14,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Days Left:",IDC_DAYSLEFT_PRMPT,29,213,33,8
+    EDITTEXT        IDC_DAYSLEFT,69,210,174,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Check if no internet connection",IDC_NOINTERNET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,69,226,115,10
+    RTEXT           "Activation Code:",IDC_ACTIVATIONCODE_PRMPT,9,242,53,8
+    EDITTEXT        IDC_ACTIVATIONCODE,70,239,174,14,ES_AUTOHSCROLL
+    RTEXT           "*Name:",IDC_STATIC,38,259,24,8
+    EDITTEXT        IDC_NAME,69,256,174,14,ES_AUTOHSCROLL
+    RTEXT           "Organization:",IDC_STATIC,20,276,42,8
+    EDITTEXT        IDC_COMPANY,69,273,174,14,ES_AUTOHSCROLL
+    RTEXT           "*Serial Number:",IDC_STATIC,12,294,50,8
+    EDITTEXT        1069,69,291,174,14,ES_AUTOHSCROLL
+    RTEXT           "*Email:",IDC_STATIC,40,311,22,8
+    EDITTEXT        IDC_EMAIL,69,308,174,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Close",IDOK,254,7,50,14
+    PUSHBUTTON      "Activate",IDC_ACTIVATE,254,28,50,14
+    PUSHBUTTON      "Remove",IDC_REMOVE,254,49,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,254,66,50,14
+    LTEXT           "* required fields",IDC_STATIC,69,324,49,8
+    CONTROL         "Agfa Film Recorders",IDC_AGFA_FILM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,25,79,10
+    CONTROL         "Agfa Minilabs",IDC_AGFA_MINILABS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,38,58,10
+    CONTROL         "Polaroid Film Recorders",IDC_POLAROID_FILM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,51,90,10
+END
+
+IDD_LICENSE_MANAGER DIALOG DISCARDABLE  0, 0, 311, 193
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RasterPlus License Manager"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "App Status:",IDC_STATUS_PRMPT,21,10,38,8
+    EDITTEXT        IDC_STATUS,68,7,174,14,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "MID:",IDC_MID_PRMPT,45,27,16,8
+    EDITTEXT        IDC_MID,68,24,174,14,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Site Code:",IDC_SITECODE_PRMPT,27,44,34,8
+    EDITTEXT        IDC_SITECODE,68,41,174,14,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "Days Left:",IDC_DAYSLEFT_PRMPT,28,58,33,8
+    EDITTEXT        IDC_DAYSLEFT,68,56,174,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Check if no internet connection",IDC_NOINTERNET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,68,75,115,10
+    RTEXT           "Activation Code:",IDC_ACTIVATIONCODE_PRMPT,8,91,53,8
+    EDITTEXT        IDC_ACTIVATIONCODE,69,87,174,14,ES_AUTOHSCROLL
+    RTEXT           "*Name:",IDC_STATIC,37,107,24,8
+    EDITTEXT        IDC_NAME,68,104,174,14,ES_AUTOHSCROLL
+    RTEXT           "Organization:",IDC_STATIC,19,124,42,8
+    EDITTEXT        IDC_COMPANY,68,121,174,14,ES_AUTOHSCROLL
+    RTEXT           "*Serial Number:",IDC_STATIC,11,142,50,8
+    EDITTEXT        IDC_SERIALNUMBER,68,139,174,14,ES_AUTOHSCROLL
+    RTEXT           "*Email:",IDC_STATIC,39,159,22,8
+    EDITTEXT        IDC_EMAIL,68,156,174,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Close",IDOK,253,7,50,14
+    PUSHBUTTON      "Activate",IDC_ACTIVATE,253,29,50,14
+    PUSHBUTTON      "Remove",IDC_REMOVE,253,49,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,253,66,50,14
+    LTEXT           "* required fields",IDC_STATIC,68,172,49,8
+END
+
+IDD_DOWNLOADFILE DIALOG DISCARDABLE  0, 0, 270, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Download File"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Please Wait...",IDC_STATUS,2,1,265,10
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,2,
+                    15,265,9
+    PUSHBUTTON      "Cancel",IDC_CANCEL,110,31,50,14
+END
+
+IDD_SMA_EXPIRED DIALOG DISCARDABLE  0, 0, 280, 123
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Software Maintenance Expired"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "The Software Maintenance Agreement for <PRODUCT> expired on <DATE>.",
+                    IDC_STATIC,7,9,266,20
+    CONTROL         "Contact the Graphx Online HelpDesk",
+                    IDC_HELPDESK_CONTACT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,77,84,133,10
+    DEFPUSHBUTTON   "OK",IDOK,108,102,50,14
+    LTEXT           "No updates for <NAME OF PRODUCT> will be processed until the Software Maintenance Agreement is renewed.",
+                    IDC_STATIC,7,31,266,18
+    LTEXT           "Please contact the Graphx Online HelpDesk or call 781-932-0430 ??",
+                    IDC_STATIC,7,51,232,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_GPREFS DLGINIT
+BEGIN
+    IDC_PREVIEWSIZE, 0x403, 6, 0
+0x6d53, 0x6c61, 0x006c, 
+    IDC_PREVIEWSIZE, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    IDC_PREVIEWSIZE, 0x403, 6, 0
+0x614c, 0x6772, 0x0065, 
+    IDC_UNITS, 0x403, 5, 0
+0x6970, 0x6163, "\000" 
+    IDC_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_UNITS, 0x403, 12, 0
+0x696d, 0x6c6c, 0x6d69, 0x7465, 0x7265, 0x0073, 
+    0
+END
+
+IDD_DIALOG_BHEADER DLGINIT
+BEGIN
+    IDC_BACKGROUND, 0x403, 6, 0
+0x6c42, 0x6361, 0x006b, 
+    IDC_BACKGROUND, 0x403, 6, 0
+0x6857, 0x7469, 0x0065, 
+    IDC_BACKGROUND, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    0
+END
+
+IDD_JOBPROPERTIES DLGINIT
+BEGIN
+    IDC_ORIENTATION, 0x403, 9, 0
+0x6f50, 0x7472, 0x6172, 0x7469, "\000" 
+    IDC_ORIENTATION, 0x403, 10, 0
+0x614c, 0x646e, 0x6373, 0x7061, 0x0065, 
+    IDC_AAOVERSAMPLE, 0x403, 2, 0
+0x0032, 
+    IDC_AAOVERSAMPLE, 0x403, 2, 0
+0x0033, 
+    IDC_AAOVERSAMPLE, 0x403, 2, 0
+0x0034, 
+    IDC_AAOVERSAMPLE, 0x403, 2, 0
+0x0035, 
+    IDC_AAOVERSAMPLE, 0x403, 2, 0
+0x0036, 
+    IDC_BITMAPSAMPLING, 0x403, 17, 0
+0x654e, 0x7261, 0x7365, 0x2074, 0x654e, 0x6769, 0x6268, 0x726f, "\000" 
+    IDC_BITMAPSAMPLING, 0x403, 9, 0
+0x6942, 0x696c, 0x656e, 0x7261, "\000" 
+    IDC_BITMAPSAMPLING, 0x403, 8, 0
+0x6942, 0x7563, 0x6962, 0x0063, 
+    0
+END
+
+IDD_JOBSIZEPROPERTIES DLGINIT
+BEGIN
+    IDC_ROTATION, 0x403, 2, 0
+0x0030, 
+    IDC_ROTATION, 0x403, 3, 0
+0x3039, "\000" 
+    IDC_ROTATION, 0x403, 4, 0
+0x3831, 0x0030, 
+    IDC_ROTATION, 0x403, 4, 0
+0x3732, 0x0030, 
+    IDC_START_TYPE, 0x403, 9, 0
+0x6d53, 0x7261, 0x4674, 0x7469, "\000" 
+    IDC_START_TYPE, 0x403, 10, 0
+0x6d53, 0x7261, 0x4374, 0x6f72, 0x0070, 
+    IDC_START_TYPE, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_UNITS, 0x403, 5, 0
+0x6970, 0x6163, "\000" 
+    IDC_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_UNITS, 0x403, 12, 0
+0x696d, 0x6c6c, 0x6d69, 0x7465, 0x7265, 0x0073, 
+    IDC_PREVIEW_SIZE, 0x403, 6, 0
+0x6d53, 0x6c61, 0x006c, 
+    IDC_PREVIEW_SIZE, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    IDC_PREVIEW_SIZE, 0x403, 6, 0
+0x614c, 0x6772, 0x0065, 
+    0
+END
+
+IDD_QUEUEMEMORY DLGINIT
+BEGIN
+    IDC_MEM_ALLOC, 0x403, 12, 0
+0x6f57, 0x6b72, 0x7473, 0x7461, 0x6f69, 0x006e, 
+    IDC_MEM_ALLOC, 0x403, 7, 0
+0x6553, 0x7672, 0x7265, "\000" 
+    IDC_MEM_ALLOC, 0x403, 7, 0
+0x7543, 0x7473, 0x6d6f, "\000" 
+    IDC_LISTJOBS_COMBO, 0x403, 9, 0
+0x654b, 0x7065, 0x6120, 0x6c6c, "\000" 
+    IDC_LISTJOBS_COMBO, 0x403, 19, 0
+0x654b, 0x7065, 0x6120, 0x6d20, 0x7861, 0x6d69, 0x6d75, 0x6f20, 0x3a66, 
+"\000" 
+    IDC_DISKFILES_COMBO, 0x403, 24, 0
+0x6544, 0x656c, 0x6574, 0x6120, 0x7466, 0x7265, 0x4f20, 0x204b, 0x6d69, 
+0x6761, 0x6e69, 0x0067, 
+    IDC_DISKFILES_COMBO, 0x403, 27, 0
+0x6544, 0x656c, 0x6574, 0x6f20, 0x206e, 0x6f4a, 0x2062, 0x6e45, 0x7274, 
+0x2079, 0x6564, 0x656c, 0x6574, "\000" 
+    IDC_HOTFOLDER_COMBO, 0x403, 24, 0
+0x6544, 0x656c, 0x6574, 0x6120, 0x7466, 0x7265, 0x4f20, 0x204b, 0x6d69, 
+0x6761, 0x6e69, 0x0067, 
+    IDC_HOTFOLDER_COMBO, 0x403, 27, 0
+0x6544, 0x656c, 0x6574, 0x6f20, 0x206e, 0x6f4a, 0x2062, 0x6e45, 0x7274, 
+0x2079, 0x6564, 0x656c, 0x6574, "\000" 
+    IDC_HOTFOLDER_COMBO, 0x403, 13, 0
+0x654e, 0x6576, 0x2072, 0x6544, 0x656c, 0x6574, "\000" 
+    IDC_HOTFOLDER_INPANE, 0x403, 10, 0
+0x6f48, 0x646c, 0x5020, 0x6e61, 0x0065, 
+    IDC_HOTFOLDER_INPANE, 0x403, 11, 0
+0x7250, 0x6e69, 0x2074, 0x6150, 0x656e, "\000" 
+    0
+END
+
+IDD_SCAN_DIALOG DLGINIT
+BEGIN
+    IDC_OUTPUT_SIZE, 0x403, 14, 0
+0x6156, 0x6972, 0x756f, 0x2073, 0x6953, 0x657a, 0x0073, 
+    IDC_OUTPUT_SIZE, 0x403, 13, 0
+0x6544, 0x6570, 0x646e, 0x6e69, 0x2067, 0x6e6f, "\000" 
+    IDC_OUTPUT_SIZE, 0x403, 12, 0
+0x6874, 0x2065, 0x7250, 0x6e69, 0x6574, 0x0072, 
+    0
+END
+
+IDD_CUSTOM_PAGE DLGINIT
+BEGIN
+    IDC_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_UNITS, 0x403, 12, 0
+0x696d, 0x6c6c, 0x6d69, 0x7465, 0x7265, 0x0073, 
+    0
+END
+
+IDD_CMM_DIALOG DLGINIT
+BEGIN
+    IDC_IMAGE_REND_INTENT, 0x403, 11, 0
+0x6550, 0x6372, 0x7065, 0x7574, 0x6c61, "\000" 
+    IDC_IMAGE_REND_INTENT, 0x403, 22, 0
+0x6552, 0x616c, 0x6974, 0x6576, 0x4320, 0x6c6f, 0x726f, 0x6d69, 0x7465, 
+0x6972, 0x0063, 
+    IDC_IMAGE_REND_INTENT, 0x403, 11, 0
+0x6153, 0x7574, 0x6172, 0x6974, 0x6e6f, "\000" 
+    IDC_TEXT_REND_INTENT, 0x403, 11, 0
+0x6550, 0x6372, 0x7065, 0x7574, 0x6c61, "\000" 
+    IDC_TEXT_REND_INTENT, 0x403, 22, 0
+0x6552, 0x616c, 0x6974, 0x6576, 0x4320, 0x6c6f, 0x726f, 0x6d69, 0x7465, 
+0x6972, 0x0063, 
+    IDC_TEXT_REND_INTENT, 0x403, 11, 0
+0x6153, 0x7574, 0x6172, 0x6974, 0x6e6f, "\000" 
+    0
+END
+
+IDD_DIALOG_GPREFS_PRINTINDEX_old DLGINIT
+BEGIN
+    IDC_IMAGESIZE_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_IMAGESIZE_UNITS, 0x403, 12, 0
+0x696d, 0x6c6c, 0x6d69, 0x7465, 0x7265, 0x0073, 
+    0
+END
+
+IDD_DIALOG_GPREFS_PRINTINDEX DLGINIT
+BEGIN
+    IDC_IMAGESIZE_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_IMAGESIZE_UNITS, 0x403, 12, 0
+0x696d, 0x6c6c, 0x6d69, 0x7465, 0x7265, 0x0073, 
+    IDC_WHITE_SPACE_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_WHITE_SPACE_UNITS, 0x403, 12, 0
+0x696d, 0x6c6c, 0x6d69, 0x7465, 0x7265, 0x0073, 
+    IDC_SELECT_PANE, 0x403, 10, 0
+0x6f48, 0x646c, 0x5020, 0x6e61, 0x0065, 
+    IDC_SELECT_PANE, 0x403, 11, 0
+0x7250, 0x6e69, 0x2074, 0x6150, 0x656e, "\000" 
+    0
+END
+
+IDD_PRINT_INDEX DLGINIT
+BEGIN
+    IDC_SELECT_PANE, 0x403, 10, 0
+0x6f48, 0x646c, 0x5020, 0x6e61, 0x0065, 
+    IDC_SELECT_PANE, 0x403, 11, 0
+0x7250, 0x6e69, 0x2074, 0x6150, 0x656e, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_GPREFS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 288
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_TRANSFORM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 257
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_DIALOG_GPREFS_DEVLIST, DIALOG
+    BEGIN
+        RIGHTMARGIN, 288
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_CABINSTALL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_DIALOG_GPREFS_TRANSFORM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 257
+        BOTTOMMARGIN, 109
+    END
+
+    CG_IDD_PSOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 439
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_IMAGE_PAUSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_DEVCONNECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_SAVE_XFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SCSI_EXPLORER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_PREV_CTRL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 19
+    END
+
+    IDD_JOBPROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 279
+    END
+
+    CG_IDD_RIPSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 457
+        BOTTOMMARGIN, 24
+    END
+
+    IDD_JOBDEVPROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 261
+    END
+
+    IDD_NEWQUEUE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        VERTGUIDE, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_JOBSIZEPROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+    END
+
+    IDD_FONT_MANAGER_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_CLR_ADJUST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_CMM_OLD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_CUSTOM_FILE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        VERTGUIDE, 394
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+        HORZGUIDE, 35
+        HORZGUIDE, 40
+    END
+
+    IDD_QUEUEMEMORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 277
+    END
+
+    IDD_SCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 378
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_CUSTOM_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_CMM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_PRINT_INDEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_DIALOG_GPREFS_PRINTINDEX_old, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 282
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_DIALOG_GPREFS_PRINTINDEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 282
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_LICENSEMANAGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 338
+    END
+
+    IDD_LICENSE_MANAGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_DOWNLOADFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_SMA_EXPIRED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND                CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,1,3,0
+ PRODUCTVERSION 6,1,3,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Graphx, Inc.\0"
+            VALUE "FileDescription", "RasterPlus\0"
+            VALUE "FileVersion", "6, 1, 3, 0\0"
+            VALUE "InternalName", "RasterPlus\0"
+            VALUE "LegalCopyright", "Copyright © 2015\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "RasterPlus.Exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "RasterPlus V6 by Graphx\0"
+            VALUE "ProductVersion", "6, 1, 3, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR_MAIN TOOLBAR DISCARDABLE  24, 23
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_ADDFILES
+    BUTTON      ID_OUR_FILE_PRINT
+    BUTTON      ID_OUR_FILE_PRINT_SEL
+    BUTTON      ID_OUR_FILE_PRINT_INDEX
+    BUTTON      ID_OUR_FILE_PRINT_SEL_INDEX
+    BUTTON      ID_OUR_FILE_PRINT_PREVIEW
+    BUTTON      ID_FILE_PRINT_PREVIEW_SEL
+    BUTTON      ID_FILE_PRINT_PREVIEW_SEL_HD
+    BUTTON      ID_PROCESS_CANCELIMAGING
+    BUTTON      ID_PROCESS_SKIPTONEXTFILE
+    BUTTON      ID_PROCESS_PAUSEIMAGING
+    BUTTON      ID_PROCESS_RESUMEIMAGING
+    BUTTON      ID_PREFERENCES_QUEUE
+    BUTTON      ID_PREFERENCES_LOCAL
+    BUTTON      ID_TOOLS_LOG
+END
+
+IDR_TOOLBAR_MAIN_SMALL TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_ADDFILES
+    BUTTON      ID_OUR_FILE_PRINT
+    BUTTON      ID_OUR_FILE_PRINT_SEL
+    BUTTON      ID_OUR_FILE_PRINT_INDEX
+    BUTTON      ID_OUR_FILE_PRINT_SEL_INDEX
+    BUTTON      ID_OUR_FILE_PRINT_PREVIEW
+    BUTTON      ID_FILE_PRINT_PREVIEW_SEL
+    BUTTON      ID_FILE_PRINT_PREVIEW_SEL_HD
+    BUTTON      ID_PROCESS_CANCELIMAGING
+    BUTTON      ID_PROCESS_SKIPTONEXTFILE
+    BUTTON      ID_PROCESS_PAUSEIMAGING
+    BUTTON      ID_PROCESS_RESUMEIMAGING
+    BUTTON      ID_PREFERENCES_QUEUE
+    BUTTON      ID_PREFERENCES_LOCAL
+    BUTTON      ID_TOOLS_LOG
+END
+
+IDR_TOOLBAR_PHZMAIN TOOLBAR DISCARDABLE  24, 23
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_ADDFILES
+    BUTTON      ID_OUR_FILE_PRINT
+    BUTTON      ID_OUR_FILE_PRINT_SEL
+    BUTTON      ID_OUR_FILE_PRINT_INDEX
+    BUTTON      ID_OUR_FILE_PRINT_SEL_INDEX
+    BUTTON      ID_OUR_FILE_PRINT_PREVIEW
+    BUTTON      ID_FILE_PRINT_PREVIEW_SEL
+    BUTTON      ID_FILE_PRINT_PREVIEW_SEL_HD
+    BUTTON      ID_PROCESS_CANCELIMAGING
+    BUTTON      ID_PROCESS_SKIPTONEXTFILE
+    BUTTON      ID_PROCESS_PAUSEIMAGING
+    BUTTON      ID_PROCESS_RESUMEIMAGING
+    BUTTON      ID_PREFERENCES_QUEUE
+    BUTTON      ID_PREFERENCES_LOCAL
+END
+
+IDR_TOOLBAR_PHZMAIN_SMALL TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_ADDFILES
+    BUTTON      ID_OUR_FILE_PRINT
+    BUTTON      ID_OUR_FILE_PRINT_SEL
+    BUTTON      ID_OUR_FILE_PRINT_INDEX
+    BUTTON      ID_OUR_FILE_PRINT_SEL_INDEX
+    BUTTON      ID_OUR_FILE_PRINT_PREVIEW
+    BUTTON      ID_FILE_PRINT_PREVIEW_SEL
+    BUTTON      ID_FILE_PRINT_PREVIEW_SEL_HD
+    BUTTON      ID_PROCESS_CANCELIMAGING
+    BUTTON      ID_PROCESS_SKIPTONEXTFILE
+    BUTTON      ID_PROCESS_PAUSEIMAGING
+    BUTTON      ID_PROCESS_RESUMEIMAGING
+    BUTTON      ID_PREFERENCES_QUEUE
+    BUTTON      ID_PREFERENCES_LOCAL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FFORMAT_RAS         "Sun Raster"
+    IDS_FFORMAT_PCT         "Macintosh PICT"
+    IDS_FFORMAT_PCD         "Kodak Photo CD"
+    IDS_FFORMAT_PNG         "Portable Network Graphics"
+    IDS_FFORMAT_UNKNOWN     "Unknown"
+    IDS_DISABLE_ENABLED_QUEUE 
+                            "This Queue is an Enabled Server.  Disable before saving?"
+    IDS_DISABLE_ACTIVE_QUEUE 
+                            "This Queue is an Active Server.  Disable before saving?"
+    IDS_PROPERTIES_FORMAT   "%s Properties: %s"
+    IDS_LASTTAB_PROFILE     " LastTab"
+    IDS_FFORMAT_PSD         "PhotoShop PSD"
+    IDS_DEVICE_DEVINSTALLDIR_2000 "DevInstallDir2000"
+    IDS_DEVICE_DEPENDENT_FILESET_2000 "DependentFileSet2000"
+    IDS_FFORMAT_UNSUPPORTED "Unsupported File Type"
+    IDS_SYN_ERRMSG_UNSUPPORTEDFORMAT "File format not supported"
+    IDS_DEVICE_DEVINSTALLDIR "DevInstallDir"
+    IDS_DEVICE_DEVINSTALLDIR_2003 "DevInstallDir2003"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_RESETSTATUS     "Reset Status of selected Jobs\nReset Status"
+    ID_WEB                  "Go to Graphx on the World Wide Web"
+    ID_TOOLS_SCSI_EXPLORER  "Run the SCSI Explorer"
+    ID_REG                  "Register Photogize Print Server via the World Wide Web"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_QUEUESTATUS_PAUSED  "Imaging paused, press green > to continue..."
+    IDS_DONGLESECTION       "Dongle"
+    IDS_NT_DRIVERINSTALLED  "NTDriverInstalled"
+    IDS_SELECT_SPOOL_DIR    "Select Spool Folder"
+    IDS_SCRATCHDISK         "ScratchDisk"
+    IDS_LOGFILE             "LogFile"
+    IDS_CANTFINDDEVICE      "Can't find %s"
+    IDS_CANFINDDEVICE       "CanFindDevice"
+    IDS_CHECKCLOSEQUEUE     "Are you sure you want to close the %s Queue?"
+    IDS_SELECT_SCRATCH_DIR  "Select Scratch Folder"
+    IDS_HOTFOLDER           "HotFolder"
+    IDS_SELECT_HOTFOLDER_DIR "Select Hot Folder"
+    IDS_OPENEXISTING_QUEUE  "Open existing %s Queue?"
+    IDS_RESETLOG            "Delete all current Log Entries?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DELETED_ADDENDUM    " - deleted"
+    IDS_FFORMAT_POSTSCRIPT  "PostScript"
+    IDS_FFORMAT_BATCHHEADER "BatchHeader"
+    IDS_FFORMAT_PCX         "ZSoft PCX"
+    IDS_FFORMAT_GIF         "CompuServe GIF"
+    IDS_FFORMAT_TIFF        "Tagged Image File Format"
+    IDS_FFORMAT_TARGA       "Truevision TARGA"
+    IDS_FFORMAT_BMP         "Windows BMP"
+    IDS_FFORMAT_JFIF        "JPEG File Interchange Format"
+    IDS_FFORMAT_JTIF        "JPEG Tag Image File Format"
+    IDS_FFORMAT_OS2         "OS/2 BMP"
+    IDS_FFORMAT_CALS        "CCITT Group 4 raster"
+    IDS_FFORMAT_MACPAINT    "MacPaint"
+    IDS_FFORMAT_IMG         "GEM Image"
+    IDS_FFORMAT_MSP         "Microsoft Paint"
+    IDS_FFORMAT_WPG         "WordPerfect raster"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_LOAD_CONTROL_PANEL "Can't load Control Panel"
+    IDS_CONTROL_PRINTERS    "CONTROL PRINTERS"
+    IDS_FILENAME_COLTITLE   "Filename"
+    IDS_DESCRIPTION_COLTITLE "Description"
+    IDS_LOCALPROPS_COLTITLE "Props"
+    IDS_OLE_CBOARDHOLDER    "RasterPlus Queue file(s)"
+    IDS_SAVE_PREVIEW_CHANGES "Save Changes in Preview Page?"
+    IDS_BITMAP_DLL          "BitmapDLL"
+    IDS_DEFSERVER_XFORM     "DefTransform"
+    IDS_EVALEXPIRED         "Sorry, this evaluation copy of RasterPlus has expired"
+    IDS_ENABLE_POLLING      "EnablePolling"
+    IDS_IMAGE_ONLY_NEW      "ImageOnlyNew"
+    IDS_DEFSERVER_DEVICE    "Device"
+    IDS_SERVER_DELAY        "ServerDelay"
+    IDS_DEFAULTPROFILE      "<< Default Profile >>"
+    IDS_SERVER              "Server"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STATUS_READING_FILE "Reading file"
+    IDS_STATUS_SCANLINE     "Building scanline"
+    IDS_DEVICE_DEVINSTALLDIR_NT "DevInstallDirNT"
+    IDS_STATUS_RENDERING    "Rendering..."
+    IDS_STATUS_PRINTING_RED "Sending red"
+    IDS_STATUS_PRINTING_GREEN "Sending green"
+    IDS_STATUS_PRINTING_BLUE "Sending blue"
+    IDS_STATUS_PRINTING_CYAN "Sending cyan"
+    IDS_STATUS_PRINTING_YELLOW "Sending yellow"
+    IDS_STATUS_PRINTING_MAGENTA "Sending magenta"
+    IDS_STATUS_PRINTING_BLACK "Sending black"
+    IDS_STATUS_PRINTING_IMAGE "Sending image"
+    IDS_STATUS_PRINTING_WHITE "Sending white"
+    IDS_SERVER_DISABLED     "Disabled"
+    IDS_SERVER_ENABLED      "Enabled"
+    IDS_RESET_TO_DEFAULTS   "Reset all settings to defaults?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NEWRIP_FONTPATH     "PSFontPath"
+    IDS_NEWRIP_TEMPPATH     "TEMPPath"
+    IDS_NEWRIP_LIBPATH      "LIBPath"
+    IDS_NEWRIP_RESPATH      "ResourcePath"
+    IDS_SPD_DLLNAME_NT      "SPDNameNT"
+    IDS_DEVICE_DEPENDENT_FILESET_NT "DependentFileSetNT"
+    IDS_NEWRIP_PFORMAT      "%%os%%=;%%font%%+%s;%%resource%%+%s;%%lib%%+%s;%%temp%%+%s"
+    IDS_NEEDTOREBOOT        "You'll need to restart Windows to make these changes permanent"
+    IDS_SERVER_ACTIVE       "Active"
+    IDS_EXTRACT_PIF         "ExtractPIF"
+    IDS_DRIVER_UI           "DriverUI"
+    IDS_CABFILE_INSTALL_START "win95_02.cab"
+    IDS_DEVICE_EXTRACTEXE_CHAIN "%s /A /Y /L %s %s %s"
+    IDS_VISUALXF_PSOUTTITLE "Visual Transform"
+    IDS_POSTSCRIPT_OUTPUT   "PostScript Output: "
+    IDS_SYN_ERRMSG_BADFORMAT "Invalid file format"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MRU_INSTALL_NT      "MRUInstallNT"
+    IDS_RESET_SERVER_DEFAULTS "Reset Server settings to their defaults?"
+    IDS_CONNECTION_DEFAULT  "LPT1:"
+    IDS_POLLDIR             "PollDir"
+    IDS_CLONE               "Clone"
+    IDS_LOCKPROPERTIES      "LockProperties"
+    IDS_OVERWRITE_TRANSFORM "%s exists, overwrite?"
+    IDS_DEFAULTXFORMS       "DefaultTransforms"
+    IDS_CUSTOMXFORMNAME     "<< Custom >>"
+    IDS_SMARTFIT            "SmartFit"
+    IDS_SMARTCROP           "SmartCrop"
+    IDS_DELETEXFORM         "Delete %s?"
+    IDS_IPCBASENAME         "!!RP30_RIPPROC!!_"
+    IDS_RIPPROCAPP_DEBUG    "RipProcAppDebug"
+    IDS_RIPPROCAPP          "RipProcApp"
+    IDS_NEWRIPSECTION       "NewRipSection"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CHANGING_CONNECTION "Changing printer connection, please wait..."
+    IDS_CABINSTALL_PROMPT3  "RasterPlus needs to copy a file from your Windows 95 installation disk.  Make sure your Windows 95 installation disk is at the path below, select a new path, or use Browse to find the installation disk.  Click OK to try copying again."
+    IDS_DEV_DLLNAME_NT      "DLLName_NT"
+    IDS_DEV_DLLNAME_DEBUG_NT "DEBUG_DLLName_NT"
+    IDS_APPDIR              "AppDir"
+    IDS_NTINSTALL_PROMPT3   "RasterPlus needs to copy a file from the i386 directory of your Windows NT 4.0 installation disk.  Make sure your Windows NT 4.0 installation disk is at the path below, select a new path, or use Browse to find the installation disk.  Click OK to try copying again."
+    IDS_REPORT_NOVIEWER     "Couldn't launch Report Viewer: %s"
+    IDS_REPORT_SUBTITLE     "Image Session: %d images"
+    IDS_REPORT_SESSION_START "Session Start: %s"
+    IDS_REPORT_SESSION_END  "Session End: %s"
+    IDS_QUEUE_CLOSE         "QueueCloseOk"
+    IDS_REPORT_TITLE        "RasterPlus Image Report"
+    IDS_CONNECTION          "ConnectionStr"
+    IDS_REPORT_FONT         "Arial"
+    IDS_REPORT_DEVICE       "Device: %s, Media = %s"
+    IDS_EXPAND_PIF          "expand.pif"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERROR_INSTALL_PRINTER "Error Installing Printer!"
+    IDS_DEVICE_INSTALL_LOCS_MRU_LIST "MRUList"
+    IDS_DRIVER_HELP         "Help"
+    IDS_DRIVER_DRIVER       "Driver"
+    IDS_DRIVER_LANGUAGE_MONITOR "LanguageMonitor"
+    IDS_SELECT_INSTALL_DIR  "Select New Directory"
+    IDS_DEVICE_DELETEOK     "Delete %s?"
+    IDS_DRIVER_FONT         "Fonts"
+    IDS_DRIVER_ICONLIB      "IconLib"
+    IDS_DEVICE_LANG_MONITORS_DRIVER 
+                            "System\\CurrentControlSet\\Control\\Print\\Monitors\\RasterPlus Language Monitor"
+    IDS_DEVICE_MONITORS_DRIVER "Driver"
+    IDS_DRIVER_PORT_MONITOR "PortMonitor"
+    IDS_DEVICE_PORT_MONITORS_DRIVER 
+                            "System\\CurrentControlSet\\Control\\Print\\Monitors\\RasterPlus Port Monitor"
+    IDS_DEVICE_INSTALLING   "Installing %s on %s, please wait..."
+    IDS_DEVICE_DEVONPORT    "%s on %s"
+    IDS_NTINSTALL_PROMPT1   "The %s file could not be found on the path below."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DRIVER_OUR_PORT_MONITOR "RasterPlus Port"
+    IDS_DRIVER_OUR_LANG_MONITOR "RasterPlus Language Monitor"
+    IDS_DEVICE_RENAME_INI   "WININIT.INI"
+    IDS_DEVICE_RENAME_KEY   "rename"
+    IDS_SPD_DLLNAME         "SPDName"
+    IDS_DEVICE_LAYOUT_DIR   "\\INF\\"
+    IDS_DEVICE_LAYOUT_FILE  "layout.inf"
+    IDS_DEVICE_LAYOUT_SDN   "SourceDisksNames"
+    IDS_DEVICE_LAYOUT_SDF   "SourceDisksFiles"
+    IDS_DEVICE_EXTRACTEXE   "%s /Y /L %s %s %s"
+    IDS_DEVICE_INSTALL_LOCS_MRU "InstallLocationsMRU"
+    IDS_DEVICE_PRINTPROCESSOR "WinPrint"
+    IDS_DEVICE_DEPENDENT_FILESET "DependentFileSet"
+    IDS_DEVICE_ENVIRONMENT_VISTA_AMD64 "Windows x64"
+    IDS_CABINSTALL_PROMPT1  "The %s file on %s could not be found."
+    IDS_CABINSTALL_PROMPT2  "Insert %s in the drive selected below, and click OK."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PREFERENCES_QUEUE    "Set default properties for the Queue\nQueue Properties"
+    IDS_DONGLENT_REBOOT     "A special NT driver for the copy protection key was installed.  You must restart NT before using RasterPlus."
+    ID_TOOLS_EXPLORER       "Run the Windows Explorer"
+    ID_TOOLS_REPORT         "Generate a Report of the selected Queue"
+    ID_TOOLS_REPORT_PRINT_PREVIEW "Preview the Printing Report on the screen"
+    ID_TOOLS_REPORT_PRINT   "Print the Printng Report to the Printer"
+    ID_OUR_FILE_PRINT       "Print all Jobs in the Hold Pane\nPrint All Jobs"
+    ID_OUR_FILE_PRINT_SEL   "Print selected Jobs in the Hold Pane\nPrint Selected Jobs"
+    ID_OUR_FILE_PRINT_PREVIEW 
+                            "Preview all Jobs in the Hold Pane\nPreview All Jobs"
+    ID_WINDOW_CLOSE_ALL_PREVIEW "Close all preview windows"
+    ID_EDIT_COPYATTS        "Copy Properties from the selected Job to the clipboard"
+    ID_EDIT_PASTEATTS       "Paste Properties from the clipboard to selected Jobs"
+    IDS_CUSTOMPAGE_UNITS    "CustomPageUnits"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PREVIEWDLL          "PreviewDLL"
+    IDS_PREVIEWDEV_NAME     "Preview Device"
+    IDS_SYN_ERRMSG_RIPTHRDBAD "Can't load RIP thread"
+    IDS_DEV_DLLNAME_DEBUG   "DEBUG_DLLName"
+    IDS_PREVIEWDLL_DEBUG    "DEBUG_PreviewDLL"
+    IDS_CHANGE_START_REPAINT 
+                            "You must Repaint to get an accurate view!\nRepaint now?"
+    IDS_SELECT_POLL_DIR     "Select Poll Directory"
+    IDS_ADDFILES_DLGPRMPT   "Add Jobs to Pane"
+    IDS_DEVICE_NFORMAT      "Device%d"
+    IDS_SERVER_VERSION      "RasterPlus Server File Version 3.0"
+    IDS_DEVICE_ENVIRONMENT_NT "Windows NT x86"
+    IDS_DEVICE_DEVENTRY     "%s,%d,1"
+    IDS_DEVICE_COMMENT      "RasterPlus Print Driver Version 6.0"
+    IDS_DEVICE_ENVIRONMENT  "Windows 4.0"
+    IDS_DEVICE_LANG_MONITOR_DESC "RasterPlus Language Monitor"
+    IDS_DEVICE_DATATYPE     "RAW"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HATCH               "Hatch"
+    IDS_SHOW_PREVIEW        "ShowPreview"
+    IDS_PREVIEW_PAUSE       "Pause"
+    IDS_WINSPLIT_SECTION    "WinSplit"
+    IDS_WINSPLIT_DELETEFILE "DeleteFile"
+    IDS_WINSPLIT_REMOVEFILE "RemoveFile"
+    IDS_WINSPLIT_INSERTFILE "InsertFile"
+    IDS_ERRORSPLITTINGFILE  "Error splitting file!"
+    IDS_PREVIEW_ICONIC      "InitiallyIconic"
+    IDS_PREVIEW_COMPRESSION "UseCompression"
+    IDS_QUEUE_FILTERIDX     "FilterIdx"
+    IDS_DEVICES             "Devices"
+    IDS_VISUALXF_REPAINT    "You must click Repaint to see the image..."
+    IDS_DEV_DLLNAME         "DLLName"
+    IDS_DEVICE_DEFAULT      "Default"
+    IDS_PREVIEW_PROMPT      "Previewing %s, Page %d"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CANNOTLOADRIP       "Can't load rasterizer DLL"
+    IDS_NOKEY               "You must have the copy protection key connected to your parallel port!"
+    IDS_DISPLAYDLL          "DisplayDLL"
+    IDS_USERINFO            "User Information"
+    IDS_ORGANIZATION        "USER ORGANIZATION"
+    IDS_USERNAME            "USER NAME"
+    IDS_NOCLOSEAPP_WHILEACTIVE 
+                            "You can't close Raster Plus while a Queue is imaging!"
+    IDS_PRINTERPORTS        "PrinterPorts"
+    IDS_NOCLOSEQUEUE_WHILEACTIVE 
+                            "You can't close this Queue while imaging is in progress"
+    IDS_TRANSFORMCONFIG     "Transform"
+    IDS_XFORM_EXISTS        "%s already exists!"
+    IDS_TEMPPATH            "TempPath"
+    IDS_MULTIPLE_SELECTION_NAME "<multi>"
+    IDS_RETAIN_ASPECT       "RetainAspect"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_PRINT_PREVIEW_SEL 
+                            "Preview selected Jobs in the Hold Pane\nPreview Selected Jobs"
+    ID_PROCESS_CANCELIMAGING "Cancel Printing\nCancel Printing"
+    ID_PROCESS_SKIPTONEXTFILE "Skip to next Job in Pane\nSkip to Next Job"
+    ID_PROCESS_PAUSEIMAGING "Pause Printing\nPause Printing"
+    ID_PREFERENCES_LOCAL    "Set properties for selected Jobs\nJob Properties"
+    ID_PREFERENCES_GLOBAL   "Set program options"
+    ID_PROCESS_RESUMEIMAGING "Resume Printing\nResume Printing"
+    ID_TEST_DOPRINTERSETUP  "Test the new device mode"
+    IDS_NO_FONTS            "No Font resources Found"
+    IDS_SYN_ERRMSG_NODEFAULTPROFILE "Default printer profile not defined"
+    IDS_SYN_ERRMSG_INVALIDPROFILE "ICC profile missing or invalid"
+    ID_EDIT_ADDBATCHHEADER  "Add a descriptive title slide to the Pane\nInsert BatchHeader"
+    ID_EDIT_WINSPLITFILE    "Split the file into its component pages\nWinSplit File"
+    ID_WINDOW_CLOSEALLPREVIEWS "Close all preview windows"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PHOTOGIZE           "Photogize"
+    IDS_PRINTSERVER         "PrintServer"
+    IDS_TRANSFORM_DEFAULT   "Transform"
+    IDS_CUSTOMXFORMS        "CustomTransforms"
+    DOCERR_NOTVALID         "Not a valid queue file!"
+    IDS_ENTRYAPP            "EntryApp"
+    IDS_SYN_ERRMSG_NOROTATE_BMP "Can't rotate bitmap file"
+    IDS_FONTPATH            "FontPath"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DEV_COPIES          "Copies"
+    IDS_MAXDEVICES          "MaxDevices"
+    IDS_UNITS               "Units"
+    IDS_CHANGING_NAME       "Changing printer name, please wait..."
+    IDS_SERIALNUMBER        "User SerialNumber"
+    IDS_RIPPROCAPP_DEBUG_NT "RipProcAppDebugNT"
+    IDS_PREVIEWDLL_DEBUG_NT "DEBUG_PreviewDLLNT"
+    IDS_BUILDING_SCANLINE   "Building scan line: %ld of %ld"
+    IDS_READING_FILE_COMPLETE "Reading file: %d%% complete"
+    IDS_ROTATING_BITMAP     "Rotating bitmap, %d%% complete"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HOST_ADAPTER_ID     "SCSI Adapter ID #%d:"
+    IDS_SYN_PSSTAT_PROCESSING "Processing..."
+    IDS_SYS_TIMER_ERROR     "Error: can't set system timer!"
+    PRIVATE_MSG_DOPREVIEW   "Do_RIP_Preview"
+    IDS_GENERALSECTION      "General"
+    IDS_ASSOCIATE_DONE      "AssociateDone"
+    IDS_DEF_PREF_TAB_QPREFS "DefPrefTabQprefs"
+    IDS_DEF_PREF_TAB_GPREFS "DefPrefTabGprefs"
+    IDS_DEVDIR              "DevDir"
+    IDS_PROGFILE_MISSING    "Missing program file: "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SYN_ERRMSG_ALLOK    "Imaged OK"
+    IDS_SYN_ERRMSG_OUTOFMEMORY "Out of Memory"
+    IDS_SYN_ERRMSG_OUTOFDISKSPACE "Out of Disk Space"
+    IDS_SYN_ERRMSG_CANCELIMAGE "User cancelled"
+    IDS_ACCURATE_VIEW       "Repaint now to get an accurate final view?"
+    IDS_SYN_ERRMSG_PSERROR  "PostScript Error"
+    IDS_SYN_ERRMSG_FILENOTFOUND "File Not Found"
+    IDS_SYN_ERRMSG_NOPREVIEW "Error loading preview window"
+    IDS_SYN_ERRMSG_UNDEFINED "Undefined RIP error"
+    IDS_SYN_ERRMSG_RIPNOTFOUND "Can't find RIP"
+    IDS_SYN_ERRMSG_RIPDLLNOTFOUND "Can't find Device"
+    IDS_NO_OVERWRITE_DEFTRANSFORM "Can't overwrite built-in transform!"
+    IDS_CANCELLING          "Cancelling..."
+    IDS_RESET_HOT_FOLDER    "All of the files in %s will be deleted.\nAre you sure you want to continue?"
+    IDS_SYN_ERRMSG_DEVINIT  "Error initializing device"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_RP95_CBOARD_FMT     "RP95_List_CboardFmt"
+    IDS_RP95_REGISTRY_BASE  "Software\\Graphx\\RasterPlus"
+    IDS_UNINSTALLER_KEY     "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\RasterPlus"
+    IDS_SYN_ERRMSG_FILEWASDELETED "File was deleted"
+    IDS_UNINSTALL           "Uninstall"
+    IDS_REMOVEDEVICES_APP   "RemoveDevicesApp"
+    IDS_OLDUNINSTALLER      "OldUninstaller"
+    IDS_FILE_PROPERTIES     "File Properties"
+    ID_EDIT_DELETE          "Delete selected Jobs from the active Pane"
+    ID_EDIT_ADDFILES        "Add Jobs to the active Pane\nAdd Jobs"
+    IDS_START_SERVER        "Start Server?"
+    ID_EDIT_SELECTALL       "Select all Jobs in the active Pane"
+    ID_FILE_PRINT_SEL       "Print selected files in the active Queue\nPrint Selected Files"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    IDS_DEVINSTALL_ERR_NOLOADDEV "Can't load Raster Plus device"
+    IDS_DEVINSTALL_ERR_NOMAKESPD "Can't make SPD file"
+    IDS_DEVINSTALL_ERR_BADCOPY 
+                            "Error copying printer files(%s)\nSource: %s\nDestination: %s\n"
+    IDS_TWAIN_ACQUIRE_ERROR "Attempt to acquire TWAIN image failed.\n\nCheck TWAIN device."
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar"
+    CG_ID_VIEW_QUEUESTATUS  "Show or hide QueueStatus\nToggle QueueStatus"
+    CG_ID_VIEW_QUEUESTATUS2 "Show or hide Bottom QueueStatus\nToggle Bottom Status"
+    CG_ID_VIEW_PSOUT        "Show or hide the Priting Status Window\nToggle Printing Status Window"
+    IDS_QUEUESTATUS_IDLE    "Idle"
+    IDS_QUEUESTATUS_PRINT_SELECT "Printing selected"
+    IDS_QUEUESTATUS_PRINT_ALL "Printing all"
+    IDS_QUEUESTATUS_PREVIEW_SELECT "Previewing selected"
+    IDS_QUEUESTATUS_PREVIEW_ALL "Prevewing all"
+    IDS_QUEUESTATUS_SERVER_WAITING "Waiting for files..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection"
+    ID_EDIT_CLEAR_ALL       "Erase everything"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action"
+    ID_EDIT_REPLACE         "Replace specific text with different text"
+    ID_EDIT_SELECT_ALL      "Select the entire document"
+    ID_EDIT_UNDO            "Undo the last action"
+    ID_EDIT_REDO            "Redo the previously undone action"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles"
+    ID_WINDOW_SPLIT         "Split the active window into panes"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane"
+    ID_PREV_PANE            "Switch back to the previous window pane"
+    IDS_DEVICE_DEVINSTALLDIR_MAC "DevInstallDirMAC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this Queue"
+    ID_FILE_MRU_FILE2       "Open this Queue"
+    ID_FILE_MRU_FILE3       "Open this Queue"
+    ID_FILE_MRU_FILE4       "Open this Queue"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright"
+    ID_APP_EXIT             "Quit Raster Plus Server"
+    ID_HELP_INDEX           "List Help topics"
+    ID_HELP_USING           "Display instructions about how to use help"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows"
+    ID_HELP                 "Display help for current task or command"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new Device Queue\nNew Device Queue"
+    ID_FILE_OPEN            "Open an existing Queue\nOpen"
+    ID_FILE_CLOSE           "Close the active Printer Queue"
+    ID_FILE_PAGE_SETUP      "Change the printing options"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options"
+    ID_FILE_PRINT           "Print the active Queue\nPrint Queue"
+    ID_FILE_PRINT_PREVIEW   "Preview the active Queue\nPreview Queue"
+    IDS_RIP_DLL             "RipDLL"
+    IDS_SNAP                "SnapToGrid"
+    IDS_EXCEED_WIDTH        "Specified Width exceeds maximum printable width"
+    IDS_USERULERS           "UseRulers"
+    IDS_RULERSUNITS         "RulerUnits"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    IDS_COLOR_RED           "Red"
+    IDS_COLOR_GREEN         "Green"
+    IDS_COLOR_BLUE          "Blue"
+    IDS_COLOR_CYAN          "Cyan"
+    IDS_COLOR_MAGENTA       "Magenta"
+    IDS_COLOR_YELLOW        "Yellow"
+    IDS_COLOR_BLACK         "Black"
+    IDS_COLOR_L             "L"
+    IDS_COLOR_A             "a*"
+    IDS_COLOR_B             "b*"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Raster Plus"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+    IDS_DEVNOTFOUND_QUEUE   "Couldn't find or initialize %s.  \nYou will need to specify the printer connection in the Windows Control Panel\n and the Queue."
+    IDS_NOPASTE_DELETED     "Can't paste a deleted file into this Pane"
+    IDS_INKJETPLUS          "InkjetPlus"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_RIPSECTION          "RipDefaults"
+    IDS_MULTITASKING        "Multitasking"
+    IDS_PREVIEW             "Preview"
+    IDS_PREVIEW_SIZE        "Size"
+    IDS_PREVIEW_NUM         "MaxNumOpen"
+    IDS_NOT_AVAIL           "N/A"
+    IDS_QUEUESECTION        "Queue"
+    IDS_INITIALDIR          "InitialDir"
+    IDS_MULTIPLE_SELECTION  "<< MULTIPLE SELECTION >>"
+    IDS_DEV_ORIENTATION     "Orientation"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_RP95_BUILDVER       "Version 6.01.04"
+    IDR_MAINFRAME           "Raster Plus"
+    IDR_PHZMAINFRAME        "Photogize Print Server"
+    IDR_ZEUSTYPE            "\nQueue\nQueues\nQueues (*.que)\n.que\nRasterPlus.Document\nRasterPlus Document"
+    IDS_RLC_VER             "1"
+    IDS_ERR_NOLOAD_ODLL     "Can't load Output DLL"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROCESSING_FMT      "Processing: %s \n"
+    IDS_GLOBALPROPS_TITLE   "Options"
+    IDS_QUEUEPROPS_TITLE    "Default Queue Properties"
+    IDS_DEVICE_DEVINSTALLDIR_98 "DevInstallDir98"
+    IDS_DEVICE_DEVINSTALLDIR_ME "DevInstallDirME"
+    IDS_DEVICE_DEVINSTALLDIR_XP "DevInstallDirXP"
+    IDS_PI_WHITE_SPACE      "WhiteSpace"
+    IDS_PI_HORIZONTAL_WHITE "HorizontalWhiteSpace"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NOLOAD_ASPI         "Can't initialize WIN ASPI!"
+    IDS_CBOX_ADVANCED_AUTOMATIC "Automatic"
+    IDS_CBOX_ADVANCED_CUSTOM "Custom"
+    IDS_CBOX_ADVANCED_NONE  "None"
+    IDS_CBOX_ADVANCED_BOX   "Box"
+    IDS_CBOX_BATCH_BLACK    "Black"
+    IDS_CBOX_BATCH_WHITE    "White"
+    IDS_CBOX_BATCH_NONE     "None"
+    IDS_CBOX_PREVIEW_SMALL  "Small"
+    IDS_CBOX_PREVIEW_MEDIUM "Medium"
+    IDS_CBOX_PREVIEW_LARGE  "Large"
+    IDS_CBOX_SERVER_DISABLED "Disabled"
+    IDS_CBOX_SERVER_ENABLED "Enabled"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CBOX_SERVER_ACTIVE  "Active"
+    IDS_CBOX_DEVSETUP_LANDSCAPE "Landscape"
+    IDS_CBOX_DEVSETUP_PORTRAIT "Portrait"
+    IDS_MEDIA_CHANGE_REINSTALL 
+                            "Media Information has been modified.\r\rReinstall the %s application print driver?\r\rYou MUST reinstall the print driver for full Photogize functionality."
+    IDS_REINSTALL_PROMPT    "Reinstall the %s application print driver?"
+    IDS_DEVICE_DEVINSTALLDIR_VISTA "DevInstallDirVista"
+    IDS_DEVICE_DEVINSTALLDIR_2008 "Dir"
+    IDS_DEVICE_DEVINSTALLDIR_VISTA_AMD64 "DevInstallDirVistaAMD64"
+    IDS_DEVICE_DEPENDENT_FILESET_AMD64 "DependentFileSetVistaAMD64"
+    IDS_DEVICE_DEVINSTALLDIR_WINDOWS7 "DevInstallDirWindows7"
+    IDS_DEVICE_DEVINSTALLDIR_WINDOWS7x64 "DevInstallDirW7X64"
+    IDS_DEVICE_DEPENDENT_FILESET_W7X64 "DependentFileSetW7X64"
+    IDS_DEVICE_DEVINSTALLDIR_WINDOWS8 "DevInstallDirWindows8"
+    IDS_DEVICE_DEPENDENT_FILESET_WINDOWS8 "DependentFileSetWindows8"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FFORMAT_FPX         "Kodak FlashPix"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FFORMAT_PDF         "Adobe PDF"
+    IDS_FFORMAT_EXIF        "Digital Still Camera Image File"
+    IDS_FFORMAT_SGI         "SGI graphics format"
+    IDS_DEVICE_PRINTERCAPS_FOLDER "PrinterCapsArchiveFolder"
+    IDS_DEVICE_INKJET_REALNAME "RealName"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DEVNOTFOUND         "Couldn't find or initialize %s.  \nYou will need to specify the printer connection in the Windows Control Panel."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PREVCTRL_TTIP_NEXT  "Go to next image"
+    IDS_PREVCTRL_TTIP_PREV  "Go to previous image"
+    IDS_PREVCTRL_TTIP_BEGIN "Go to first image"
+    IDS_PREVCTRL_TTIP_END   "Go to last image"
+    IDS_PREVCTRL_TTIP_CLOSE "Close this preview window"
+    IDS_PREVCTRL_TTIP_PRINT "Print this page"
+    IDS_PREVCTRL_TTIP_ZOOMIN "Zoom in on this image"
+    IDS_PREVCTRL_TTIP_ZOOMOUT "Zoom out on this image"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROPSHT_CAPTION     "Job Properties"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW2            "Create a new Printer Queue\nNew Printer Queue"
+    ID_TOOLS_LOG            "View the Print Log for the active Queue\nView Log"
+    ID_WEB_UPDATE           "Check and get program updates"
+    ID_EDIT_RESETPROPS      "Reset Properties of selected Jobs to Queue Properties\nReset Job Properties"
+    IDS_READY               "Ready"
+    ID_FILE_REINSTALLPRINTER "Reinstall the Application Print Driver"
+    ID_FILE_APPDRIVER_CONFIG "Configure the Application Print Driver"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_OWNER_COLTITLE      "Owner"
+    IDS_SIZE_COLTITLE       "Size"
+    IDS_SUBMITTED_COLTITLE  "Submitted"
+    IDS_STATUS_COLTITLE     "Status"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FILEOPENPREVIEW     "FileOpenPreview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COLOR_X             "X"
+    IDS_COLOR_Y             "Y"
+    IDS_COLOR_Z             "Z"
+    IDS_CTYPE_NONE          "None"
+    IDS_CTYPE_BASIC         "Basic GCR/UCR"
+    IDS_CTYPE_ICC           "ICC Profile"
+    IDS_PROFILEDIR          "ProfileDir"
+    IDS_CORRECTIONTYPE      "DefaultColorTransform"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LOG_ARCHIVE_OK      "Current Log archived succesfully"
+    IDS_LOG_ARCHIVE_ERROR   "Error archiving Log"
+    IDS_ARCHIVELOG_DLGPRMPT "Archive Log As"
+    IDS_TRANSFORM_LASTWINDOWPOSY "LastWindowPosY"
+    IDS_TRANSFORM_LASTWINDOWPOSX "LastWindowPosX"
+    IDS_LAST_OPTION_TAB     "LastOptionTab"
+    IDS_RPLOG_TITLE         "RasterPlus Log -"
+    IDS_APPLYDEFAULTS       "Apply Default Queue settings to all Jobs in Hold Pane?"
+    IDS_NOKEY_RETRY         "No copy-protection key detected, check connection and click Retry"
+    IDS_ALWAYS_OPEN         "AlwaysOpen"
+    IDS_AUTOADVANCE         "AutoAdvance"
+    IDS_LARGETOOLBAR        "LargeToolBar"
+    IDS_DEFAULT_PROFILE     "DefaultProfile"
+    IDS_DEFAULT_PROFILE_SUPPORT "DefProfileSupport"
+    IDS_PI_SINGLEPAGE       "PrintIndexSinglePage"
+    IDS_PI_IMAGENAME        "PrintIndexDisplayName"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TRUEGRAPHX          "TrueGraphx"
+    ID_EDIT_JOBDESCRIPTION  "Edit the Job Description\nJob Description"
+    IDS_LASTWINDOWPOSX      "LastWindowPosX"
+    IDS_LASTWINDOWPOSY      "LastWindowPosY"
+    IDS_EDIT_MEDIA          "Edit Media"
+    ID_OUR_FILE_PRINT_PREVIEW_HD 
+                            "Preview all Jobs in the Hold Pane using high definition\nPreview All Jobs using high definition"
+    ID_FILE_PRINT_PREVIEW_SEL_HD 
+                            "Preview selected Jobs in the Hold Pane using high defintion\nPreview Selected Jobs  using high defintion"
+    ID_OUR_FILE_PRINT_INDEX "Print index page(s) for all jobs in the hold queue\nIndex All Jobs"
+    ID_OUR_FILE_PRINT_SEL_INDEX 
+                            "Print index page(s) for selected jobs in the hold queue\nIndex Selected Jobs"
+    ID_HELP_REMOTE_DIAGNOSTIC 
+                            "Remote Diagnostics\nAllow a Graphx Technical Representative Remotely Configure and Troubleshoot this application"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PI_IMAGEPERPAGE     "PrintIndexImagesPerPage"
+    IDS_PI_IMAGECOUNT       "PrintIndexImageCount"
+    IDS_PI_IMAGESIZE        "PrintIndexImageSize"
+    IDS_PI_IMAGEHEIGHT      "PrintIndexImageHeight"
+    IDS_PI_IMAGEWIDTH       "PrintIndexImageWidth"
+    IDS_PI_IMAGETRANSFORM   "PrintIndexImageTransform"
+    IDS_PI_IMAGEUNITS       "PrintIndexImageUnits"
+    IDS_MISSING_CHANGE_LOG  "Unable to locate ChangeLog.Txt"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PI_VERTICAL_WHITE   "VerticalWhiteSpace"
+    IDS_PI_WHITESPACEUNITS  "WhiteSpaceUnits"
+    IDS_PI_COPIES           "IndexCopies"
+    IDS_PI_PANE             "IndexPane"
+    IDS_PI_MEDIA_SIZE       "IndexMediaSize"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DEVICE_DEPENDENT_FILESET_2003 "DependentFileSet2003"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HELP_DESK            "Submit an issue using the Help Desk"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_RASTERPLUS          "Raster Plus"
+    IDS_PHZ_PRINTSERVER     "Photogize Print Server"
+    IDS_MAINFRAME_PHZ       "Photogize Print Server"
+    IDS_PHZ_PRINTSERVER_VER "Version 1.0.0"
+    IDS_NEWVERSIONAVAIL     "A newer version of RasterPlus is available, download and install now?"
+    IDS_NONEWVERSION        "No newer versions of RasterPlus are available"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_ZEUSPHZTYPE         "\nQueue\nQueues\nQueues (*.que)\n.que\nPhotogizePrintServer.Document\nPhotogizePrintServer Document"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "afxres.rc"  	// Standard components
+#include "afxprint.rc"	// printing/print preview resources
+#include "secres.rc"
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
